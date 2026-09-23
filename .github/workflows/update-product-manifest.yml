@@ -1,0 +1,34 @@
+name: Update Product Manifest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "images/products/**"
+      - "scripts/generate-products.mjs"
+      - ".github/workflows/update-product-manifest.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate product manifest
+        run: node scripts/generate-products.mjs
+
+      - name: Commit manifest when changed
+        run: |
+          if git diff --quiet -- data/products.json; then
+            echo "Product manifest is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/products.json
+          git commit -m "chore: update product manifest"
+          git push
