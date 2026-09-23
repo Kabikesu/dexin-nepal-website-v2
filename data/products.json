@@ -1,0 +1,10 @@
+[
+  {
+    "name":"Example Product",
+    "type":"Product",
+    "description":"Replace this starter record with an approved Dexin product.",
+    "image":"images/products/placeholder.png",
+    "featured":true,
+    "upcoming":false
+  }
+]
