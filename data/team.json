@@ -1,0 +1,8 @@
+[
+  {"name":"Management","description":"Leadership and company direction.","head":null,"members":[]},
+  {"name":"Production","description":"Manufacturing operations and production teams.","head":null,"members":[]},
+  {"name":"Quality","description":"Quality, food safety and compliance functions.","head":null,"members":[]},
+  {"name":"Finance","description":"Financial management and business support.","head":null,"members":[]},
+  {"name":"IT","description":"Technology, infrastructure and digital support.","head":null,"members":[]},
+  {"name":"Other Departments","description":"Other functions supporting the company and factory.","head":null,"members":[]}
+]
