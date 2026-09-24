@@ -124,5 +124,50 @@
     "image": "images/products/nutraceuticals/RG Tablet.png",
     "featured": false,
     "upcoming": false
+  },
+  {
+    "id": "spirulina-120-capsule-",
+    "name": "Spirulina 120 Capsule",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/Spirulina 120 Capsule .png",
+    "featured": false,
+    "upcoming": false
+  },
+  {
+    "id": "spirulina-120-tablet",
+    "name": "Spirulina 120 Tablet",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/Spirulina 120 Tablet.png",
+    "featured": false,
+    "upcoming": false
+  },
+  {
+    "id": "spirulina-360-capsule-",
+    "name": "Spirulina 360 Capsule",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/Spirulina 360 Capsule .png",
+    "featured": false,
+    "upcoming": false
+  },
+  {
+    "id": "spirulina-360-tablet-",
+    "name": "Spirulina 360 Tablet",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/Spirulina 360 Tablet  .png",
+    "featured": false,
+    "upcoming": false
+  },
+  {
+    "id": "spirulina-50g-powder",
+    "name": "Spirulina 50g Powder",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/Spirulina 50g Powder.png",
+    "featured": false,
+    "upcoming": false
   }
 ]
