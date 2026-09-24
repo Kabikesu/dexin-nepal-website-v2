@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": "cocozhi",
+    "name": "Cocozhi",
+    "type": "Coffee",
+    "description": "",
+    "image": "images/products/coffee/Cocozhi.jpg",
+    "featured": false,
+    "upcoming": false
+  },
+  {
+    "id": "cordyceps-coffee-3-in-1",
+    "name": "Cordyceps Coffee 3 In 1",
+    "type": "Coffee",
+    "description": "",
+    "image": "images/products/coffee/Cordyceps Coffee 3 in 1.jpg",
+    "featured": false,
+    "upcoming": false
+  },
+  {
+    "id": "lingzhi-coffee-2-in-1",
+    "name": "Lingzhi Coffee 2 In 1",
+    "type": "Coffee",
+    "description": "",
+    "image": "images/products/coffee/Lingzhi Coffee 2 in 1.jpg",
+    "featured": false,
+    "upcoming": false
+  },
+  {
+    "id": "lingzhi-coffee-3-in-1",
+    "name": "Lingzhi Coffee 3 In 1",
+    "type": "Coffee",
+    "description": "",
+    "image": "images/products/coffee/Lingzhi Coffee 3 in 1.jpg",
+    "featured": false,
+    "upcoming": false
+  }
+]
