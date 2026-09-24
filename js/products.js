@@ -1,9 +1,8 @@
 document.addEventListener("DOMContentLoaded", async () => {
   const grid = document.getElementById("all-products") || document.getElementById("top-products") || document.getElementById("upcoming-products");
-  const orbit = document.getElementById("product-orbit");
   const detail = document.getElementById("product-detail");
-  const showcaseInfo = document.getElementById("product-showcase-info");
-  if (!grid && !orbit && !detail) return;
+  const showcase = document.getElementById("feature-showcase");
+  if (!grid && !detail && !showcase) return;
 
   const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
   const imageMarkup = product => product.image
@@ -11,31 +10,84 @@ document.addEventListener("DOMContentLoaded", async () => {
     : `<div class="product-card-placeholder" aria-hidden="true"><span>DEXIN</span></div>`;
   const statusLabel = product => product.status === "upcoming" ? "Upcoming" : "Current";
 
-  const updateShowcase = (product, index, total) => {
-    if (!showcaseInfo || !product) return;
-    showcaseInfo.classList.remove("is-changing");
-    void showcaseInfo.offsetWidth;
-    const type = showcaseInfo.querySelector(".showcase-type");
-    const title = showcaseInfo.querySelector("h2");
-    const description = showcaseInfo.querySelector(".showcase-description");
-    const packageSize = showcaseInfo.querySelector(".showcase-package");
-    const position = showcaseInfo.querySelector(".showcase-position");
-    const link = showcaseInfo.querySelector(".showcase-link");
-    type.textContent = `${statusLabel(product)} PRODUCT`;
-    title.textContent = product.name;
-    description.textContent = product.description || "Explore product details.";
-    packageSize.textContent = product.packageSize || "";
-    position.textContent = `${index + 1} / ${total}`;
-    link.href = `product-detail.html?id=${encodeURIComponent(product.id || product.name)}`;
-    showcaseInfo.classList.add("is-changing");
+  const showcaseRoles = {
+    product: {
+      title: "Understand the product portfolio.",
+      copy: "Ask for the information you need and bring the relevant product context together in one place.",
+      prompt: "“Summarize our current products, package sizes, and the key information I need for a product review.”",
+      output: "Product portfolio"
+    },
+    legal: {
+      title: "Review product information with context.",
+      copy: "Bring product records and supporting documents together so key information is easier to review.",
+      prompt: "“Prepare a clear product information checklist for my review, including package and documentation fields.”",
+      output: "Product review"
+    },
+    sales: {
+      title: "Turn product information into a sales view.",
+      copy: "Surface the products, package sizes, and portfolio details a sales team needs at a glance.",
+      prompt: "“Create a concise sales-ready overview of our current products and package sizes.”",
+      output: "Sales overview"
+    },
+    finance: {
+      title: "See the portfolio from a planning view.",
+      copy: "Organize product information into a clear operational snapshot for planning and review.",
+      prompt: "“Summarize the current product portfolio into a simple planning snapshot.”",
+      output: "Planning snapshot"
+    }
   };
 
-  try {
+  const initShowcase = () => {
+    if (!showcase) return;
+    const roleTabs = [...showcase.querySelectorAll(".role-tab")];
+    const stepTabs = [...showcase.querySelectorAll(".feature-step")];
+    const title = document.getElementById("feature-title");
+    const copy = document.getElementById("feature-copy");
+    const prompt = document.getElementById("feature-prompt");
+    const outputTitle = document.getElementById("output-title");
+    const runButton = showcase.querySelector(".run-feature");
+
+    const setRole = role => {
+      const data = showcaseRoles[role] || showcaseRoles.product;
+      title.textContent = data.title;
+      copy.textContent = data.copy;
+      prompt.textContent = data.prompt;
+      outputTitle.textContent = data.output;
+      roleTabs.forEach(tab => {
+        const active = tab.dataset.role === role;
+        tab.classList.toggle("is-active", active);
+        tab.setAttribute("aria-selected", String(active));
+      });
+    };
+
+    const setStep = step => {
+      showcase.dataset.step = step;
+      stepTabs.forEach(tab => {
+        const active = tab.dataset.step === step;
+        tab.classList.toggle("is-active", active);
+        tab.setAttribute("aria-selected", String(active));
+      });
+    };
+
+    roleTabs.forEach(tab => tab.addEventListener("click", () => setRole(tab.dataset.role)));
+    stepTabs.forEach(tab => tab.addEventListener("click", () => setStep(tab.dataset.step)));
+    runButton?.addEventListener("click", () => setStep("output"));
+    setRole("product");
+    setStep("input");
+  };
+
+  initShowcase();
+
+  const loadProducts = async () => {
     const response = await fetch("data/products.json");
     if (!response.ok) throw new Error("Product data unavailable");
     const products = await response.json();
     if (!Array.isArray(products)) throw new Error("Invalid product data");
+    return products;
+  };
 
+  try {
+    const products = await loadProducts();
     const published = products.filter(product => product.published !== false && ["current", "upcoming"].includes(product.status));
 
     const card = product => `
@@ -58,38 +110,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (grid.id === "upcoming-products") visible = published.filter(p => p.status === "upcoming");
       grid.innerHTML = visible.length ? visible.map(card).join("") : '<p class="product-loading">No products are published in this section yet.</p>';
       grid.querySelectorAll(".reveal").forEach(el => el.classList.add("is-visible"));
-    }
-
-    if (orbit) {
-      const currentProducts = published.filter(p => p.status === "current");
-      const orbitProducts = currentProducts.slice(0, Math.min(8, currentProducts.length));
-      if (orbitProducts.length) {
-        orbit.innerHTML = orbitProducts.map((product, index) => {
-          const angle = index * (360 / orbitProducts.length);
-          return `<a class="orbit-product" href="product-detail.html?id=${encodeURIComponent(product.id || product.name)}" style="--angle:${angle}deg" data-product-index="${index}" aria-label="View ${escapeHtml(product.name)}">${imageMarkup(product)}</a>`;
-        }).join("");
-
-        let activeIndex = 0;
-        const showActive = () => updateShowcase(orbitProducts[activeIndex], activeIndex, orbitProducts.length);
-        showActive();
-
-        orbit.querySelectorAll(".orbit-product").forEach((item, index) => {
-          item.addEventListener("mouseenter", () => updateShowcase(orbitProducts[index], index, orbitProducts.length));
-          item.addEventListener("focus", () => updateShowcase(orbitProducts[index], index, orbitProducts.length));
-          item.addEventListener("click", event => {
-            activeIndex = index;
-            if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
-          });
-        });
-
-        setInterval(() => {
-          activeIndex = (activeIndex + 1) % orbitProducts.length;
-          showActive();
-        }, 4200);
-      } else {
-        orbit.innerHTML = "";
-        if (showcaseInfo) showcaseInfo.innerHTML = '<p class="showcase-type">PRODUCTS</p><h2>Product showcase</h2><p class="showcase-description">Product images will appear here when published.</p>';
-      }
     }
 
     if (detail) {
@@ -116,7 +136,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   } catch (error) {
     if (grid) grid.innerHTML = '<p class="product-loading">Product data is not available yet.</p>';
-    if (orbit) orbit.innerHTML = "";
     if (detail) detail.innerHTML = '<div class="product-empty"><p>Product information is not available yet.</p><a class="text-link" href="products.html">Back to products →</a></div>';
   }
 });
