@@ -23,25 +23,75 @@
 </nav></div></header>
 
 <main>
-<section class="products-hero"><div class="container products-hero-inner">
-<div class="products-intro reveal"><p class="eyebrow">PRODUCTS</p><h1>One portfolio.<br><em>Many possibilities.</em></h1><p>Explore products from Dexin Manufacturing Nepal through one unified experience.</p></div>
-<div class="product-showcase reveal" id="product-stage">
-  <div class="product-stage-visual">
-    <div class="stage-glow"></div>
-    <div class="orbit orbit-one"></div>
-    <div class="orbit orbit-two"></div>
-    <div class="product-orbit" id="product-orbit" aria-label="Product showcase"></div>
-    <div class="stage-center"><span>DEXIN</span><strong>PRODUCTS</strong></div>
+<section class="products-hero">
+  <div class="container">
+    <div class="products-intro reveal">
+      <p class="eyebrow">PRODUCT EXPERIENCE</p>
+      <h1>See the product story.<br><em>Not just the product.</em></h1>
+      <p>Explore how a connected product portfolio can turn information into clear, useful decisions.</p>
+    </div>
+
+    <div class="feature-showcase reveal" id="feature-showcase">
+      <div class="role-tabs" role="tablist" aria-label="Explore by role">
+        <button class="role-tab is-active" role="tab" aria-selected="true" data-role="product">Product</button>
+        <button class="role-tab" role="tab" aria-selected="false" data-role="legal">Legal</button>
+        <button class="role-tab" role="tab" aria-selected="false" data-role="sales">Sales</button>
+        <button class="role-tab" role="tab" aria-selected="false" data-role="finance">Finance</button>
+      </div>
+
+      <div class="feature-step-tabs" role="tablist" aria-label="Show input or output">
+        <button class="feature-step is-active" role="tab" aria-selected="true" data-step="input">01&nbsp; Input</button>
+        <button class="feature-step" role="tab" aria-selected="false" data-step="output">02&nbsp; Output</button>
+      </div>
+
+      <div class="feature-layout">
+        <div class="feature-input-panel" id="feature-input-panel">
+          <span class="feature-kicker">CONNECTED WORKFLOW</span>
+          <h2 id="feature-title">Understand the product portfolio.</h2>
+          <p id="feature-copy">Ask for the information you need and bring the relevant product context together in one place.</p>
+          <div class="prompt-card">
+            <div class="prompt-label">Prompt</div>
+            <p id="feature-prompt">“Summarize our current products, package sizes, and the key information I need for a product review.”</p>
+            <div class="integration-row">
+              <span class="integration-pill"><span class="app-icon app-drive">D</span> Product Data</span>
+              <span class="integration-pill"><span class="app-icon app-slack">S</span> Team Notes</span>
+              <span class="integration-pill"><span class="app-icon app-sheets">S</span> Product Sheets</span>
+            </div>
+            <button class="run-feature" type="button" data-step-target="output">Run workflow <span>→</span></button>
+          </div>
+        </div>
+
+        <div class="feature-output-panel" id="feature-output-panel">
+          <div class="mock-window">
+            <div class="mock-window-bar"><span></span><span></span><span></span><strong>Dexin Product Workspace</strong></div>
+            <div class="mock-window-body">
+              <div class="mock-header">
+                <div><small>PRODUCT OVERVIEW</small><h3 id="output-title">Product portfolio</h3></div>
+                <span class="mock-status">Live view</span>
+              </div>
+              <div class="mock-summary">
+                <div><strong id="output-count">19</strong><span>Detected products</span></div>
+                <div><strong>2</strong><span>Product families</span></div>
+                <div><strong>4</strong><span>Coffee products</span></div>
+              </div>
+              <div class="mock-report">
+                <div class="mock-report-heading"><span>Portfolio snapshot</span><span>Current</span></div>
+                <div class="mock-bars"><i style="--bar:82%"></i><i style="--bar:64%"></i><i style="--bar:91%"></i><i style="--bar:54%"></i><i style="--bar:74%"></i></div>
+              </div>
+              <div class="mock-list">
+                <div><span>Cocozhi</span><b>500 gm</b></div>
+                <div><span>Cordyceps Coffee 3 in 1</span><b>500 gm</b></div>
+                <div><span>Lingzhi Coffee 3 in 1</span><b>500 gm</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-note">Interactive concept preview — the presentation changes with the selected role and view.</div>
+    </div>
   </div>
-  <div class="product-showcase-info" id="product-showcase-info" aria-live="polite">
-    <p class="showcase-type">PRODUCT</p>
-    <h2>Loading products…</h2>
-    <p class="showcase-description">Explore the Dexin product portfolio.</p>
-    <div class="showcase-meta"><span class="showcase-package"></span><span class="showcase-position"></span></div>
-    <a class="showcase-link" href="products.html">Explore product →</a>
-  </div>
-</div>
-</div></section>
+</section>
 
 <section class="section product-list-section"><div class="container">
 <div class="section-heading reveal"><span class="section-label">Explore</span><h2>Our product portfolio</h2><p>Products are presented together rather than separated into public categories.</p></div>
