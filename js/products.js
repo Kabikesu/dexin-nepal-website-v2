@@ -2,15 +2,33 @@ document.addEventListener("DOMContentLoaded", async () => {
   const grid = document.getElementById("all-products") || document.getElementById("top-products") || document.getElementById("upcoming-products");
   const orbit = document.getElementById("product-orbit");
   const detail = document.getElementById("product-detail");
+  const showcaseInfo = document.getElementById("product-showcase-info");
   if (!grid && !orbit && !detail) return;
 
   const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
-
   const imageMarkup = product => product.image
     ? `<img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}" loading="lazy">`
     : `<div class="product-card-placeholder" aria-hidden="true"><span>DEXIN</span></div>`;
-
   const statusLabel = product => product.status === "upcoming" ? "Upcoming" : "Current";
+
+  const updateShowcase = (product, index, total) => {
+    if (!showcaseInfo || !product) return;
+    showcaseInfo.classList.remove("is-changing");
+    void showcaseInfo.offsetWidth;
+    const type = showcaseInfo.querySelector(".showcase-type");
+    const title = showcaseInfo.querySelector("h2");
+    const description = showcaseInfo.querySelector(".showcase-description");
+    const packageSize = showcaseInfo.querySelector(".showcase-package");
+    const position = showcaseInfo.querySelector(".showcase-position");
+    const link = showcaseInfo.querySelector(".showcase-link");
+    type.textContent = `${statusLabel(product)} PRODUCT`;
+    title.textContent = product.name;
+    description.textContent = product.description || "Explore product details.";
+    packageSize.textContent = product.packageSize || "";
+    position.textContent = `${index + 1} / ${total}`;
+    link.href = `product-detail.html?id=${encodeURIComponent(product.id || product.name)}`;
+    showcaseInfo.classList.add("is-changing");
+  };
 
   try {
     const response = await fetch("data/products.json");
@@ -43,11 +61,35 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     if (orbit) {
-      const orbitProducts = published.filter(p => p.status === "current").slice(0, Math.min(8, published.filter(p => p.status === "current").length));
-      orbit.innerHTML = orbitProducts.map((product, index) => {
-        const angle = index * (360 / orbitProducts.length);
-        return `<a class="orbit-product" href="product-detail.html?id=${encodeURIComponent(product.id || product.name)}" style="--angle:${angle}deg" aria-label="View ${escapeHtml(product.name)}">${imageMarkup(product)}<span>${escapeHtml(product.name)}</span></a>`;
-      }).join("");
+      const currentProducts = published.filter(p => p.status === "current");
+      const orbitProducts = currentProducts.slice(0, Math.min(8, currentProducts.length));
+      if (orbitProducts.length) {
+        orbit.innerHTML = orbitProducts.map((product, index) => {
+          const angle = index * (360 / orbitProducts.length);
+          return `<a class="orbit-product" href="product-detail.html?id=${encodeURIComponent(product.id || product.name)}" style="--angle:${angle}deg" data-product-index="${index}" aria-label="View ${escapeHtml(product.name)}">${imageMarkup(product)}</a>`;
+        }).join("");
+
+        let activeIndex = 0;
+        const showActive = () => updateShowcase(orbitProducts[activeIndex], activeIndex, orbitProducts.length);
+        showActive();
+
+        orbit.querySelectorAll(".orbit-product").forEach((item, index) => {
+          item.addEventListener("mouseenter", () => updateShowcase(orbitProducts[index], index, orbitProducts.length));
+          item.addEventListener("focus", () => updateShowcase(orbitProducts[index], index, orbitProducts.length));
+          item.addEventListener("click", event => {
+            activeIndex = index;
+            if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+          });
+        });
+
+        setInterval(() => {
+          activeIndex = (activeIndex + 1) % orbitProducts.length;
+          showActive();
+        }, 4200);
+      } else {
+        orbit.innerHTML = "";
+        if (showcaseInfo) showcaseInfo.innerHTML = '<p class="showcase-type">PRODUCTS</p><h2>Product showcase</h2><p class="showcase-description">Product images will appear here when published.</p>';
+      }
     }
 
     if (detail) {
