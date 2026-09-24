@@ -34,5 +34,95 @@
     "image": "images/products/coffee/Lingzhi Coffee 3 in 1.jpg",
     "featured": false,
     "upcoming": false
+  },
+  {
+    "id": "cordyceps-capsule-360",
+    "name": "Cordyceps Capsule 360",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/Cordyceps Capsule 360.jpg",
+    "featured": false,
+    "upcoming": false
+  },
+  {
+    "id": "cordyceps-tablets-120",
+    "name": "Cordyceps Tablets 120",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/Cordyceps Tablets 120.jpg",
+    "featured": false,
+    "upcoming": false
+  },
+  {
+    "id": "cordyceps-tablets-360",
+    "name": "Cordyceps Tablets 360",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/Cordyceps Tablets 360.jpg",
+    "featured": false,
+    "upcoming": false
+  },
+  {
+    "id": "ganocelium-gl-90",
+    "name": "Ganocelium GL 90",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/Ganocelium GL-90.jpg",
+    "featured": false,
+    "upcoming": false
+  },
+  {
+    "id": "gl-tablet",
+    "name": "GL Tablet",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/GL Tablet.png",
+    "featured": false,
+    "upcoming": false
+  },
+  {
+    "id": "lionsmane-capsule-120",
+    "name": "LionsMane Capsule 120",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/LionsMane Capsule 120.jpg",
+    "featured": false,
+    "upcoming": false
+  },
+  {
+    "id": "lionsmane-capsule-360",
+    "name": "LionsMane Capsule 360",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/LionsMane Capsule 360.jpg",
+    "featured": false,
+    "upcoming": false
+  },
+  {
+    "id": "lionsmane-tablets-360",
+    "name": "LionsMane Tablets 360",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/LionsMane Tablets 360.jpg",
+    "featured": false,
+    "upcoming": false
+  },
+  {
+    "id": "reishi-gano-rg-90",
+    "name": "Reishi Gano RG 90",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/Reishi Gano RG-90.jpg",
+    "featured": false,
+    "upcoming": false
+  },
+  {
+    "id": "rg-tablet",
+    "name": "RG Tablet",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/RG Tablet.png",
+    "featured": false,
+    "upcoming": false
   }
 ]
