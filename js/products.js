@@ -46,6 +46,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     const prompt = document.getElementById("feature-prompt");
     const outputTitle = document.getElementById("output-title");
     const runButton = showcase.querySelector(".run-feature");
+    const productVisual = document.getElementById("mock-product-visual");
+    const productImage = document.getElementById("mock-product-image");
+    const productName = document.getElementById("mock-product-name");
+    const productPackage = document.getElementById("mock-product-package");
 
     const setRole = role => {
       const data = showcaseRoles[role] || showcaseRoles.product;
@@ -89,6 +93,52 @@ document.addEventListener("DOMContentLoaded", async () => {
   try {
     const products = await loadProducts();
     const published = products.filter(product => product.published !== false && ["current", "upcoming"].includes(product.status));
+
+    if (productVisual && productImage && productName && productPackage) {
+      const visualProducts = published.filter(product => product.image).slice(0, 8);
+      let visualIndex = 0;
+      let rotationTimer;
+
+      const renderVisual = (index, animate = true) => {
+        if (!visualProducts.length) { productVisual.hidden = true; return; }
+        visualIndex = (index + visualProducts.length) % visualProducts.length;
+        const product = visualProducts[visualIndex];
+        const stage = productVisual.querySelector(".mock-product-stage");
+        if (animate) stage.classList.add("is-changing");
+        window.setTimeout(() => {
+          productImage.src = product.image;
+          productImage.alt = product.name;
+          productName.textContent = product.name;
+          productPackage.textContent = product.packageSize || (product.status === "upcoming" ? "Upcoming product" : "Current product");
+          stage.classList.remove("is-changing");
+        }, animate ? 160 : 0);
+        productVisual.querySelectorAll(".mock-product-dots button").forEach((dot, i) => dot.classList.toggle("is-active", i === visualIndex));
+      };
+
+      const restartRotation = () => {
+        window.clearInterval(rotationTimer);
+        rotationTimer = window.setInterval(() => renderVisual(visualIndex + 1), 3800);
+      };
+
+      const dots = document.createElement("div");
+      dots.className = "mock-product-dots";
+      visualProducts.forEach((_, i) => {
+        const dot = document.createElement("button");
+        dot.type = "button";
+        dot.setAttribute("aria-label", "Show product " + (i + 1));
+        dot.addEventListener("click", () => { renderVisual(i); restartRotation(); });
+        dots.appendChild(dot);
+      });
+      productVisual.appendChild(dots);
+      productVisual.querySelector(".mock-product-prev")?.addEventListener("click", () => { renderVisual(visualIndex - 1); restartRotation(); });
+      productVisual.querySelector(".mock-product-next")?.addEventListener("click", () => { renderVisual(visualIndex + 1); restartRotation(); });
+      productVisual.addEventListener("mouseenter", () => window.clearInterval(rotationTimer));
+      productVisual.addEventListener("mouseleave", restartRotation);
+      productVisual.addEventListener("focusin", () => window.clearInterval(rotationTimer));
+      productVisual.addEventListener("focusout", restartRotation);
+      renderVisual(0, false);
+      restartRotation();
+    }
 
     const card = product => `
       <a class="product-card reveal" href="product-detail.html?id=${encodeURIComponent(product.id || product.name)}">
