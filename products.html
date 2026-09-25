@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Explore the product portfolio of Dexin Manufacturing Nepal Pvt. Ltd. — coffee, nutraceutical and upcoming products.">
+<title>Products | Dexin Manufacturing Nepal Pvt. Ltd.</title>
+<link rel="icon" type="image/png" href="images/logo/dxn-logo.png">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/pages/products.css">
+</head>
+<body>
+<header class="site-header"><div class="container header-inner">
+<a class="brand" href="index.html"><img src="images/logo/dxn-logo.png" alt="Dexin Manufacturing Nepal logo"></a>
+<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open navigation</span></button>
+<nav class="site-nav" id="site-nav" aria-label="Main navigation">
+<a href="index.html">Home</a><a href="about.html">About</a>
+<div class="nav-dropdown"><button class="nav-dropdown-toggle" type="button">Products <span>⌄</span></button><div class="nav-dropdown-menu"><a class="active" href="products.html">All Products</a><a href="top-products.html">Top Products</a><a href="upcoming-products.html">Upcoming Products</a></div></div>
+<a href="gallery.html">Gallery</a><a href="quality.html">Quality</a><a href="staff-portal.html">Staff Portal</a>
+<div class="nav-dropdown"><button class="nav-dropdown-toggle" type="button">Company <span>⌄</span></button><div class="nav-dropdown-menu"><a href="our-team.html">Our Team</a><a href="careers.html">Careers</a></div></div>
+<a href="contact.html">Contact</a>
+</nav></div></header>
+
+<main>
+<section class="products-editorial-hero">
+  <div class="products-hero-noise" aria-hidden="true"></div>
+  <div class="container products-hero-content">
+    <div class="products-hero-copy reveal">
+      <p class="eyebrow">DEXIN PRODUCT PORTFOLIO</p>
+      <h1>Made with care.<br><em>Built for people.</em></h1>
+      <p>Explore the coffee and nutraceutical products developed and prepared through Dexin Manufacturing Nepal.</p>
+      <div class="products-hero-actions">
+        <a class="button button-dark" href="#all-products">Explore products <span>↓</span></a>
+        <a class="text-link" href="quality.html">Our quality approach →</a>
+      </div>
+    </div>
+    <div class="hero-product-stage" aria-label="Selected Dexin products">
+      <div class="hero-product-orbit orbit-one"><div class="hero-product-item"><img src="images/products/coffee/Cocozhi.jpg" alt="Cocozhi"></div></div>
+      <div class="hero-product-orbit orbit-two"><div class="hero-product-item"><img src="images/products/nutraceuticals/Ganocelium GL-90.jpg" alt="Ganocelium GL-90"></div></div>
+      <div class="hero-product-orbit orbit-three"><div class="hero-product-item"><img src="images/products/nutraceuticals/Reishi Gano RG-90.jpg" alt="Reishi Gano RG-90"></div></div>
+      <div class="hero-product-orbit orbit-four"><div class="hero-product-item"><img src="images/products/coffee/Cordyceps Coffee 3 in 1.jpg" alt="Cordyceps Coffee 3 in 1"></div></div>
+      <div class="hero-product-orbit orbit-five"><div class="hero-product-item"><img src="images/products/nutraceuticals/Spirulina 360 Capsule  .png" alt="Spirulina Capsule 360"></div></div>
+      <div class="hero-product-center">
+        <span>DEXIN</span>
+        <strong>PRODUCTS</strong>
+        <small>NEPAL</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="product-index section" id="all-products">
+  <div class="container">
+    <div class="product-index-head reveal">
+      <div><span class="section-label">The portfolio</span><h2>All products</h2></div>
+      <p>Current and upcoming products, presented from one unified product catalogue. Product imagery is loaded automatically from the product folders.</p>
+    </div>
+    <div class="product-filter-bar" role="tablist" aria-label="Filter products">
+      <button class="product-filter is-active" type="button" data-filter="all">All</button>
+      <button class="product-filter" type="button" data-filter="current">Current</button>
+      <button class="product-filter" type="button" data-filter="upcoming">Upcoming</button>
+      <button class="product-filter" type="button" data-filter="Coffee">Coffee</button>
+      <button class="product-filter" type="button" data-filter="Nutraceuticals">Nutraceuticals</button>
+    </div>
+    <div class="product-grid product-grid-all" id="all-products-grid"><div class="product-loading">Loading products…</div></div>
+  </div>
+</section>
+
+<section class="products-category-band">
+  <div class="container products-category-inner">
+    <div><span class="section-label">Always evolving</span><h2>A portfolio that grows with us.</h2></div>
+    <p>New product images added to the Coffee or Nutraceuticals folders can be picked up by the existing product-generation workflow without rebuilding this page layout.</p>
+    <a class="button button-light" href="upcoming-products.html">See upcoming products →</a>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer"><div class="container footer-grid">
+<div><strong>Dexin Manufacturing Nepal Pvt. Ltd.</strong><p>Quality-focused manufacturing in Nepal.</p></div>
+<div><span>Explore</span><a href="about.html">About</a><a href="products.html">Products</a><a href="quality.html">Quality</a></div>
+<div><span>Company</span><a href="our-team.html">Our Team</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a></div>
+<div><span>Staff Access</span><a href="staff-portal.html">Staff Portal</a></div>
+</div><div class="container footer-bottom"><span>© <span id="current-year"></span> Dexin Manufacturing Nepal Pvt. Ltd.</span><span>All rights reserved.</span></div></footer>
+
+<script src="js/main.js"></script><script src="js/navigation.js"></script><script src="js/products.js"></script>
+</body></html>
