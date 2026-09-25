@@ -1,0 +1,240 @@
+{
+  "leadership": [
+    {
+      "name": "Datuk Dr Lim Siow Jin",
+      "role": "Executive Chairman",
+      "photo": "images/staff/executive-chairman.jpg",
+      "class": "executive-founder",
+      "bio": "Founder of DXN and Executive Chairman. DXN's official founder profile states that Datuk Lim Siow Jin graduated from the Indian Institute of Technology and, after more than 20 years of research and scientific analysis into mushrooms and human health, established DXN in Kedah, Malaysia in 1993. As Executive Chairman, he continues to oversee Group business strategies, marketing plans and R&D."
+    },
+    {
+      "name": "Mr. Rajesh Savera",
+      "role": "Special Assistance to Executive Chairman",
+      "photo": "images/staff/special-assistance.jpeg",
+      "bio": "Dr. Rajesh Savera is an Ayurveda physician with qualifications in BAMS and MS in Counselling & Psychotherapy. His public professional profile describes more than 18 years of practice in lifestyle-focused wellness and his advocacy of the DXN wellness concept."
+    },
+    {
+      "name": "Mr. Giri Vijayan",
+      "role": "Regional Head of Factories",
+      "photo": "images/staff/regional-head.png"
+    },
+    {
+      "name": "Mr. Rakesh Kumar Karn",
+      "role": "Factory PIC (FPIC) Nepal",
+      "photo": "images/staff/rakesh-karn.jpeg",
+      "class": "primary"
+    },
+    {
+      "name": "Mr. Brijesh Kumar Thakur",
+      "role": "Deputy FPIC",
+      "photo": "images/staff/brijesh-thakur.png",
+      "class": "secondary"
+    }
+  ],
+  "departments": [
+    {
+      "name": "HR & Admin",
+      "head": null,
+      "members": [
+        {
+          "name": "Mr. Durgadas Mishra",
+          "role": "Admin Officer",
+          "photo": "images/staff/durgadas-mishra.png"
+        },
+        {
+          "name": "Mr. Ramraj Chaudhary",
+          "role": "Office Assistant",
+          "photo": "images/staff/ramraj-chaudhary.png"
+        },
+        {
+          "name": "Mrs. Kamala Ghimire",
+          "role": "Housekeeping",
+          "photo": "images/staff/Kamla ghimre.png"
+        },
+        {
+          "name": "Mr. Madhav Belbaase",
+          "role": "Driver",
+          "photo": "images/staff/madhav-belbaase.png"
+        },
+        {
+          "name": "Mr. Ashis Kumar Mishra",
+          "role": "HR Officer",
+          "photo": "images/staff/ashis-mishra.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "IT",
+      "head": {
+        "name": "Mr. Keshav Kumar Thakur",
+        "role": "IT Officer",
+        "photo": "images/staff/keshav-thakur.jpeg",
+        "bio": "Responsible for IT infrastructure, systems, users, connectivity, cybersecurity, and day-to-day technology operations across the organization, supporting reliable and secure digital services for the factory, office, and warehouse."
+      },
+      "members": []
+    },
+    {
+      "name": "Engineering",
+      "head": {
+        "name": "Mr. Surajkant Mani Tripathi",
+        "role": "Civil Engineer",
+        "photo": "images/staff/surajkant-tripathi.jpeg",
+        "bio": "Responsible for civil engineering activities, infrastructure support, maintenance coordination, technical problem-solving, and engineering requirements that help maintain reliable factory operations."
+      },
+      "members": []
+    },
+    {
+      "name": "Procurement",
+      "head": {
+        "name": "Mr. Achal Acharya",
+        "role": "Procurement Manager",
+        "photo": "images/staff/achal-acharya.png",
+        "bio": "Leads procurement activities including sourcing, purchasing coordination, supplier communication, and procurement requirements supporting factory operations."
+      },
+      "members": [
+        {
+          "name": "Mr. Aakash Agrahari",
+          "role": "Procurement Executive",
+          "photo": "images/staff/aakash-agrahari.jpeg"
+        },
+        {
+          "name": "Mr. Goverdhan Nau",
+          "role": "Procurement Assistant",
+          "photo": "images/staff/gover dhan-nau.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Utility",
+      "head": {
+        "name": "Mr. Dipesh Chaudhary",
+        "role": "Utility In-charge",
+        "photo": "images/staff/dipesh-chaudhary.jpeg",
+        "bio": "Responsible for utility operations and technical services that support factory facilities and production requirements, including coordination of utility systems and day-to-day technical support."
+      },
+      "members": [
+        {
+          "name": "Mr. Bivash Tiwari",
+          "role": "Electrical Tech Executive",
+          "photo": "images/staff/bivash-tiwari.jpeg"
+        },
+        {
+          "name": "Mr. Chandra Kumar Tharu",
+          "role": "Electrical Technician",
+          "photo": "images/staff/chandra-kumar-tharu.jpeg"
+        },
+        {
+          "name": "Mr. Bikash Chamar",
+          "role": "Electrical Assistant",
+          "photo": "images/staff/bikash-chamar.png"
+        }
+      ]
+    },
+    {
+      "name": "Finance",
+      "head": {
+        "name": "Mr. Dayaram Gaire",
+        "role": "Finance Head",
+        "photo": "images/staff/dayaram-gaire.jpeg"
+      },
+      "members": [
+        {
+          "name": "Mr. Deep Kumar Chaudhar",
+          "role": "Finance Executive",
+          "photo": "images/staff/deep-kumar-chaudhar.jpeg"
+        },
+        {
+          "name": "Mrs. Nitika Shirvastav",
+          "role": "Finance",
+          "photo": "images/staff/nitika-shrivastav.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Warehouse",
+      "head": {
+        "name": "Mr. Ravikant Shukla",
+        "role": "Warehouse Executive",
+        "photo": "images/staff/ravikant-shukla.png"
+      },
+      "members": []
+    },
+    {
+      "name": "Production",
+      "head": null,
+      "groups": [
+        {
+          "name": "Coffee Unit",
+          "head": {
+            "name": "Mr. Kamal Ghimre",
+            "role": "Production Executive",
+            "photo": "images/staff/kamal ji.jpeg"
+          },
+          "members": [
+            {
+              "name": "Mr. Arun Kumar Nau",
+              "role": "Operator",
+              "photo": "images/staff/arun-kumar-nau.png"
+            },
+            {
+              "name": "Mr. Ram Kumar Chauhan",
+              "role": "Semi Skilled Operator",
+              "photo": "images/staff/ram-kumar-chauhan.png"
+            },
+            {
+              "name": "Mrs. Bandana Mishra",
+              "role": "Sr. Packing Assistant",
+              "photo": "images/staff/bandana-mishra.png"
+            }
+          ]
+        },
+        {
+          "name": "Nutra Unit",
+          "head": {
+            "name": "Mr. Abhisek Jaiswal",
+            "role": "Production Officer",
+            "photo": null
+          },
+          "members": [
+            {
+              "name": "Mr. Bimal Sinjali Magar",
+              "role": "Tablet Filling Machine Operator",
+              "photo": "images/staff/bimal-sinjali-magar.jpeg"
+            },
+            {
+              "name": "Mr. Resham Kumar Raut",
+              "role": "Capsule Filling Machine Operator",
+              "photo": "images/staff/resham-kumar-raut.jpeg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quality Control",
+      "head": {
+        "name": "Mr. Shiva Ghimire",
+        "role": "QA & QC",
+        "photo": null,
+        "bio": "Heads QA & QC activities, supporting quality assurance, quality control, inspection, documentation, and coordination of quality requirements across manufacturing operations."
+      },
+      "members": [
+        {
+          "name": "Mr. Sandeep Kumar Chaudhary",
+          "role": "QC Executive Nutra",
+          "photo": "images/staff/sandeep-chaudhary.png"
+        },
+        {
+          "name": "Ms. Aastha Shrivastav",
+          "role": "QC Officer Coffee",
+          "photo": "images/staff/aastha-shrivastav.jpeg"
+        },
+        {
+          "name": "Mr. Gopi Krishna Aryal",
+          "role": "Microbiologist",
+          "photo": null
+        }
+      ]
+    }
+  ]
+}
