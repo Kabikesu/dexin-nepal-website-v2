@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const published = product => product.published !== false && ["current","upcoming"].includes(product.status);
 
   const imageMarkup = product => product.image
-    ? '<img src="' + escapeHtml(product.image) + '" alt="' + escapeHtml(product.name) + '" loading="lazy">'
+    ? '<div class="product-image-fit"><img src="' + escapeHtml(product.image) + '" alt="' + escapeHtml(product.name) + '" loading="lazy"></div>'
     : '<div class="product-image-empty"><span>DEXIN</span><small>Image coming soon</small></div>';
 
   const card = product => '<a class="product-card product-card-editorial reveal" data-status="' + escapeHtml(product.status) + '" data-type="' + escapeHtml(product.type) + '" href="product-detail.html?id=' + encodeURIComponent(product.id || product.name) + '">' +
