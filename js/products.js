@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded", async () => {
-  const grid = document.getElementById("all-products-grid");
+  const allGrid = document.getElementById("all-products-grid");
+  const topGrid = document.getElementById("top-products");
+  const upcomingGrid = document.getElementById("upcoming-products");
+  const grid = allGrid || topGrid || upcomingGrid;
   const filters = [...document.querySelectorAll(".product-filter")];
   if (!grid) return;
 
@@ -26,8 +29,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const render = filter => {
       let visible = items;
-      if (filter === "current" || filter === "upcoming") visible = items.filter(p => p.status === filter);
-      if (filter === "Coffee" || filter === "Nutraceuticals") visible = items.filter(p => p.type === filter);
+      if (topGrid) visible = items.filter(p => p.featured === true);
+      if (upcomingGrid) visible = items.filter(p => p.status === "upcoming");
+      if (allGrid && (filter === "current" || filter === "upcoming")) visible = items.filter(p => p.status === filter);
+      if (allGrid && (filter === "Coffee" || filter === "Nutraceuticals")) visible = items.filter(p => p.type === filter);
       grid.innerHTML = visible.length ? visible.map(card).join("") : '<p class="product-loading">No products are available in this view yet.</p>';
       grid.querySelectorAll(".reveal").forEach((el, i) => {
         setTimeout(() => el.classList.add("is-visible"), Math.min(i * 35, 350));
@@ -40,7 +45,11 @@ document.addEventListener("DOMContentLoaded", async () => {
       button.setAttribute("aria-selected","true");
       render(button.dataset.filter);
     }));
-    render("all");
+    if (topGrid && !items.some(p => p.featured === true)) {
+      topGrid.innerHTML = '<p class="product-loading">Featured products will appear here when selected in the product data.</p>';
+    } else {
+      render("all");
+    }
   } catch (error) {
     grid.innerHTML = '<p class="product-loading">Product data is not available yet.</p>';
   }
