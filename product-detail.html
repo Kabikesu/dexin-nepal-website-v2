@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Product details from Dexin Manufacturing Nepal Pvt. Ltd.">
+<title>Product Details | Dexin Manufacturing Nepal Pvt. Ltd.</title>
+<link rel="icon" type="image/png" href="images/logo/dxn-logo.png">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/pages/products.css">
+<style>
+.product-detail-page{background:#fff;padding:70px 0 120px}
+.product-detail-back{display:inline-flex;align-items:center;gap:8px;color:#666;text-decoration:none;font-size:.78rem;font-weight:800;margin-bottom:38px}
+.product-detail-back:hover{color:#b5121b}
+.product-detail-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.85fr);gap:70px;align-items:start}
+.product-detail-media{height:650px;background:#f5f5f2;border:1px solid #deded8;border-radius:22px;display:grid;place-items:center;padding:45px;overflow:hidden}
+.product-detail-image-fit{width:100%;height:100%;display:grid;place-items:center;overflow:hidden}
+.product-detail-media img{display:block;width:auto;height:auto;max-width:86%;max-height:86%;object-fit:contain;filter:drop-shadow(0 22px 28px rgba(23,23,23,.12))}
+.product-detail-empty{color:#999;text-align:center}
+.product-detail-empty strong{display:block;color:#d1d1cb;font-size:2rem;letter-spacing:.16em}
+.product-detail-copy{padding-top:20px}
+.product-detail-kicker{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:20px}
+.product-detail-type{font-size:.68rem;text-transform:uppercase;letter-spacing:.12em;font-weight:900;color:#b5121b}
+.product-detail-badge{padding:7px 10px;border-radius:999px;background:#171717;color:#fff;font-size:.62rem;font-weight:800;letter-spacing:.06em}
+.product-detail-badge.upcoming{background:#b5121b}
+.product-detail-copy h1{font-size:clamp(2.8rem,5vw,5.7rem);line-height:.94;letter-spacing:-.06em;margin:0 0 25px;color:#171717}
+.product-detail-package{font-size:1rem;color:#666;border-top:1px solid #deded8;border-bottom:1px solid #deded8;padding:17px 0;margin:0 0 30px}
+.product-detail-description{color:#666;line-height:1.8;max-width:600px}
+.product-detail-actions{margin-top:38px;display:flex;gap:12px;flex-wrap:wrap}
+.product-detail-not-found{max-width:700px;margin:80px auto;text-align:center}
+.product-detail-not-found h1{font-size:clamp(2.8rem,6vw,5rem);letter-spacing:-.06em;margin:0 0 18px}
+.product-detail-not-found p{color:#666;line-height:1.7}
+@media(max-width:850px){.product-detail-layout{grid-template-columns:1fr;gap:40px}.product-detail-media{height:520px}.product-detail-copy{padding-top:0}}
+@media(max-width:560px){.product-detail-page{padding:45px 0 80px}.product-detail-media{height:390px;padding:25px;border-radius:18px}.product-detail-media img{max-width:88%;max-height:88%}.product-detail-copy h1{font-size:clamp(2.7rem,13vw,4rem)}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="container header-inner">
+<a class="brand" href="index.html"><img src="images/logo/dxn-logo.png" alt="Dexin Manufacturing Nepal logo"></a>
+<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open navigation</span></button>
+<nav class="site-nav" id="site-nav" aria-label="Main navigation">
+<a href="index.html">Home</a><a href="about.html">About</a>
+<div class="nav-dropdown"><button class="nav-dropdown-toggle" type="button">Products <span>⌄</span></button><div class="nav-dropdown-menu"><a class="active" href="products.html">All Products</a><a href="top-products.html">Top Products</a><a href="upcoming-products.html">Upcoming Products</a></div></div>
+<a href="gallery.html">Gallery</a><a href="quality.html">Quality</a><a href="staff-portal.html">Staff Portal</a>
+<div class="nav-dropdown"><button class="nav-dropdown-toggle" type="button">Company <span>⌄</span></button><div class="nav-dropdown-menu"><a href="our-team.html">Our Team</a><a href="careers.html">Careers</a></div></div>
+<a href="contact.html">Contact</a>
+</nav></div></header>
+<main>
+<section class="product-detail-page">
+<div class="container">
+<a class="product-detail-back" href="products.html">← Back to all products</a>
+<div id="product-detail"></div>
+</div>
+</section>
+</main>
+<footer class="site-footer"><div class="container footer-grid"><div><strong>Dexin Manufacturing Nepal Pvt. Ltd.</strong><p>Quality-focused manufacturing in Nepal.</p></div><div><span>Explore</span><a href="about.html">About</a><a href="products.html">Products</a><a href="quality.html">Quality</a></div><div><span>Company</span><a href="our-team.html">Our Team</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a></div><div><span>Staff Access</span><a href="staff-portal.html">Staff Portal</a></div></div><div class="container footer-bottom"><span>© <span id="current-year"></span> Dexin Manufacturing Nepal Pvt. Ltd.</span><span>All rights reserved.</span></div></footer>
+<script src="js/main.js"></script>
+<script src="js/navigation.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  const root=document.getElementById("product-detail");
+  const escapeHtml=value=>String(value??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+  const id=new URLSearchParams(window.location.search).get("id");
+  if(!id){ root.innerHTML='<div class="product-detail-not-found"><h1>Product not found.</h1><p>No product was selected.</p><a class="button button-dark" href="products.html">View all products</a></div>'; return; }
+  try{
+    const response=await fetch("data/products.json");
+    if(!response.ok) throw new Error("Product data unavailable");
+    const products=await response.json();
+    const product=products.find(item=>item.id===id && item.published!==false);
+    if(!product){ root.innerHTML='<div class="product-detail-not-found"><h1>Product not found.</h1><p>The requested product is not available in the current product catalogue.</p><a class="button button-dark" href="products.html">View all products</a></div>'; return; }
+    document.title=product.name+" | Dexin Manufacturing Nepal Pvt. Ltd.";
+    const media=product.image
+      ? '<div class="product-detail-image-fit"><img src="'+escapeHtml(product.image)+'" alt="'+escapeHtml(product.name)+'"></div>'
+      : '<div class="product-detail-empty"><strong>DEXIN</strong><span>Product image coming soon</span></div>';
+    root.innerHTML='<div class="product-detail-layout"><div class="product-detail-media">'+media+'</div><div class="product-detail-copy"><div class="product-detail-kicker"><span class="product-detail-type">'+escapeHtml(product.type||"Product")+'</span><span class="product-detail-badge '+(product.status==="upcoming"?"upcoming":"")+'">'+(product.status==="upcoming"?"Upcoming":"Current")+'</span></div><h1>'+escapeHtml(product.name)+'</h1>'+(product.packageSize?'<p class="product-detail-package"><strong>Package:</strong> '+escapeHtml(product.packageSize)+'</p>':'')+(product.description?'<div class="product-detail-description"><p>'+escapeHtml(product.description)+'</p></div>':'')+'<div class="product-detail-actions"><a class="button button-dark" href="products.html">← All Products</a></div></div></div>';
+  }catch(error){
+    root.innerHTML='<div class="product-detail-not-found"><h1>Unable to load product.</h1><p>Please try again or return to the product catalogue.</p><a class="button button-dark" href="products.html">View all products</a></div>';
+  }
+});
+</script>
+</body>
+</html>
