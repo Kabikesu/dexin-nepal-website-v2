@@ -27,6 +27,111 @@ document.addEventListener("DOMContentLoaded", async () => {
     const products = await response.json();
     const items = products.filter(published);
 
+    const renderHeroProducts = catalogue => {
+      const stage = document.getElementById("hero-product-orbit");
+      if (!stage || !catalogue.length) return;
+
+      const makeHeroItem = (product, index) => {
+        const card = document.createElement("a");
+        card.className = "hero-product-orbit-card";
+        card.href = "product-detail.html?id=" + encodeURIComponent(product.id || product.name);
+        card.setAttribute("aria-label", "View " + product.name);
+        card.dataset.index = String(index);
+
+        const media = document.createElement("span");
+        media.className = "hero-product-item";
+
+        if (product.image) {
+          const img = document.createElement("img");
+          img.src = product.image;
+          img.alt = product.name;
+          img.loading = index < 8 ? "eager" : "lazy";
+          img.decoding = "async";
+          media.appendChild(img);
+        } else {
+          media.classList.add("hero-product-item-empty");
+          const brand = document.createElement("span");
+          brand.textContent = "DEXIN";
+          const status = document.createElement("small");
+          status.textContent = "IMAGE COMING SOON";
+          media.append(brand, status);
+        }
+
+        const name = document.createElement("span");
+        name.className = "hero-product-name";
+        name.textContent = product.name;
+
+        const type = document.createElement("span");
+        type.className = "hero-product-type";
+        type.textContent = product.type || "Product";
+
+        card.append(media, name, type);
+        return card;
+      };
+
+      stage.replaceChildren(...catalogue.map(makeHeroItem));
+
+      const cards = [...stage.children];
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      let rotation = 0;
+      let lastTime = performance.now();
+      let rafId = 0;
+      let paused = false;
+
+      const setLayout = (time, staticFrame = false) => {
+        const width = stage.parentElement?.clientWidth || 650;
+        const mobile = window.innerWidth <= 760;
+        const small = window.innerWidth <= 560;
+        const radiusX = small ? Math.min(width * 0.37, 145) : mobile ? Math.min(width * 0.39, 205) : Math.min(width * 0.42, 270);
+        const radiusY = small ? 95 : mobile ? 128 : 172;
+        const cardWidth = small ? 94 : mobile ? 112 : 132;
+        const cardHeight = small ? 122 : mobile ? 145 : 170;
+        const step = (Math.PI * 2) / cards.length;
+
+        cards.forEach((card, index) => {
+          const angle = rotation + (index * step);
+          const x = Math.cos(angle) * radiusX;
+          const y = Math.sin(angle) * radiusY;
+          const depth = (Math.sin(angle) + 1) / 2;
+          const scale = 0.70 + (depth * 0.30);
+          const opacity = 0.34 + (depth * 0.66);
+          const z = Math.round(depth * 100);
+
+          card.style.width = cardWidth + "px";
+          card.style.height = cardHeight + "px";
+          card.style.transform = "translate3d(" + x + "px," + y + "px,0) scale(" + scale + ")";
+          card.style.opacity = opacity.toFixed(3);
+          card.style.zIndex = String(z);
+          card.classList.toggle("is-front", depth > 0.78);
+        });
+
+        if (!staticFrame) rafId = requestAnimationFrame(tick);
+      };
+
+      const tick = time => {
+        if (!paused && !reduceMotion) {
+          const delta = Math.min(time - lastTime, 40);
+          rotation += delta * 0.000075;
+        }
+        lastTime = time;
+        setLayout(time);
+      };
+
+      const pause = () => { paused = true; };
+      const resume = () => { paused = false; lastTime = performance.now(); };
+
+      stage.addEventListener("mouseenter", pause);
+      stage.addEventListener("mouseleave", resume);
+      stage.addEventListener("focusin", pause);
+      stage.addEventListener("focusout", resume);
+      window.addEventListener("resize", () => setLayout(performance.now(), true), { passive: true });
+
+      setLayout(performance.now(), true);
+      if (!reduceMotion) rafId = requestAnimationFrame(tick);
+    };
+
+    renderHeroProducts(items);
+
     const render = filter => {
       let visible = items;
       if (topGrid) visible = items.filter(p => p.featured === true);
