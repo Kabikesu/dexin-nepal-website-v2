@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const published = product => product.published !== false && ["current","upcoming"].includes(product.status);
 
   const imageMarkup = product => product.image
-    ? '<div class="product-image-fit"><img src="' + escapeHtml(product.image) + '" alt="' + escapeHtml(product.name) + '" loading="lazy"></div>'
+    ? '<div class="product-image-fit"><img class="product-image-normalized" src="' + escapeHtml(product.image) + '" alt="' + escapeHtml(product.name) + '" loading="lazy"></div>'
     : '<div class="product-image-empty"><span>DEXIN</span><small>Image coming soon</small></div>';
 
   const card = product => '<a class="product-card product-card-editorial reveal" data-status="' + escapeHtml(product.status) + '" data-type="' + escapeHtml(product.type) + '" href="product-detail.html?id=' + encodeURIComponent(product.id || product.name) + '">' +
@@ -134,6 +134,33 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     renderHeroProducts(items);
 
+    const normalizeProductImages = root => {
+      root.querySelectorAll(".product-image-normalized").forEach(img => {
+        const applyScale = () => {
+          const box = img.parentElement;
+          if (!box || !img.naturalWidth || !img.naturalHeight) return;
+
+          const boxRatio = box.clientWidth / Math.max(box.clientHeight, 1);
+          const imageRatio = img.naturalWidth / img.naturalHeight;
+
+          // Estimate how much of the contain box the image occupies.
+          const containFraction = imageRatio >= boxRatio
+            ? boxRatio / imageRatio
+            : imageRatio / boxRatio;
+
+          // Bring different source proportions toward a similar visual area.
+          // Never enlarge enough to crop the image.
+          const targetFraction = 0.76;
+          const scale = Math.min(1, Math.sqrt(targetFraction / Math.max(containFraction, 0.18)));
+
+          img.style.setProperty("--product-visual-scale", scale.toFixed(3));
+        };
+
+        if (img.complete) applyScale();
+        else img.addEventListener("load", applyScale, { once: true });
+      });
+    };
+
     const render = filter => {
       let visible = items;
       if (topGrid) visible = items.filter(p => p.featured === true);
@@ -141,6 +168,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (allGrid && (filter === "current" || filter === "upcoming")) visible = items.filter(p => p.status === filter);
       if (allGrid && (filter === "Coffee" || filter === "Nutraceuticals")) visible = items.filter(p => p.type === filter);
       grid.innerHTML = visible.length ? visible.map(card).join("") : '<p class="product-loading">No products are available in this view yet.</p>';
+      normalizeProductImages(grid);
       grid.querySelectorAll(".reveal").forEach((el, i) => {
         setTimeout(() => el.classList.add("is-visible"), Math.min(i * 35, 350));
       });
