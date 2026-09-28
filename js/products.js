@@ -82,10 +82,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         const width = stage.parentElement?.clientWidth || 650;
         const mobile = window.innerWidth <= 760;
         const small = window.innerWidth <= 560;
-        const radiusX = small ? Math.min(width * 0.37, 145) : mobile ? Math.min(width * 0.39, 205) : Math.min(width * 0.42, 270);
-        const radiusY = small ? 95 : mobile ? 128 : 172;
-        const cardWidth = small ? 94 : mobile ? 112 : 132;
-        const cardHeight = small ? 122 : mobile ? 145 : 170;
+        const radiusX = small ? Math.min(width * 0.40, 175) : mobile ? Math.min(width * 0.43, 245) : Math.min(width * 0.45, 350);
+        const radiusY = small ? 135 : mobile ? 170 : 235;
+        const cardWidth = small ? 116 : mobile ? 145 : 168;
+        const cardHeight = small ? 138 : mobile ? 170 : 198;
         const step = (Math.PI * 2) / cards.length;
 
         cards.forEach((card, index) => {
@@ -93,10 +93,10 @@ document.addEventListener("DOMContentLoaded", async () => {
           const x = Math.cos(angle) * radiusX;
           const y = Math.sin(angle) * radiusY;
           const depth = (Math.sin(angle) + 1) / 2;
-          const scale = 0.70 + (depth * 0.30);
-          const visible = depth > 0.28;
-          const opacity = visible ? 0.18 + (depth * 0.82) : 0;
-          const z = 1 + Math.round(depth * 3);
+          const scale = 0.74 + (depth * 0.34);
+          const visible = depth > 0.18;
+          const opacity = visible ? 0.32 + (depth * 0.68) : 0;
+          const z = 1 + Math.round(depth * 10);
           card.style.pointerEvents = visible ? "auto" : "none";
 
           card.style.width = cardWidth + "px";
