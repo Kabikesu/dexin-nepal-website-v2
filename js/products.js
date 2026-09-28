@@ -94,8 +94,10 @@ document.addEventListener("DOMContentLoaded", async () => {
           const y = Math.sin(angle) * radiusY;
           const depth = (Math.sin(angle) + 1) / 2;
           const scale = 0.70 + (depth * 0.30);
-          const opacity = 0.34 + (depth * 0.66);
-          const z = Math.round(depth * 100);
+          const visible = depth > 0.28;
+          const opacity = visible ? 0.18 + (depth * 0.82) : 0;
+          const z = 1 + Math.round(depth * 3);
+          card.style.pointerEvents = visible ? "auto" : "none";
 
           card.style.width = cardWidth + "px";
           card.style.height = cardHeight + "px";
