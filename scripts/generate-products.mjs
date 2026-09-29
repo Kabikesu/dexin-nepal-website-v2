@@ -40,10 +40,10 @@ async function scan(folder, type) {
           description: known?.description || "",
           image: join(folder, entry.name).replaceAll("\\", "/"),
           packageSize: known?.packageSize || "",
-          status: known?.status || "review",
+          status: known?.status || "current",
           featured: known?.featured ?? false,
           upcoming: known?.status === "upcoming",
-          published: known?.published ?? Boolean(known)
+          published: known?.published ?? true
         };
       });
   } catch {
