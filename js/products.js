@@ -84,8 +84,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         const small = window.innerWidth <= 560;
         const radiusX = small ? Math.min(width * 0.40, 175) : mobile ? Math.min(width * 0.43, 245) : Math.min(width * 0.45, 350);
         const radiusY = small ? 135 : mobile ? 170 : 235;
-        const cardWidth = small ? 116 : mobile ? 145 : 168;
-        const cardHeight = small ? 138 : mobile ? 170 : 198;
+        const cardWidth = small ? 104 : mobile ? 128 : 150;
+        const cardHeight = small ? 116 : mobile ? 146 : 168;
         const step = (Math.PI * 2) / cards.length;
 
         cards.forEach((card, index) => {
@@ -100,7 +100,8 @@ document.addEventListener("DOMContentLoaded", async () => {
           card.style.pointerEvents = visible ? "auto" : "none";
 
           card.style.width = cardWidth + "px";
-          card.style.height = cardHeight + "px";
+          card.style.setProperty("--hero-card-media-height", cardHeight + "px");
+          card.style.height = "auto";
           card.style.transform = "translate3d(" + x + "px," + y + "px,0) scale(" + scale + ")";
           card.style.opacity = opacity.toFixed(3);
           card.style.zIndex = String(z);
