@@ -176,5 +176,91 @@
         "title": "Inauguration80"
       }
     ]
+  },
+  {
+    "id": "office-aniversary",
+    "title": "Office Aniversary",
+    "images": [
+      {
+        "src": "images/gallery/Office Aniversary/office aniversary (2).jpeg",
+        "alt": "Office Aniversary (2)",
+        "title": "Office Aniversary (2)"
+      },
+      {
+        "src": "images/gallery/Office Aniversary/office aniversary (3).jpeg",
+        "alt": "Office Aniversary (3)",
+        "title": "Office Aniversary (3)"
+      },
+      {
+        "src": "images/gallery/Office Aniversary/office aniversary (11).jpeg",
+        "alt": "Office Aniversary (11)",
+        "title": "Office Aniversary (11)"
+      },
+      {
+        "src": "images/gallery/Office Aniversary/office aniversary (15).jpeg",
+        "alt": "Office Aniversary (15)",
+        "title": "Office Aniversary (15)"
+      },
+      {
+        "src": "images/gallery/Office Aniversary/office aniversary (19).jpeg",
+        "alt": "Office Aniversary (19)",
+        "title": "Office Aniversary (19)"
+      },
+      {
+        "src": "images/gallery/Office Aniversary/office aniversary (22).jpeg",
+        "alt": "Office Aniversary (22)",
+        "title": "Office Aniversary (22)"
+      },
+      {
+        "src": "images/gallery/Office Aniversary/office aniversary (23).jpeg",
+        "alt": "Office Aniversary (23)",
+        "title": "Office Aniversary (23)"
+      },
+      {
+        "src": "images/gallery/Office Aniversary/office aniversary (24).jpeg",
+        "alt": "Office Aniversary (24)",
+        "title": "Office Aniversary (24)"
+      },
+      {
+        "src": "images/gallery/Office Aniversary/office aniversary (28).jpeg",
+        "alt": "Office Aniversary (28)",
+        "title": "Office Aniversary (28)"
+      },
+      {
+        "src": "images/gallery/Office Aniversary/office aniversary (33).jpeg",
+        "alt": "Office Aniversary (33)",
+        "title": "Office Aniversary (33)"
+      },
+      {
+        "src": "images/gallery/Office Aniversary/office aniversary (35).jpeg",
+        "alt": "Office Aniversary (35)",
+        "title": "Office Aniversary (35)"
+      },
+      {
+        "src": "images/gallery/Office Aniversary/office aniversary (44).jpeg",
+        "alt": "Office Aniversary (44)",
+        "title": "Office Aniversary (44)"
+      },
+      {
+        "src": "images/gallery/Office Aniversary/office aniversary (45).jpeg",
+        "alt": "Office Aniversary (45)",
+        "title": "Office Aniversary (45)"
+      },
+      {
+        "src": "images/gallery/Office Aniversary/office aniversary (47).jpeg",
+        "alt": "Office Aniversary (47)",
+        "title": "Office Aniversary (47)"
+      },
+      {
+        "src": "images/gallery/Office Aniversary/office aniversary (51).jpeg",
+        "alt": "Office Aniversary (51)",
+        "title": "Office Aniversary (51)"
+      },
+      {
+        "src": "images/gallery/Office Aniversary/office aniversary (52).jpeg",
+        "alt": "Office Aniversary (52)",
+        "title": "Office Aniversary (52)"
+      }
+    ]
   }
 ]
