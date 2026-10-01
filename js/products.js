@@ -84,8 +84,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         const small = window.innerWidth <= 560;
         const radiusX = small ? Math.min(width * 0.40, 175) : mobile ? Math.min(width * 0.43, 245) : Math.min(width * 0.45, 350);
         const radiusY = small ? 135 : mobile ? 170 : 235;
-        const cardWidth = small ? 104 : mobile ? 128 : 150;
-        const cardHeight = small ? 116 : mobile ? 146 : 168;
+        const cardWidth = small ? 88 : mobile ? 108 : 126;
+        const cardHeight = small ? 102 : mobile ? 122 : 146;
         const step = (Math.PI * 2) / cards.length;
 
         cards.forEach((card, index) => {
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           const x = Math.cos(angle) * radiusX;
           const y = Math.sin(angle) * radiusY;
           const depth = (Math.sin(angle) + 1) / 2;
-          const scale = 0.74 + (depth * 0.34);
+          const scale = 0.76 + (depth * 0.25);
           const visible = depth > 0.18;
           const opacity = visible ? 0.32 + (depth * 0.68) : 0;
           const z = 1 + Math.round(depth * 10);
