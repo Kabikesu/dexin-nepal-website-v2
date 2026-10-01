@@ -41,6 +41,307 @@
     ]
   },
   {
+    "id": "events",
+    "title": "Events",
+    "images": [
+      {
+        "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff (2).jpeg",
+        "alt": "Blood Donation Dexin Staff (2)",
+        "title": "Blood Donation Dexin Staff (2)"
+      },
+      {
+        "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Achal Acharya(8).jpeg",
+        "alt": "Blood Donation Dexin Staff Achal Acharya(8)",
+        "title": "Blood Donation Dexin Staff Achal Acharya(8)"
+      },
+      {
+        "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff DayaRam Gaire(5).jpeg",
+        "alt": "Blood Donation Dexin Staff DayaRam Gaire(5)",
+        "title": "Blood Donation Dexin Staff DayaRam Gaire(5)"
+      },
+      {
+        "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Deep Chaudhary(4).jpeg",
+        "alt": "Blood Donation Dexin Staff Deep Chaudhary(4)",
+        "title": "Blood Donation Dexin Staff Deep Chaudhary(4)"
+      },
+      {
+        "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Dipesh Chaudhary (7).jpeg",
+        "alt": "Blood Donation Dexin Staff Dipesh Chaudhary (7)",
+        "title": "Blood Donation Dexin Staff Dipesh Chaudhary (7)"
+      },
+      {
+        "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Dipesh Chaudhary(9).jpeg",
+        "alt": "Blood Donation Dexin Staff Dipesh Chaudhary(9)",
+        "title": "Blood Donation Dexin Staff Dipesh Chaudhary(9)"
+      },
+      {
+        "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Group(6).jpeg",
+        "alt": "Blood Donation Dexin Staff Group(6)",
+        "title": "Blood Donation Dexin Staff Group(6)"
+      },
+      {
+        "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Keshav Thakur(3).jpeg",
+        "alt": "Blood Donation Dexin Staff Keshav Thakur(3)",
+        "title": "Blood Donation Dexin Staff Keshav Thakur(3)"
+      },
+      {
+        "src": "images/gallery/Events/EMS Training/EMS Training (1).jpg",
+        "alt": "EMS Training (1)",
+        "title": "EMS Training (1)"
+      },
+      {
+        "src": "images/gallery/Events/EMS Training/EMS Training (2).jpg",
+        "alt": "EMS Training (2)",
+        "title": "EMS Training (2)"
+      },
+      {
+        "src": "images/gallery/Events/EMS Training/EMS Training (3).jpg",
+        "alt": "EMS Training (3)",
+        "title": "EMS Training (3)"
+      },
+      {
+        "src": "images/gallery/Events/EMS Training/EMS Training (4).jpg",
+        "alt": "EMS Training (4)",
+        "title": "EMS Training (4)"
+      },
+      {
+        "src": "images/gallery/Events/EMS Training/EMS Training (5).jpg",
+        "alt": "EMS Training (5)",
+        "title": "EMS Training (5)"
+      },
+      {
+        "src": "images/gallery/Events/EMS Training/EMS Training (6).jpg",
+        "alt": "EMS Training (6)",
+        "title": "EMS Training (6)"
+      },
+      {
+        "src": "images/gallery/Events/EMS Training/EMS Training (7).jpg",
+        "alt": "EMS Training (7)",
+        "title": "EMS Training (7)"
+      },
+      {
+        "src": "images/gallery/Events/EMS Training/EMS Training (8).jpg",
+        "alt": "EMS Training (8)",
+        "title": "EMS Training (8)"
+      },
+      {
+        "src": "images/gallery/Events/EMS Training/EMS Training (9).jpg",
+        "alt": "EMS Training (9)",
+        "title": "EMS Training (9)"
+      },
+      {
+        "src": "images/gallery/Events/EMS Training/EMS Training (10).jpg",
+        "alt": "EMS Training (10)",
+        "title": "EMS Training (10)"
+      },
+      {
+        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (1).jpg",
+        "alt": "Group Photo For The Fire And EHS Training (1)",
+        "title": "Group Photo For The Fire And EHS Training (1)"
+      },
+      {
+        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (2).jpg",
+        "alt": "Group Photo For The Fire And EHS Training (2)",
+        "title": "Group Photo For The Fire And EHS Training (2)"
+      },
+      {
+        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (3).jpg",
+        "alt": "Group Photo For The Fire And EHS Training (3)",
+        "title": "Group Photo For The Fire And EHS Training (3)"
+      },
+      {
+        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (4).jpg",
+        "alt": "Group Photo For The Fire And EHS Training (4)",
+        "title": "Group Photo For The Fire And EHS Training (4)"
+      },
+      {
+        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (9).jpg",
+        "alt": "Group Photo For The Fire And EHS Training (9)",
+        "title": "Group Photo For The Fire And EHS Training (9)"
+      },
+      {
+        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (10).jpg",
+        "alt": "Group Photo For The Fire And EHS Training (10)",
+        "title": "Group Photo For The Fire And EHS Training (10)"
+      },
+      {
+        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (11).jpg",
+        "alt": "Group Photo For The Fire And EHS Training (11)",
+        "title": "Group Photo For The Fire And EHS Training (11)"
+      },
+      {
+        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (12).jpg",
+        "alt": "Group Photo For The Fire And EHS Training (12)",
+        "title": "Group Photo For The Fire And EHS Training (12)"
+      },
+      {
+        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (13).jpg",
+        "alt": "Group Photo For The Fire And EHS Training (13)",
+        "title": "Group Photo For The Fire And EHS Training (13)"
+      },
+      {
+        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (14).jpg",
+        "alt": "Group Photo For The Fire And EHS Training (14)",
+        "title": "Group Photo For The Fire And EHS Training (14)"
+      },
+      {
+        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (15).jpg",
+        "alt": "Group Photo For The Fire And EHS Training (15)",
+        "title": "Group Photo For The Fire And EHS Training (15)"
+      },
+      {
+        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (16).jpg",
+        "alt": "Group Photo For The Fire And EHS Training (16)",
+        "title": "Group Photo For The Fire And EHS Training (16)"
+      },
+      {
+        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (17).jpg",
+        "alt": "Group Photo For The Fire And EHS Training (17)",
+        "title": "Group Photo For The Fire And EHS Training (17)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (1).jpeg",
+        "alt": "Halla Tranning (1)",
+        "title": "Halla Tranning (1)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (2).jpeg",
+        "alt": "Halla Tranning (2)",
+        "title": "Halla Tranning (2)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (3).jpeg",
+        "alt": "Halla Tranning (3)",
+        "title": "Halla Tranning (3)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (4).jpeg",
+        "alt": "Halla Tranning (4)",
+        "title": "Halla Tranning (4)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (5).jpeg",
+        "alt": "Halla Tranning (5)",
+        "title": "Halla Tranning (5)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (6).jpeg",
+        "alt": "Halla Tranning (6)",
+        "title": "Halla Tranning (6)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (7).jpeg",
+        "alt": "Halla Tranning (7)",
+        "title": "Halla Tranning (7)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (8).jpeg",
+        "alt": "Halla Tranning (8)",
+        "title": "Halla Tranning (8)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (9).jpeg",
+        "alt": "Halla Tranning (9)",
+        "title": "Halla Tranning (9)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (10).jpeg",
+        "alt": "Halla Tranning (10)",
+        "title": "Halla Tranning (10)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (11).jpeg",
+        "alt": "Halla Tranning (11)",
+        "title": "Halla Tranning (11)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (12).jpeg",
+        "alt": "Halla Tranning (12)",
+        "title": "Halla Tranning (12)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (13).jpeg",
+        "alt": "Halla Tranning (13)",
+        "title": "Halla Tranning (13)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (14).jpeg",
+        "alt": "Halla Tranning (14)",
+        "title": "Halla Tranning (14)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (15).jpeg",
+        "alt": "Halla Tranning (15)",
+        "title": "Halla Tranning (15)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (16).jpeg",
+        "alt": "Halla Tranning (16)",
+        "title": "Halla Tranning (16)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (17).jpeg",
+        "alt": "Halla Tranning (17)",
+        "title": "Halla Tranning (17)"
+      },
+      {
+        "src": "images/gallery/Events/Halla Training/Halla Tranning (18).jpeg",
+        "alt": "Halla Tranning (18)",
+        "title": "Halla Tranning (18)"
+      },
+      {
+        "src": "images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos/WhatsApp Image 2026-09-29 at 09.38.22.jpeg",
+        "alt": "WhatsApp Image 2026 09 29 At 09.38.22",
+        "title": "WhatsApp Image 2026 09 29 At 09.38.22"
+      },
+      {
+        "src": "images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos/WhatsApp Image 2026-09-29 at 09.38.23 (1).jpeg",
+        "alt": "WhatsApp Image 2026 09 29 At 09.38.23 (1)",
+        "title": "WhatsApp Image 2026 09 29 At 09.38.23 (1)"
+      },
+      {
+        "src": "images/gallery/Events/Vishakarma Puja/Vishakarma Puja 1.jpeg",
+        "alt": "Vishakarma Puja 1",
+        "title": "Vishakarma Puja 1"
+      },
+      {
+        "src": "images/gallery/Events/Vishakarma Puja/Vishakarma Puja 2.jpeg",
+        "alt": "Vishakarma Puja 2",
+        "title": "Vishakarma Puja 2"
+      },
+      {
+        "src": "images/gallery/Events/Vishakarma Puja/Vishakarma Puja 3.jpeg",
+        "alt": "Vishakarma Puja 3",
+        "title": "Vishakarma Puja 3"
+      },
+      {
+        "src": "images/gallery/Events/Vishakarma Puja/Vishakarma Puja.jpeg",
+        "alt": "Vishakarma Puja",
+        "title": "Vishakarma Puja"
+      },
+      {
+        "src": "images/gallery/Events/Vishakarma Puja/vishwakarma Puja 1.jpeg",
+        "alt": "Vishwakarma Puja 1",
+        "title": "Vishwakarma Puja 1"
+      },
+      {
+        "src": "images/gallery/Events/Vishakarma Puja/vishwakarma Puja 2.jpeg",
+        "alt": "Vishwakarma Puja 2",
+        "title": "Vishwakarma Puja 2"
+      },
+      {
+        "src": "images/gallery/Events/Vishakarma Puja/vishwakarma Puja 5.jpeg",
+        "alt": "Vishwakarma Puja 5",
+        "title": "Vishwakarma Puja 5"
+      },
+      {
+        "src": "images/gallery/Events/Vishakarma Puja/vishwakarma Puja.jpeg",
+        "alt": "Vishwakarma Puja",
+        "title": "Vishwakarma Puja"
+      }
+    ]
+  },
+  {
     "id": "factory-images",
     "title": "Factory Images",
     "images": [
@@ -53,7 +354,7 @@
   },
   {
     "id": "fire-safety-and-emergency-preparedness-tranning",
-    "title": "Fire Safety And Emergency Preparedness Tranning",
+    "title": "Fire Safety and Emergency preparedness Tranning",
     "images": [
       {
         "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (1).jpeg",
