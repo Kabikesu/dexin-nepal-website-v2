@@ -109,3 +109,52 @@
 @media(max-width:760px){.products-editorial-hero .hero-product-showcase,.products-hero-modern .hero-product-showcase{height:570px}.hero-product-main{width:170px;height:215px;padding:15px;border-radius:21px}.hero-product-ring::before{width:360px;height:360px}.hero-product-ring::after{width:270px;height:270px}.hero-product-fixed-caption{bottom:5px;padding:9px 13px}}
 @media(max-width:560px){.products-editorial-hero .hero-product-showcase,.products-hero-modern .hero-product-showcase{height:510px}.hero-product-main{width:135px;height:175px;padding:12px;border-radius:18px}.hero-product-ring::before{width:280px;height:280px}.hero-product-ring::after{width:205px;height:205px}.hero-product-orbit-item{width:66px;height:84px;padding:5px;border-radius:12px}.hero-product-fixed-caption{bottom:2px;width:calc(100% - 20px)}.hero-product-fixed-caption h2{font-size:.88rem}.hero-product-counter{right:4%;top:2%;font-size:.45rem}}
 @media(prefers-reduced-motion:reduce){.hero-product-orbit-item{transition:none}}
+
+
+/* Featured hero product — contained image + compact fixed caption */
+.hero-product-main{
+  box-sizing:border-box;
+  width:clamp(250px,27vw,350px);
+  height:clamp(300px,34vw,420px);
+  padding:24px;
+}
+.hero-product-main img{
+  display:block;
+  width:auto;
+  height:auto;
+  max-width:88%;
+  max-height:88%;
+  min-width:0;
+  min-height:0;
+  object-fit:contain;
+  object-position:center;
+}
+.hero-product-fixed-caption{
+  width:min(82%,390px);
+  padding:7px 14px 6px;
+  bottom:10px;
+}
+.hero-product-fixed-caption small{
+  font-size:.42rem;
+  letter-spacing:.14em;
+}
+.hero-product-fixed-caption h2{
+  margin:2px 0 1px;
+  font-size:clamp(.78rem,1.25vw,1.05rem);
+  line-height:1.05;
+}
+.hero-product-fixed-caption span{
+  font-size:.42rem;
+  letter-spacing:.1em;
+}
+@media(max-width:760px){
+  .hero-product-main{width:190px;height:240px;padding:17px}
+  .hero-product-main img{max-width:86%;max-height:86%}
+  .hero-product-fixed-caption{width:min(78%,300px);bottom:5px;padding:6px 11px 5px}
+}
+@media(max-width:560px){
+  .hero-product-main{width:150px;height:195px;padding:13px}
+  .hero-product-fixed-caption{width:calc(100% - 42px);bottom:2px;padding:5px 9px 4px}
+  .hero-product-fixed-caption h2{font-size:.72rem}
+  .hero-product-fixed-caption small,.hero-product-fixed-caption span{font-size:.36rem}
+}
