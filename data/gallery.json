@@ -39,5 +39,41 @@
         "title": "Enviroment Day (22)"
       }
     ]
+  },
+  {
+    "id": "inauguration-day",
+    "title": "Inauguration Day",
+    "images": [
+      {
+        "src": "images/gallery/Inauguration Day/Inauguration 2.png",
+        "alt": "Inauguration 2",
+        "title": "Inauguration 2"
+      },
+      {
+        "src": "images/gallery/Inauguration Day/Inauguration 6.JPG",
+        "alt": "Inauguration 6",
+        "title": "Inauguration 6"
+      },
+      {
+        "src": "images/gallery/Inauguration Day/Inauguration12.JPG",
+        "alt": "Inauguration12",
+        "title": "Inauguration12"
+      },
+      {
+        "src": "images/gallery/Inauguration Day/Inauguration15.png",
+        "alt": "Inauguration15",
+        "title": "Inauguration15"
+      },
+      {
+        "src": "images/gallery/Inauguration Day/Inauguration17.png",
+        "alt": "Inauguration17",
+        "title": "Inauguration17"
+      },
+      {
+        "src": "images/gallery/Inauguration Day/Inauguration21.png",
+        "alt": "Inauguration21",
+        "title": "Inauguration21"
+      }
+    ]
   }
 ]
