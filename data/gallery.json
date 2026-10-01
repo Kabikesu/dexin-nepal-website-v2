@@ -41,6 +41,17 @@
     ]
   },
   {
+    "id": "factory-images",
+    "title": "Factory Images",
+    "images": [
+      {
+        "src": "images/gallery/Factory Images/Inauguration 2.png",
+        "alt": "Inauguration 2",
+        "title": "Inauguration 2"
+      }
+    ]
+  },
+  {
     "id": "fire-safety-and-emergency-preparedness-tranning",
     "title": "Fire Safety And Emergency Preparedness Tranning",
     "images": [
