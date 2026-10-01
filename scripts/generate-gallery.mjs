@@ -5,7 +5,7 @@ const root = path.resolve("images/gallery");
 const output = path.resolve("data/gallery.json");
 const extensions = new Set([".jpg", ".jpeg", ".png", ".webp", ".avif"]);
 
-function titleFromName(name) {
+function titleFromFile(name) {
   return name
     .replace(/\.[^.]+$/, "")
     .replace(/[-_]+/g, " ")
@@ -14,70 +14,85 @@ function titleFromName(name) {
     .replace(/\b\w/g, c => c.toUpperCase());
 }
 
-function slugFromName(name) {
-  return name
+function slugFromPath(relativePath) {
+  return relativePath
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
 }
 
-function collectImages(dir, relativeDir = "") {
-  if (!fs.existsSync(dir)) return [];
+function imageFiles(dir, relativeDir) {
+  return fs.readdirSync(dir, { withFileTypes: true })
+    .filter(entry =>
+      entry.isFile() &&
+      extensions.has(path.extname(entry.name).toLowerCase())
+    )
+    .sort((a, b) =>
+      a.name.localeCompare(b.name, undefined, {
+        numeric: true,
+        sensitivity: "base"
+      })
+    )
+    .map(entry => {
+      const src = path.posix.join(
+        "images/gallery",
+        relativeDir,
+        entry.name
+      );
 
+      return {
+        src,
+        alt: titleFromFile(entry.name),
+        title: titleFromFile(entry.name)
+      };
+    });
+}
+
+function collectAlbums(dir, relativeDir = "") {
+  const albums = [];
   const entries = fs.readdirSync(dir, { withFileTypes: true })
-    .sort((a, b) => a.name.localeCompare(b.name, undefined, {
-      numeric: true,
-      sensitivity: "base"
-    }));
+    .sort((a, b) =>
+      a.name.localeCompare(b.name, undefined, {
+        numeric: true,
+        sensitivity: "base"
+      })
+    );
 
-  const images = [];
+  const images = imageFiles(dir, relativeDir);
 
-  for (const entry of entries) {
-    const absolutePath = path.join(dir, entry.name);
-
-    if (entry.isFile() && extensions.has(path.extname(entry.name).toLowerCase())) {
-      const relativePath = relativeDir
-        ? path.posix.join("images/gallery", relativeDir, entry.name)
-        : path.posix.join("images/gallery", entry.name);
-
-      images.push({
-        src: relativePath,
-        alt: titleFromName(entry.name),
-        title: titleFromName(entry.name)
-      });
-      continue;
-    }
-
-    if (entry.isDirectory()) {
-      const childRelative = relativeDir
-        ? path.posix.join(relativeDir, entry.name)
-        : entry.name;
-
-      images.push(...collectImages(absolutePath, childRelative));
-    }
+  // Every folder containing images directly becomes an album.
+  // This means images/gallery/Events/Annual Dinner/ will display
+  // "Annual Dinner" as its own album.
+  if (images.length && relativeDir) {
+    albums.push({
+      id: slugFromPath(relativeDir),
+      title: path.basename(relativeDir),
+      images
+    });
   }
 
-  return images;
+  // Parent folders are only organizational containers when they
+  // contain subfolders. They do not become empty/combined albums.
+  for (const entry of entries) {
+    if (!entry.isDirectory()) continue;
+
+    const childDir = path.join(dir, entry.name);
+    const childRelative = relativeDir
+      ? path.posix.join(relativeDir, entry.name)
+      : entry.name;
+
+    albums.push(...collectAlbums(childDir, childRelative));
+  }
+
+  return albums;
 }
 
 function build() {
-  if (!fs.existsSync(root)) fs.mkdirSync(root, { recursive: true });
+  if (!fs.existsSync(root)) {
+    fs.mkdirSync(root, { recursive: true });
+  }
 
-  const albums = fs.readdirSync(root, { withFileTypes: true })
-    .filter(entry => entry.isDirectory())
-    .sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: "base" }))
-    .map(entry => {
-      const images = collectImages(path.join(root, entry.name), entry.name);
-
-      return images.length
-        ? {
-            id: slugFromName(entry.name),
-            title: entry.name,
-            images
-          }
-        : null;
-    })
-    .filter(Boolean);
+  const albums = collectAlbums(root);
 
   fs.mkdirSync(path.dirname(output), { recursive: true });
   fs.writeFileSync(output, JSON.stringify(albums, null, 2) + "\n");
