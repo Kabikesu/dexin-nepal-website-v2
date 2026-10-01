@@ -1,1 +1,43 @@
-[]
+[
+  {
+    "id": "environment-day",
+    "title": "Environment Day",
+    "images": [
+      {
+        "src": "images/gallery/Environment Day/1.jpeg",
+        "alt": "1",
+        "title": "1"
+      },
+      {
+        "src": "images/gallery/Environment Day/2.jpeg",
+        "alt": "2",
+        "title": "2"
+      },
+      {
+        "src": "images/gallery/Environment Day/3.jpeg",
+        "alt": "3",
+        "title": "3"
+      },
+      {
+        "src": "images/gallery/Environment Day/4.jpeg",
+        "alt": "4",
+        "title": "4"
+      },
+      {
+        "src": "images/gallery/Environment Day/Enviroment Day (6).jpeg",
+        "alt": "Enviroment Day (6)",
+        "title": "Enviroment Day (6)"
+      },
+      {
+        "src": "images/gallery/Environment Day/Enviroment Day (8).jpeg",
+        "alt": "Enviroment Day (8)",
+        "title": "Enviroment Day (8)"
+      },
+      {
+        "src": "images/gallery/Environment Day/Enviroment Day (22).jpeg",
+        "alt": "Enviroment Day (22)",
+        "title": "Enviroment Day (22)"
+      }
+    ]
+  }
+]
