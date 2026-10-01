@@ -41,8 +41,8 @@
     ]
   },
   {
-    "id": "events",
-    "title": "Events",
+    "id": "events-blood-donation-camp",
+    "title": "Blood donation Camp",
     "images": [
       {
         "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff (2).jpeg",
@@ -83,7 +83,13 @@
         "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Keshav Thakur(3).jpeg",
         "alt": "Blood Donation Dexin Staff Keshav Thakur(3)",
         "title": "Blood Donation Dexin Staff Keshav Thakur(3)"
-      },
+      }
+    ]
+  },
+  {
+    "id": "events-ems-training",
+    "title": "EMS Training",
+    "images": [
       {
         "src": "images/gallery/Events/EMS Training/EMS Training (1).jpg",
         "alt": "EMS Training (1)",
@@ -133,7 +139,13 @@
         "src": "images/gallery/Events/EMS Training/EMS Training (10).jpg",
         "alt": "EMS Training (10)",
         "title": "EMS Training (10)"
-      },
+      }
+    ]
+  },
+  {
+    "id": "events-gmp-training",
+    "title": "GMP Training",
+    "images": [
       {
         "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (1).jpg",
         "alt": "Group Photo For The Fire And EHS Training (1)",
@@ -198,7 +210,13 @@
         "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (17).jpg",
         "alt": "Group Photo For The Fire And EHS Training (17)",
         "title": "Group Photo For The Fire And EHS Training (17)"
-      },
+      }
+    ]
+  },
+  {
+    "id": "events-halla-training",
+    "title": "Halla Training",
+    "images": [
       {
         "src": "images/gallery/Events/Halla Training/Halla Tranning (1).jpeg",
         "alt": "Halla Tranning (1)",
@@ -288,7 +306,13 @@
         "src": "images/gallery/Events/Halla Training/Halla Tranning (18).jpeg",
         "alt": "Halla Tranning (18)",
         "title": "Halla Tranning (18)"
-      },
+      }
+    ]
+  },
+  {
+    "id": "events-personal-hygiene-and-sanitation-training-provide-by-qa-qc-manager-photos",
+    "title": "Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos",
+    "images": [
       {
         "src": "images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos/WhatsApp Image 2026-09-29 at 09.38.22.jpeg",
         "alt": "WhatsApp Image 2026 09 29 At 09.38.22",
@@ -298,7 +322,13 @@
         "src": "images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos/WhatsApp Image 2026-09-29 at 09.38.23 (1).jpeg",
         "alt": "WhatsApp Image 2026 09 29 At 09.38.23 (1)",
         "title": "WhatsApp Image 2026 09 29 At 09.38.23 (1)"
-      },
+      }
+    ]
+  },
+  {
+    "id": "events-vishakarma-puja",
+    "title": "Vishakarma Puja",
+    "images": [
       {
         "src": "images/gallery/Events/Vishakarma Puja/Vishakarma Puja 1.jpeg",
         "alt": "Vishakarma Puja 1",
