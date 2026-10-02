@@ -158,3 +158,11 @@
   .hero-product-fixed-caption h2{font-size:.72rem}
   .hero-product-fixed-caption small,.hero-product-fixed-caption span{font-size:.36rem}
 }
+
+
+/* Orbit scale refinement — larger surrounding products without changing the featured hero */
+.hero-product-ring::before{width:clamp(390px,46vw,700px);height:clamp(390px,46vw,700px)}
+.hero-product-ring::after{width:clamp(270px,33vw,500px);height:clamp(270px,33vw,500px)}
+.hero-product-orbit-item{width:clamp(94px,10.5vw,145px);height:clamp(120px,13.5vw,175px);padding:8px}
+@media(max-width:760px){.hero-product-ring::before{width:390px;height:390px}.hero-product-ring::after{width:290px;height:290px}.hero-product-orbit-item{width:84px;height:108px;padding:7px}}
+@media(max-width:560px){.hero-product-ring::before{width:300px;height:300px}.hero-product-ring::after{width:220px;height:220px}.hero-product-orbit-item{width:74px;height:94px;padding:6px}}
