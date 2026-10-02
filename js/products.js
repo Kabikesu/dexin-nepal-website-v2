@@ -328,8 +328,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (topGrid && !items.some(p => p.featured === true)) {
       topGrid.innerHTML = '<p class="product-loading">Featured products will appear here when selected in the product data.</p>';
     } else if (topGrid) {
-      renderCategoryDetail("DXN Coffee");
-      render("DXN Coffee");
+      const requestedCategory = new URLSearchParams(window.location.search).get("category");
+      const validCategories = Object.keys(topCategoryContent);
+      const category = validCategories.includes(requestedCategory) ? requestedCategory : "DXN Coffee";
+      renderCategoryDetail(category);
+      render(category);
+      topCategoryButtons.forEach(button => {
+        button.classList.toggle("is-active", button.dataset.topCategory === category);
+      });
     } else {
       render("all");
     }
