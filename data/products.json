@@ -7,9 +7,10 @@
     "image": "images/products/coffee/Cocozhi.jpg",
     "packageSize": "",
     "status": "current",
-    "featured": false,
+    "featured": true,
     "upcoming": false,
-    "published": true
+    "published": true,
+    "topCategory": "DXN Cocozhi"
   },
   {
     "id": "cordyceps-coffee-3-in-1",
@@ -19,9 +20,10 @@
     "image": "images/products/coffee/Cordyceps Coffee 3 in 1.jpg",
     "packageSize": "",
     "status": "current",
-    "featured": false,
+    "featured": true,
     "upcoming": false,
-    "published": true
+    "published": true,
+    "topCategory": "DXN Coffee"
   },
   {
     "id": "lingzhi-coffee-2-in-1",
@@ -31,9 +33,10 @@
     "image": "images/products/coffee/Lingzhi Coffee 2 in 1.jpg",
     "packageSize": "",
     "status": "current",
-    "featured": false,
+    "featured": true,
     "upcoming": false,
-    "published": true
+    "published": true,
+    "topCategory": "DXN Coffee"
   },
   {
     "id": "lingzhi-coffee-3-in-1",
@@ -43,9 +46,10 @@
     "image": "images/products/coffee/Lingzhi Coffee 3 in 1.jpg",
     "packageSize": "",
     "status": "current",
-    "featured": false,
+    "featured": true,
     "upcoming": false,
-    "published": true
+    "published": true,
+    "topCategory": "DXN Coffee"
   },
   {
     "id": "cordyceps-capsule-360",
@@ -91,9 +95,10 @@
     "image": "images/products/nutraceuticals/Ganocelium GL-90.jpg",
     "packageSize": "90 Caps. × 450 mg",
     "status": "current",
-    "featured": false,
+    "featured": true,
     "upcoming": false,
-    "published": true
+    "published": true,
+    "topCategory": "DXN RG & GL"
   },
   {
     "id": "gl-tablet",
@@ -103,9 +108,10 @@
     "image": "images/products/nutraceuticals/GL Tablet.png",
     "packageSize": "",
     "status": "current",
-    "featured": false,
+    "featured": true,
     "upcoming": false,
-    "published": true
+    "published": true,
+    "topCategory": "DXN RG & GL"
   },
   {
     "id": "lionsmane-capsule-120",
@@ -151,9 +157,10 @@
     "image": "images/products/nutraceuticals/Reishi Gano RG-90.jpg",
     "packageSize": "90 Caps × 270 mg",
     "status": "current",
-    "featured": false,
+    "featured": true,
     "upcoming": false,
-    "published": true
+    "published": true,
+    "topCategory": "DXN RG & GL"
   },
   {
     "id": "rg-tablet",
@@ -163,9 +170,10 @@
     "image": "images/products/nutraceuticals/RG Tablet.png",
     "packageSize": "",
     "status": "current",
-    "featured": false,
+    "featured": true,
     "upcoming": false,
-    "published": true
+    "published": true,
+    "topCategory": "DXN RG & GL"
   },
   {
     "id": "spirulina-120-capsule",
@@ -175,9 +183,10 @@
     "image": "images/products/nutraceuticals/Spirulina 120 Capsule .png",
     "packageSize": "120 Caps. × 300 mg",
     "status": "current",
-    "featured": false,
+    "featured": true,
     "upcoming": false,
-    "published": true
+    "published": true,
+    "topCategory": "DXN Spirulina"
   },
   {
     "id": "spirulina-120-tablet",
@@ -187,9 +196,10 @@
     "image": "images/products/nutraceuticals/Spirulina 120 Tablet.png",
     "packageSize": "120 Tabs × 300 mg",
     "status": "current",
-    "featured": false,
+    "featured": true,
     "upcoming": false,
-    "published": true
+    "published": true,
+    "topCategory": "DXN Spirulina"
   },
   {
     "id": "spirulina-360-capsule",
@@ -199,9 +209,10 @@
     "image": "images/products/nutraceuticals/Spirulina 360 Capsule .png",
     "packageSize": "360 Caps. × 300 mg",
     "status": "current",
-    "featured": false,
+    "featured": true,
     "upcoming": false,
-    "published": true
+    "published": true,
+    "topCategory": "DXN Spirulina"
   },
   {
     "id": "spirulina-360-tablet",
@@ -211,9 +222,10 @@
     "image": "images/products/nutraceuticals/Spirulina 360 Tablet  .png",
     "packageSize": "360 Tabs × 300 mg",
     "status": "current",
-    "featured": false,
+    "featured": true,
     "upcoming": false,
-    "published": true
+    "published": true,
+    "topCategory": "DXN Spirulina"
   },
   {
     "id": "spirulina-50g-powder",
@@ -223,9 +235,10 @@
     "image": "images/products/nutraceuticals/Spirulina 50g Powder.png",
     "packageSize": "50 gm",
     "status": "current",
-    "featured": false,
+    "featured": true,
     "upcoming": false,
-    "published": true
+    "published": true,
+    "topCategory": "DXN Spirulina"
   },
   {
     "id": "reishi-gano-rg-360",
