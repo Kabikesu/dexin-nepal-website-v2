@@ -328,6 +328,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (topGrid && !items.some(p => p.featured === true)) {
       topGrid.innerHTML = '<p class="product-loading">Featured products will appear here when selected in the product data.</p>';
     } else if (topGrid) {
+      renderCategoryDetail("DXN Coffee");
       render("DXN Coffee");
     } else {
       render("all");
