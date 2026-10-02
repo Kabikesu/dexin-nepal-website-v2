@@ -73,8 +73,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   const layout = () => {
     const width = stage.clientWidth;
     const small = window.innerWidth <= 560, mobile = window.innerWidth <= 760;
-    const rx = small ? Math.min(width * .39, 135) : mobile ? Math.min(width * .41, 205) : Math.min(width * .43, 315);
-    const ry = small ? 112 : mobile ? 145 : 205;
+    const rx = small ? Math.min(width * .42, 150) : mobile ? Math.min(width * .44, 225) : Math.min(width * .46, 350);
+    const ry = small ? 122 : mobile ? 160 : 225;
     const step = Math.PI * 2 / count;
     let best = 0, bestScore = -Infinity;
     nodes.forEach((node, i) => {
