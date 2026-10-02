@@ -5,12 +5,119 @@ document.addEventListener("DOMContentLoaded", async () => {
   const grid = allGrid || topGrid || upcomingGrid;
   const filters = [...document.querySelectorAll(".product-filter")];
   const topCategoryButtons = [...document.querySelectorAll(".top-product-submenu-item")];
-  const topCategoryIntro = document.getElementById("top-product-category-intro");
-  const topCategoryDescriptions = {
-    "DXN Coffee":"Selected coffee products from the Dexin portfolio.",
-    "DXN RG & GL":"Selected Reishi Gano (RG) and Ganocelium (GL) products.",
-    "DXN Spirulina":"Selected Spirulina capsules, tablets and powder products.",
-    "DXN Cocozhi":"Cocozhi cocoa drink premix with Ganoderma extract."
+  const topCategoryDetail = document.getElementById("top-product-category-detail");
+  const topCategoryProductsTitle = document.getElementById("top-product-products-title");
+  const topCategoryContent = {
+    "DXN Coffee": {
+      eyebrow: "DXN Coffee",
+      title: "Discover the Essence of Wellness with DXN Coffee",
+      intro: "Indulge in a cup of DXN Coffee, where taste meets health in perfect harmony. Crafted with premium coffee beans and enriched with Ganoderma lucidum (Lingzhi), DXN Coffee offers an extraordinary experience that delights your senses while supporting your well-being.",
+      image: "https://www.dxn2u.com/topproduct/images/COFFEE.jpg",
+      imageAlt: "DXN Coffee Beans",
+      sections: [
+        {
+          title: "Why Choose DXN Coffee?",
+          blocks: [
+            {heading:"Premium Ingredients", bullets:[
+              "Made with high-quality coffee beans for a rich, aromatic flavour.",
+              "Infused with Ganoderma extract, a powerful mushroom known for its health benefits."
+            ]}
+          ]
+        }
+      ]
+    },
+    "DXN RG & GL": {
+      eyebrow: "DXN RG & GL",
+      title: "DXN RG & GL: Your Path to Holistic Wellness",
+      intro: "DXN’s Reishi Gano (RG) and Ganocelium (GL) capsules are premium dietary supplements made from the Ganoderma lucidum mushroom, also known as Lingzhi. Revered for centuries in traditional medicine, this “King of Herbs” offers powerful health benefits that promote balance and vitality.",
+      image: "https://www.dxn2u.com/topproduct/images/LINGZHI.jpg",
+      imageAlt: "DXN RG GL",
+      sections: [
+        {
+          title: "Why Choose DXN RG and GL?",
+          blocks: [
+            {heading:"Derived from the Finest Ganoderma", bullets:[
+              "RG (Reishi Gano): Made from a mature Ganoderma mushroom, RG is rich in triterpenes, which support detoxification and immune function.",
+              "GL (Ganocelium): Made from mycelium of young Ganoderma mushrooms, GL is packed with polysaccharides, vitamins, and minerals for cellular health."
+            ]}
+          ]
+        }
+      ]
+    },
+    "DXN Spirulina": {
+      eyebrow: "DXN Spirulina",
+      title: "Unlock the Power of Nature with DXN Spirulina",
+      intro: "DXN Spirulina is your ultimate superfood supplement, packed with essential nutrients to support your health and vitality. Known as a “complete food,” spirulina is a natural, nutrient-dense algae that offers a wide range of health benefits. With DXN’s commitment to quality, you can enjoy all the goodness of spirulina in its purest form.",
+      image: "https://www.dxn2u.com/topproduct/images/SPIRULINA.jpg",
+      imageAlt: "DXN Spirulina",
+      sections: [
+        {
+          title: "Why Choose DXN Spirulina?",
+          blocks: [
+            {heading:"Rich in Essential Nutrients", bullets:[
+              "Packed with vitamins, minerals, proteins, and antioxidants.",
+              "A natural source of iron, calcium, and B vitamins to fuel your body."
+            ]}
+          ]
+        },
+        {
+          title: "Who Can Benefit from DXN Spirulina?",
+          paragraphs:[
+            "Health-conscious individuals looking for a daily nutritional boost.",
+            "Athletes and fitness enthusiasts needing a natural protein source.",
+            "Busy professionals and students seeking enhanced energy and focus.",
+            "Vegetarians and vegans requiring a plant-based nutrient supplement."
+          ]
+        },
+        {
+          title: "How to Enjoy DXN Spirulina",
+          blocks: [
+            {bullets:[
+              "Tablets: Convenient and easy to take on the go.",
+              "Powder: Mix it into smoothies, juices, or water for a nutritional boost.",
+              "Recipes: Add it to soups, salads, or baked goods for a vibrant, healthy twist."
+            ]}
+          ]
+        }
+      ]
+    },
+    "DXN Cocozhi": {
+      eyebrow: "DXN Cocozhi",
+      title: "Savour the Creamy Goodness of DXN Cocozhi",
+      intro: "DXN Cocozhi is a delicious and nutritious beverage made with the finest cocoa and enriched with Ganoderma lucidum, offering the perfect combination of taste and health benefits. Whether you are looking to unwind after a long day or need a comforting boost, DXN Cocozhi is your go-to drink for both pleasure and wellness.",
+      image: "https://www.dxn2u.com/topproduct/images/COCOZHI.jpg",
+      imageAlt: "DXN Cocozhi",
+      sections: [
+        {
+          title: "Why Choose DXN Cocozhi?",
+          blocks: [
+            {heading:"A Rich and Creamy Cocoa Experience", bullets:[
+              "Made with premium cocoa, DXN Cocozhi offers a velvety smooth texture and a rich, indulgent taste that satisfies your cravings without the guilt.",
+              "Naturally sweetened and free from artificial flavours, it provides a wholesome cocoa experience."
+            ]}
+          ]
+        },
+        {
+          title: "Health Benefits of DXN Cocozhi",
+          blocks: [
+            {heading:"Boosts Energy Naturally", paragraphs:["Offers a natural energy boost without the need for caffeine or sugar-laden drinks."]},
+            {heading:"Supports Heart Health", paragraphs:["Contains antioxidants that contribute to cardiovascular health and improved circulation."]},
+            {heading:"Aids Digestion", paragraphs:["The combination of Ganoderma and cocoa can support healthy digestion and gut function."]},
+            {heading:"Promotes Mental Clarity", paragraphs:["Helps enhance focus and concentration with its balanced nutritional profile."]}
+          ]
+        },
+        {
+          title: "How to Enjoy DXN Cocozhi",
+          blocks: [
+            {bullets:[
+              "Tear open a sachet of DXN Cocozhi.",
+              "Add the powder to a cup of hot water.",
+              "Stir well and savour the creamy, chocolatey goodness."
+            ]}
+          ]
+        }
+      ]
+    }
   };
   if (!grid) return;
 
@@ -183,13 +290,32 @@ document.addEventListener("DOMContentLoaded", async () => {
       });
     };
 
+    const renderCategoryDetail = category => {
+      const data = topCategoryContent[category];
+      if (!topCategoryDetail || !data) return;
+
+      const sections = data.sections.map(section => {
+        const blocks = (section.blocks || []).map(block => {
+          const heading = block.heading ? '<h4>' + escapeHtml(block.heading) + '</h4>' : '';
+          const paragraphs = (block.paragraphs || []).map(p => '<p>' + escapeHtml(p) + '</p>').join('');
+          const bullets = block.bullets ? '<ul>' + block.bullets.map(item => '<li>' + escapeHtml(item) + '</li>').join('') + '</ul>' : '';
+          return '<div class="top-product-copy-block">' + heading + paragraphs + bullets + '</div>';
+        }).join('');
+        const paragraphs = (section.paragraphs || []).map(p => '<p>' + escapeHtml(p) + '</p>').join('');
+        return '<section class="top-product-detail-section"><h3>' + escapeHtml(section.title) + '</h3>' + paragraphs + blocks + '</section>';
+      }).join('');
+
+      topCategoryDetail.innerHTML =
+        '<div class="top-product-detail-media"><img src="' + escapeHtml(data.image) + '" alt="' + escapeHtml(data.imageAlt) + '" loading="lazy"><span>' + escapeHtml(data.imageAlt) + '</span></div>' +
+        '<div class="top-product-detail-copy"><span class="section-label">' + escapeHtml(data.eyebrow) + '</span><h2>' + escapeHtml(data.title) + '</h2><p class="top-product-detail-intro">' + escapeHtml(data.intro) + '</p>' + sections + '</div>';
+      if (topCategoryProductsTitle) topCategoryProductsTitle.textContent = category;
+    };
+
     topCategoryButtons.forEach(button => button.addEventListener("click", () => {
       const category = button.dataset.topCategory || "";
       topCategoryButtons.forEach(item => item.classList.remove("is-active"));
       button.classList.add("is-active");
-      if (topCategoryIntro) {
-        topCategoryIntro.innerHTML = '<span class="section-label">' + escapeHtml(category) + '</span><p>' + escapeHtml(topCategoryDescriptions[category] || "") + '</p>';
-      }
+      renderCategoryDetail(category);
       render(category);
     }));
 
