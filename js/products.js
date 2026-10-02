@@ -4,6 +4,14 @@ document.addEventListener("DOMContentLoaded", async () => {
   const upcomingGrid = document.getElementById("upcoming-products");
   const grid = allGrid || topGrid || upcomingGrid;
   const filters = [...document.querySelectorAll(".product-filter")];
+  const topCategoryButtons = [...document.querySelectorAll(".top-product-submenu-item")];
+  const topCategoryIntro = document.getElementById("top-product-category-intro");
+  const topCategoryDescriptions = {
+    "DXN Coffee":"Selected coffee products from the Dexin portfolio.",
+    "DXN RG & GL":"Selected Reishi Gano (RG) and Ganocelium (GL) products.",
+    "DXN Spirulina":"Selected Spirulina capsules, tablets and powder products.",
+    "DXN Cocozhi":"Cocozhi cocoa drink premix with Ganoderma extract."
+  };
   if (!grid) return;
 
   const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
@@ -164,7 +172,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const render = filter => {
       let visible = items;
-      if (topGrid) visible = items.filter(p => p.featured === true);
+      if (topGrid) visible = items.filter(p => p.featured === true && (!filter || p.topCategory === filter));
       if (upcomingGrid) visible = items.filter(p => p.status === "upcoming");
       if (allGrid && (filter === "current" || filter === "upcoming")) visible = items.filter(p => p.status === filter);
       if (allGrid && (filter === "Coffee" || filter === "Nutraceuticals")) visible = items.filter(p => p.type === filter);
@@ -175,6 +183,16 @@ document.addEventListener("DOMContentLoaded", async () => {
       });
     };
 
+    topCategoryButtons.forEach(button => button.addEventListener("click", () => {
+      const category = button.dataset.topCategory || "";
+      topCategoryButtons.forEach(item => item.classList.remove("is-active"));
+      button.classList.add("is-active");
+      if (topCategoryIntro) {
+        topCategoryIntro.innerHTML = '<span class="section-label">' + escapeHtml(category) + '</span><p>' + escapeHtml(topCategoryDescriptions[category] || "") + '</p>';
+      }
+      render(category);
+    }));
+
     filters.forEach(button => button.addEventListener("click", () => {
       filters.forEach(item => { item.classList.remove("is-active"); item.setAttribute("aria-selected","false"); });
       button.classList.add("is-active");
@@ -183,6 +201,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     }));
     if (topGrid && !items.some(p => p.featured === true)) {
       topGrid.innerHTML = '<p class="product-loading">Featured products will appear here when selected in the product data.</p>';
+    } else if (topGrid) {
+      render("DXN Coffee");
     } else {
       render("all");
     }
