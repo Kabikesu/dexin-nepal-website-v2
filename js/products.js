@@ -268,7 +268,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           const img = document.createElement("img");
           img.src = product.image;
           img.alt = product.name;
-          img.loading = index < 8 ? "eager" : "lazy";
+          img.loading = index < 10 ? "eager" : "lazy";
           img.decoding = "async";
           media.appendChild(img);
         } else {
@@ -284,11 +284,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         name.className = "hero-product-name";
         name.textContent = product.name;
 
-        const type = document.createElement("span");
-        type.className = "hero-product-type";
-        type.textContent = product.type || "Product";
-
-        card.append(media, name, type);
+        card.append(media, name);
         return card;
       };
 
@@ -296,37 +292,38 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       const cards = [...stage.children];
       const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      let rotation = 0;
+      let offset = 0;
       let lastTime = performance.now();
       let paused = false;
 
       const layout = () => {
-        const width = stage.parentElement?.clientWidth || 920;
+        const width = stage.parentElement?.clientWidth || 1000;
         const mobile = window.innerWidth <= 760;
         const small = window.innerWidth <= 560;
-        const radiusX = small ? Math.min(width * .40, 175) : mobile ? Math.min(width * .43, 245) : Math.min(width * .45, 350);
-        const radiusY = small ? 135 : mobile ? 170 : 235;
-        const step = (Math.PI * 2) / cards.length;
+        const spacing = small ? 82 : mobile ? 108 : Math.min(150, Math.max(112, width / 8.2));
+        const center = (cards.length - 1) / 2;
 
         cards.forEach((card, index) => {
-          const angle = rotation + index * step;
-          const x = Math.cos(angle) * radiusX;
-          const y = Math.sin(angle) * radiusY;
-          const depth = (Math.sin(angle) + 1) / 2;
-          const scale = .72 + depth * .27;
-          const visible = depth > .12;
+          let distance = index - center + offset;
+          const wrapped = ((distance + cards.length / 2) % cards.length) - cards.length / 2;
+          const abs = Math.abs(wrapped);
+          const x = wrapped * spacing;
+          const scale = abs < .5 ? 1.18 : Math.max(.72, 1.03 - abs * .08);
+          const opacity = abs > 5 ? 0 : Math.max(.42, 1 - abs * .12);
+          const z = 20 - Math.round(abs * 2);
 
-          card.style.pointerEvents = visible ? "auto" : "none";
-          card.style.transform = "translate3d(" + x + "px," + y + "px,0) scale(" + scale + ")";
-          card.style.opacity = visible ? (.28 + depth * .72).toFixed(3) : "0";
-          card.style.zIndex = String(1 + Math.round(depth * 10));
-          card.classList.toggle("is-front", depth > .78);
+          card.style.transform = "translate3d(" + x + "px,-50%,0) scale(" + scale + ")";
+          card.style.opacity = opacity.toFixed(3);
+          card.style.zIndex = String(z);
+          card.style.pointerEvents = opacity > .2 ? "auto" : "none";
+          card.classList.toggle("is-front", abs < .5);
         });
       };
 
       const tick = time => {
         if (!paused && !reduceMotion) {
-          rotation += Math.min(time - lastTime, 40) * .000075;
+          offset += Math.min(time - lastTime, 40) * 0.00042;
+          if (offset >= 1) offset -= 1;
         }
         lastTime = time;
         layout();
@@ -342,7 +339,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       layout();
       if (!reduceMotion) requestAnimationFrame(tick);
     };
-
     renderHomeProducts(items);
 
     const normalizeProductImages = root => {
