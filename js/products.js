@@ -250,6 +250,100 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     renderHeroProducts(items);
 
+    const renderHomeProducts = catalogue => {
+      const stage = document.getElementById("product-orbit");
+      if (!stage || !catalogue.length) return;
+
+      const makeItem = (product, index) => {
+        const card = document.createElement("a");
+        card.className = "hero-product-orbit-card";
+        card.href = "product-detail.html?id=" + encodeURIComponent(product.id || product.name);
+        card.setAttribute("aria-label", "View " + product.name);
+
+        const media = document.createElement("span");
+        media.className = "hero-product-item";
+
+        if (product.image) {
+          const img = document.createElement("img");
+          img.src = product.image;
+          img.alt = product.name;
+          img.loading = index < 8 ? "eager" : "lazy";
+          img.decoding = "async";
+          media.appendChild(img);
+        } else {
+          media.classList.add("hero-product-item-empty");
+          const brand = document.createElement("span");
+          brand.textContent = "DEXIN";
+          const status = document.createElement("small");
+          status.textContent = "IMAGE COMING SOON";
+          media.append(brand, status);
+        }
+
+        const name = document.createElement("span");
+        name.className = "hero-product-name";
+        name.textContent = product.name;
+
+        const type = document.createElement("span");
+        type.className = "hero-product-type";
+        type.textContent = product.type || "Product";
+
+        card.append(media, name, type);
+        return card;
+      };
+
+      stage.replaceChildren(...catalogue.map(makeItem));
+
+      const cards = [...stage.children];
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      let rotation = 0;
+      let lastTime = performance.now();
+      let paused = false;
+
+      const layout = () => {
+        const width = stage.parentElement?.clientWidth || 920;
+        const mobile = window.innerWidth <= 760;
+        const small = window.innerWidth <= 560;
+        const radiusX = small ? Math.min(width * .40, 175) : mobile ? Math.min(width * .43, 245) : Math.min(width * .45, 350);
+        const radiusY = small ? 135 : mobile ? 170 : 235;
+        const step = (Math.PI * 2) / cards.length;
+
+        cards.forEach((card, index) => {
+          const angle = rotation + index * step;
+          const x = Math.cos(angle) * radiusX;
+          const y = Math.sin(angle) * radiusY;
+          const depth = (Math.sin(angle) + 1) / 2;
+          const scale = .72 + depth * .27;
+          const visible = depth > .12;
+
+          card.style.pointerEvents = visible ? "auto" : "none";
+          card.style.transform = "translate3d(" + x + "px," + y + "px,0) scale(" + scale + ")";
+          card.style.opacity = visible ? (.28 + depth * .72).toFixed(3) : "0";
+          card.style.zIndex = String(1 + Math.round(depth * 10));
+          card.classList.toggle("is-front", depth > .78);
+        });
+      };
+
+      const tick = time => {
+        if (!paused && !reduceMotion) {
+          rotation += Math.min(time - lastTime, 40) * .000075;
+        }
+        lastTime = time;
+        layout();
+        if (!reduceMotion) requestAnimationFrame(tick);
+      };
+
+      stage.addEventListener("mouseenter", () => { paused = true; });
+      stage.addEventListener("mouseleave", () => { paused = false; lastTime = performance.now(); });
+      stage.addEventListener("focusin", () => { paused = true; });
+      stage.addEventListener("focusout", () => { paused = false; lastTime = performance.now(); });
+      window.addEventListener("resize", layout, { passive: true });
+
+      layout();
+      if (!reduceMotion) requestAnimationFrame(tick);
+    };
+
+    renderHomeProducts(items);
+
     const normalizeProductImages = root => {
       root.querySelectorAll(".product-image-normalized").forEach(img => {
         const applyScale = () => {
