@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const topGrid = document.getElementById("top-products");
   const upcomingGrid = document.getElementById("upcoming-products");
   const grid = allGrid || topGrid || upcomingGrid;
+  const homeProductStage = document.getElementById("product-orbit");
   const filters = [...document.querySelectorAll(".product-filter")];
   const topCategoryButtons = [...document.querySelectorAll(".top-product-submenu-item")];
   const topCategoryDetail = document.getElementById("top-product-category-detail");
@@ -119,7 +120,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       ]
     }
   };
-  if (!grid) return;
+  if (!grid && !homeProductStage) return;
 
   const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
   const published = product => product.published !== false && ["current","upcoming"].includes(product.status);
@@ -377,6 +378,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (upcomingGrid) visible = items.filter(p => p.status === "upcoming");
       if (allGrid && (filter === "current" || filter === "upcoming")) visible = items.filter(p => p.status === filter);
       if (allGrid && (filter === "Coffee" || filter === "Nutraceuticals")) visible = items.filter(p => p.type === filter);
+      if (!grid) return;
       grid.innerHTML = visible.length ? visible.map(card).join("") : '<p class="product-loading">No products are available in this view yet.</p>';
       normalizeProductImages(grid);
       grid.querySelectorAll(".reveal").forEach((el, i) => {
@@ -434,6 +436,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       render("all");
     }
   } catch (error) {
-    grid.innerHTML = '<p class="product-loading">Product data is not available yet.</p>';
+    if (grid) grid.innerHTML = '<p class="product-loading">Product data is not available yet.</p>';
   }
 });
