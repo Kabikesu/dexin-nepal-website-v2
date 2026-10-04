@@ -13,7 +13,7 @@
 }
 .home-product-stage{
   position:relative;
-  min-height:420px;
+  min-height:480px;
   display:grid;
   place-items:center;
   margin:12px auto 8px;
@@ -21,7 +21,7 @@
 .product-stage-modern{
   position:relative;
   width:min(100%,920px);
-  height:390px;
+  height:470px;
   overflow:hidden;
   border:1px solid rgba(255,255,255,.12);
   border-radius:28px;
@@ -145,10 +145,10 @@
 }
 @media(max-width:900px){
   .home-product-stage{
-    min-height:390px;
+    min-height:420px;
   }
   .product-stage-modern{
-    height:360px;
+    height:400px;
   }
 }
 @media(max-width:600px){
@@ -156,13 +156,13 @@
     padding-block:52px 58px;
   }
   .home-product-stage{
-    min-height:335px;
+    min-height:365px;
     margin-top:8px;
   }
   .product-stage-modern{
     width:calc(100% + 18px);
     margin-inline:-9px;
-    height:310px;
+    height:350px;
     border-radius:22px;
   }
   .product-stage-modern::before{
