@@ -237,7 +237,8 @@ document.addEventListener("DOMContentLoaded", async () => {
           img.alt = product.name;
           img.loading = index < 8 ? "eager" : "lazy";
           img.decoding = "async";
-          media.appendChild(img);\n          normalizeHeroOrbitImage(img);
+          media.appendChild(img);
+          normalizeHeroOrbitImage(img);
         } else {
           media.classList.add("hero-product-item-empty");
           const brand = document.createElement("span");
