@@ -51,10 +51,82 @@ document.addEventListener("DOMContentLoaded", async () => {
     img.alt = product.name;
     img.loading = i < 8 ? "eager" : "lazy";
     img.decoding = "async";
-    button.appendChild(img);
+    button.appendChild(img);\n    normalizeOrbitImage(img);
     ring.appendChild(button);
     nodes.push(button);
   }
+
+  const normalizeOrbitImage = img => {
+    const apply = () => {
+      if (!img.naturalWidth || !img.naturalHeight || !img.parentElement) return;
+
+      const box = img.parentElement;
+      const boxWidth = box.clientWidth;
+      const boxHeight = box.clientHeight;
+      if (!boxWidth || !boxHeight) return;
+
+      let visibleWidth = 1;
+      let visibleHeight = 1;
+
+      // Detect transparent padding in PNG/WebP assets so every product
+      // occupies a similar visual area without cropping the actual product.
+      try {
+        const maxSide = 700;
+        const ratio = Math.min(1, maxSide / Math.max(img.naturalWidth, img.naturalHeight));
+        const canvas = document.createElement("canvas");
+        canvas.width = Math.max(1, Math.round(img.naturalWidth * ratio));
+        canvas.height = Math.max(1, Math.round(img.naturalHeight * ratio));
+        const context = canvas.getContext("2d", { willReadFrequently: true });
+
+        if (context) {
+          context.drawImage(img, 0, 0, canvas.width, canvas.height);
+          const pixels = context.getImageData(0, 0, canvas.width, canvas.height).data;
+          let minX = canvas.width, minY = canvas.height, maxX = -1, maxY = -1;
+
+          for (let y = 0; y < canvas.height; y += 2) {
+            for (let x = 0; x < canvas.width; x += 2) {
+              if (pixels[(y * canvas.width + x) * 4 + 3] > 12) {
+                minX = Math.min(minX, x);
+                minY = Math.min(minY, y);
+                maxX = Math.max(maxX, x);
+                maxY = Math.max(maxY, y);
+              }
+            }
+          }
+
+          if (maxX >= minX && maxY >= minY) {
+            visibleWidth = (maxX - minX + 1) / canvas.width;
+            visibleHeight = (maxY - minY + 1) / canvas.height;
+          }
+        }
+      } catch (_) {
+        // Fall back to normal contain behaviour if pixel inspection is unavailable.
+      }
+
+      const imageRatio = img.naturalWidth / img.naturalHeight;
+      const boxRatio = boxWidth / boxHeight;
+      const containWidth = imageRatio >= boxRatio ? boxWidth : boxHeight * imageRatio;
+      const containHeight = imageRatio >= boxRatio ? boxWidth / imageRatio : boxHeight;
+      const visibleFraction = Math.max(
+        (containWidth * visibleWidth) / boxWidth,
+        (containHeight * visibleHeight) / boxHeight
+      );
+
+      // Target a consistent visual footprint while preserving the full product.
+      const desiredScale = 0.82 / Math.max(visibleFraction, 0.05);
+      const safeScale = Math.min(
+        desiredScale,
+        0.94 / Math.max((containWidth * visibleWidth) / boxWidth, 0.05),
+        0.94 / Math.max((containHeight * visibleHeight) / boxHeight, 0.05),
+        2.2
+      );
+
+      img.style.setProperty("--orbit-image-scale", Math.max(0.92, safeScale).toFixed(3));
+    };
+
+    if (img.complete) apply();
+    else img.addEventListener("load", apply, { once: true });
+  };
 
   let rotation = 0, activeIndex = 0, raf = 0, last = performance.now(), paused = false;
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
