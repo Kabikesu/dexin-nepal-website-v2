@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     img.alt = product.name;
     img.loading = i < 8 ? "eager" : "lazy";
     img.decoding = "async";
-    button.appendChild(img);\n    normalizeOrbitImage(img);
+    button.appendChild(img);
     ring.appendChild(button);
     nodes.push(button);
   }
@@ -127,6 +127,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (img.complete) apply();
     else img.addEventListener("load", apply, { once: true });
   };
+
+  nodes.forEach(node => {
+    const img = node.querySelector("img");
+    if (img) normalizeOrbitImage(img);
+  });
 
   let rotation = 0, activeIndex = 0, raf = 0, last = performance.now(), paused = false;
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
