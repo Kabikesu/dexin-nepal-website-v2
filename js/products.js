@@ -300,7 +300,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const width = stage.parentElement?.clientWidth || 1000;
         const mobile = window.innerWidth <= 760;
         const small = window.innerWidth <= 560;
-        const spacing = small ? 82 : mobile ? 108 : Math.min(150, Math.max(112, width / 8.2));
+        const spacing = small ? 82 : mobile ? 112 : Math.min(174, Math.max(122, width / 8.1));
         const center = (cards.length - 1) / 2;
 
         cards.forEach((card, index) => {
