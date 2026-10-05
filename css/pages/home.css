@@ -710,8 +710,8 @@
 
 /* Final Home Product Rail — viewport-wide, fully visible product cards */
 .home-products{overflow:visible}
-.home-product-stage{width:100vw;max-width:none;min-height:294px;margin:10px 0 18px;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);display:block}
-.product-stage-modern{width:100vw;max-width:none;height:286px;margin:0;border-radius:0;overflow:hidden}
+.home-product-stage{width:100vw!important;max-width:none!important;min-height:262px!important;height:262px!important;margin:10px 0 18px!important;display:block}
+.product-stage-modern{width:100vw!important;max-width:none!important;height:262px!important;margin:0!important;position:relative;left:50%;transform:translateX(-50%);border-radius:0;overflow:hidden}
 .product-stage-modern .stage-center{top:16%;z-index:2}
 .product-stage-modern .stage-center span{font-size:.7rem;letter-spacing:.34em}
 .product-stage-modern .stage-center strong{font-size:clamp(1.7rem,3vw,2.65rem)}
