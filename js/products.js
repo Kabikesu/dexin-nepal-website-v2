@@ -346,6 +346,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           img.loading = index < 10 ? "eager" : "lazy";
           img.decoding = "async";
           media.appendChild(img);
+          normalizeHeroOrbitImage(img);
         } else {
           media.classList.add("hero-product-item-empty");
           const brand = document.createElement("span");
