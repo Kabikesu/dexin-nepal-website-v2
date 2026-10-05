@@ -376,7 +376,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const mobile = window.innerWidth <= 760;
         const small = window.innerWidth <= 560;
         const spacing = small ? 82 : mobile ? 112 : Math.min(174, Math.max(122, width / 8.1));
-        const center = (cards.length - 1) / 2;
+        const center = Math.floor(cards.length / 2);
 
         cards.forEach((card, index) => {
           let distance = index - center + offset;
