@@ -100,7 +100,7 @@
 .product-stage-modern .stage-center{
   position:absolute;
   left:50%;
-  top:16%;
+  top:7%;
   z-index:2;
   transform:translateX(-50%);
   display:flex;
@@ -127,7 +127,7 @@
 .product-stage-modern .product-orbit{
   position:absolute;
   left:50%;
-  top:59%;
+  top:20%;
   width:0;
   height:0;
   z-index:8;
@@ -232,8 +232,8 @@
   .home-section-intro>p{max-width:700px}
   .home-product-stage{min-height:262px!important;height:262px!important}
   .product-stage-modern{height:262px!important}
-  .product-stage-modern .stage-center{top:15%}
-  .product-stage-modern .product-orbit{top:61%}
+  .product-stage-modern .stage-center{top:7%}
+  .product-stage-modern .product-orbit{top:20%}
   .product-stage-modern .hero-product-orbit-card{
     width:126px;
     margin-left:-63px;
@@ -267,10 +267,10 @@
     height:210px!important;
     border-radius:0;
   }
-  .product-stage-modern .stage-center{top:14%}
+  .product-stage-modern .stage-center{top:7%}
   .product-stage-modern .stage-center span{font-size:.46rem}
   .product-stage-modern .stage-center strong{font-size:1.2rem}
-  .product-stage-modern .product-orbit{top:61%}
+  .product-stage-modern .product-orbit{top:20%}
   .product-stage-modern .hero-product-orbit-card{
     width:94px;
     margin-left:-47px;
