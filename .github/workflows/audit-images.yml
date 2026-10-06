@@ -1,0 +1,31 @@
+name: Audit Images
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "images/**"
+      - "scripts/audit-images.mjs"
+      - ".github/workflows/audit-images.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Audit image sizes and exact duplicates
+        run: node scripts/audit-images.mjs
+
+      - name: Commit audit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/image-audit.json
+          git diff --cached --quiet || git commit -m "chore: update image audit"
+          git pull --rebase origin main
+          git push
