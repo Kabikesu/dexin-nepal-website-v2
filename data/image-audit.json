@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T06:30:14.624Z",
+  "generatedAt": "2026-10-06T06:38:38.397Z",
   "policy": {
     "warningBytes": 1500000,
     "criticalBytes": 5000000,
@@ -315,7 +315,7 @@
       "sha256": "61f6ff1c725bf2f2d9675e970daf40860ed405fa27664e1d7ffad6f0f3cf5c99"
     },
     {
-      "path": "images/products/nutraceuticals/Ganocelium 36 Capsule.jpg",
+      "path": "images/products/nutraceuticals/Ganocelium 360 Capsule.jpg",
       "category": "products",
       "extension": "jpg",
       "bytes": 1543513,
