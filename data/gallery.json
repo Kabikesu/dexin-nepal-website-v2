@@ -181,6 +181,105 @@
     ]
   },
   {
+    "id": "events-halal-training",
+    "title": "Halal Training",
+    "folder": "images/gallery/Events/Halal Training",
+    "count": 18,
+    "cover": "images/gallery/Events/Halal Training/Halal Training (1).jpeg",
+    "images": [
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (1).jpeg",
+        "alt": "Halal Training (1)",
+        "title": "Halal Training (1)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (2).jpeg",
+        "alt": "Halal Training (2)",
+        "title": "Halal Training (2)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (3).jpeg",
+        "alt": "Halal Training (3)",
+        "title": "Halal Training (3)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (4).jpeg",
+        "alt": "Halal Training (4)",
+        "title": "Halal Training (4)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (5).jpeg",
+        "alt": "Halal Training (5)",
+        "title": "Halal Training (5)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (6).jpeg",
+        "alt": "Halal Training (6)",
+        "title": "Halal Training (6)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (7).jpeg",
+        "alt": "Halal Training (7)",
+        "title": "Halal Training (7)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (8).jpeg",
+        "alt": "Halal Training (8)",
+        "title": "Halal Training (8)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (9).jpeg",
+        "alt": "Halal Training (9)",
+        "title": "Halal Training (9)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (10).jpeg",
+        "alt": "Halal Training (10)",
+        "title": "Halal Training (10)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (11).jpeg",
+        "alt": "Halal Training (11)",
+        "title": "Halal Training (11)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (12).jpeg",
+        "alt": "Halal Training (12)",
+        "title": "Halal Training (12)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (13).jpeg",
+        "alt": "Halal Training (13)",
+        "title": "Halal Training (13)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (14).jpeg",
+        "alt": "Halal Training (14)",
+        "title": "Halal Training (14)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (15).jpeg",
+        "alt": "Halal Training (15)",
+        "title": "Halal Training (15)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (16).jpeg",
+        "alt": "Halal Training (16)",
+        "title": "Halal Training (16)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (17).jpeg",
+        "alt": "Halal Training (17)",
+        "title": "Halal Training (17)"
+      },
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (18).jpeg",
+        "alt": "Halal Training (18)",
+        "title": "Halal Training (18)"
+      }
+    ]
+  },
+  {
     "id": "events-personal-hygiene-and-sanitation-training-provide-by-qa-qc-manager-photos",
     "title": "Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos",
     "folder": "images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos",
