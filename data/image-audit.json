@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T06:44:54.593Z",
+  "generatedAt": "2026-10-06T06:46:59.643Z",
   "policy": {
     "warningBytes": 1500000,
     "criticalBytes": 5000000,
@@ -7,13 +7,13 @@
     "duplicateDeletion": false
   },
   "summary": {
-    "totalFiles": 167,
-    "totalBytes": 136229156,
-    "totalMb": 129.92,
+    "totalFiles": 166,
+    "totalBytes": 135992597,
+    "totalMb": 129.69,
     "warningFiles": 31,
     "criticalFiles": 6,
     "exactDuplicateGroups": 3,
-    "productImageCount": 20
+    "productImageCount": 19
   },
   "categories": {
     "gallery": {
@@ -37,9 +37,9 @@
       "mb": 25.64
     },
     "products": {
-      "files": 20,
-      "bytes": 16613395,
-      "mb": 15.84
+      "files": 19,
+      "bytes": 16376836,
+      "mb": 15.62
     },
     "logo": {
       "files": 1,
@@ -417,14 +417,6 @@
       "bytes": 256752,
       "mb": 0.24,
       "sha256": "1c128e494c65d812f14d108230c82398191d46eb242b4bba9b41a9f127929508"
-    },
-    {
-      "path": "images/products/nutraceuticals/Cordyceps Tablets 120.jpg",
-      "category": "products",
-      "extension": "jpg",
-      "bytes": 236559,
-      "mb": 0.23,
-      "sha256": "a06468f54bfdc9b42d60034d74810b4ba218defca1fbfc7cdea29da57d898a63"
     },
     {
       "path": "images/products/nutraceuticals/Cordyceps Capsule 120.jpg",
