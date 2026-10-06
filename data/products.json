@@ -52,6 +52,18 @@
     "topCategory": "DXN Coffee"
   },
   {
+    "id": "cordyceps-capsule-120",
+    "name": "Cordyceps Capsule 120",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/Cordyceps Capsule 120.jpg",
+    "packageSize": "120 Caps. × 450 mg",
+    "status": "upcoming",
+    "featured": false,
+    "upcoming": true,
+    "published": true
+  },
+  {
     "id": "cordyceps-capsule-360",
     "name": "Cordyceps Capsule 360",
     "type": "Nutraceuticals",
@@ -85,6 +97,18 @@
     "status": "upcoming",
     "featured": false,
     "upcoming": true,
+    "published": true
+  },
+  {
+    "id": "ganocelium-36-capsule",
+    "name": "Ganocelium 36 Capsule",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/Ganocelium 36 Capsule.jpg",
+    "packageSize": "",
+    "status": "current",
+    "featured": false,
+    "upcoming": false,
     "published": true
   },
   {
@@ -134,6 +158,18 @@
     "status": "upcoming",
     "featured": false,
     "upcoming": true,
+    "published": true
+  },
+  {
+    "id": "reishi-gano-360-capsule",
+    "name": "Reishi Gano 360 Capsule",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "images/products/nutraceuticals/Reishi Gano 360 Capsule .png",
+    "packageSize": "",
+    "status": "current",
+    "featured": false,
+    "upcoming": false,
     "published": true
   },
   {
@@ -233,18 +269,6 @@
     "description": "",
     "image": "",
     "packageSize": "360 Caps. × 450 mg",
-    "status": "upcoming",
-    "featured": false,
-    "upcoming": true,
-    "published": true
-  },
-  {
-    "id": "cordyceps-capsule-120",
-    "name": "Cordyceps Capsule 120",
-    "type": "Nutraceuticals",
-    "description": "",
-    "image": "",
-    "packageSize": "120 Caps. × 450 mg",
     "status": "upcoming",
     "featured": false,
     "upcoming": true,
