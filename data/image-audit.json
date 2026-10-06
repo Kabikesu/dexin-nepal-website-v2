@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T06:41:32.286Z",
+  "generatedAt": "2026-10-06T06:43:07.013Z",
   "policy": {
     "warningBytes": 1500000,
     "criticalBytes": 5000000,
@@ -7,13 +7,13 @@
     "duplicateDeletion": false
   },
   "summary": {
-    "totalFiles": 167,
-    "totalBytes": 136229156,
-    "totalMb": 129.92,
-    "warningFiles": 31,
+    "totalFiles": 166,
+    "totalBytes": 134715891,
+    "totalMb": 128.48,
+    "warningFiles": 30,
     "criticalFiles": 6,
     "exactDuplicateGroups": 3,
-    "productImageCount": 20
+    "productImageCount": 19
   },
   "categories": {
     "gallery": {
@@ -37,9 +37,9 @@
       "mb": 25.64
     },
     "products": {
-      "files": 20,
-      "bytes": 16613395,
-      "mb": 15.84
+      "files": 19,
+      "bytes": 15100130,
+      "mb": 14.4
     },
     "logo": {
       "files": 1,
@@ -321,14 +321,6 @@
       "bytes": 1543513,
       "mb": 1.47,
       "sha256": "7334f61cac0763ca7f42fb5dfab914ce8717d2a5391d314687ff16ca1cb15f9e"
-    },
-    {
-      "path": "images/products/nutraceuticals/Reishi Gano 360 Capsule .png",
-      "category": "products",
-      "extension": "png",
-      "bytes": 1513265,
-      "mb": 1.44,
-      "sha256": "e2c9dd3efe84935e433db6b591a00934e961ce6cdcee4bb9a4eb0d892b774a8f"
     },
     {
       "path": "images/products/coffee/Lingzhi Coffee 2 in 1.jpg",
