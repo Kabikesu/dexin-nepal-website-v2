@@ -100,18 +100,6 @@
     "published": true
   },
   {
-    "id": "ganocelium-360-capsule",
-    "name": "Ganocelium 360 Capsule",
-    "type": "Nutraceuticals",
-    "description": "",
-    "image": "images/products/nutraceuticals/Ganocelium 360 Capsule.jpg",
-    "packageSize": "",
-    "status": "current",
-    "featured": false,
-    "upcoming": false,
-    "published": true
-  },
-  {
     "id": "ganocelium-gl-90",
     "name": "Ganocelium (GL-90) Capsule",
     "type": "Nutraceuticals",
