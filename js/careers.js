@@ -77,13 +77,17 @@
       const action = canApply
         ? `<a class="button button-primary" href="mailto:${escapeHtml(vacancy.applicationEmail || "dexin_nepal@dxn2u.com")}?subject=${subject}">Apply Now <span>→</span></a>`
         : "";
-      const processMarkup = process.length
-        ? process.map(step => `<li class="process-step process-${escapeHtml(processClass(step.status))}">
-            <span class="process-dot" aria-hidden="true"></span>
-            <span>${escapeHtml(step.name)}</span>
-            <small>${escapeHtml(processLabel(step.status))}</small>
-          </li>`).join("")
-        : '<li class="process-step"><span>Selection process will be updated by HR.</span></li>';
+      const currentStep = process.find(step => step.status === "active")
+        || process.find(step => step.status === "pending")
+        || process[process.length - 1]
+        || null;
+      const currentProcessMarkup = currentStep
+        ? `<div class="vacancy-current-process">
+            <span class="process-dot process-dot-${escapeHtml(processClass(currentStep.status))}" aria-hidden="true"></span>
+            <span><strong>Current Process:</strong> ${escapeHtml(currentStep.name)}</span>
+            <small>${escapeHtml(processLabel(currentStep.status))}</small>
+          </div>`
+        : "";
 
       return `<article class="vacancy-card reveal is-visible">
         <div class="vacancy-header">
@@ -106,23 +110,9 @@
           <div><span>Selection Progress</span><strong>${escapeHtml(progressText)}</strong></div>
         </div>
 
-        <div class="vacancy-grid">
-          <div>
-            <h4>Position Details</h4>
-            <p>${escapeHtml(vacancy.remarks || "Please refer to the role requirements during the application process.")}</p>
-          </div>
-          <div>
-            <h4>Selection Process</h4>
-            <ol class="selection-process">${processMarkup}</ol>
-          </div>
-        </div>
-
         ${canApply ? `<div class="vacancy-apply">
-          <div>
-            <strong>Interested in joining Dexin?</strong>
-            <p>Please send your updated CV and a brief cover letter for consideration.</p>
-          </div>
-          <a class="button button-secondary" href="mailto:${escapeHtml(vacancy.applicationEmail || "dexin_nepal@dxn2u.com")}?subject=${subject}">Send Application <span>→</span></a>
+          ${currentProcessMarkup}
+          ${action}
         </div>` : ""}
       </article>`;
     }).join("");
