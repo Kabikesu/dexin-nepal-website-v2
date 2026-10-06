@@ -101,19 +101,6 @@
     "topCategory": "DXN RG & GL"
   },
   {
-    "id": "gl-tablet",
-    "name": "GL Tablet",
-    "type": "Nutraceuticals",
-    "description": "",
-    "image": "images/products/nutraceuticals/GL Tablet.png",
-    "packageSize": "",
-    "status": "current",
-    "featured": true,
-    "upcoming": false,
-    "published": true,
-    "topCategory": "DXN RG & GL"
-  },
-  {
     "id": "lionsmane-capsule-120",
     "name": "LionsMane Capsule 120",
     "type": "Nutraceuticals",
