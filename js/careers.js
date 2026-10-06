@@ -101,7 +101,6 @@
               ${vacancy.openings > 1 ? `<span>${escapeHtml(vacancy.openings)} openings</span>` : ""}
             </p>
           </div>
-          ${action}
         </div>
 
         <div class="vacancy-summary">
