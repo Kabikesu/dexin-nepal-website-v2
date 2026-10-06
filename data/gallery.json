@@ -184,18 +184,13 @@
     "id": "events-halal-training",
     "title": "Halal Training",
     "folder": "images/gallery/Events/Halal Training",
-    "count": 18,
+    "count": 17,
     "cover": "images/gallery/Events/Halal Training/Halal Training (1).jpeg",
     "images": [
       {
         "src": "images/gallery/Events/Halal Training/Halal Training (1).jpeg",
         "alt": "Halal Training (1)",
         "title": "Halal Training (1)"
-      },
-      {
-        "src": "images/gallery/Events/Halal Training/Halal Training (2).jpeg",
-        "alt": "Halal Training (2)",
-        "title": "Halal Training (2)"
       },
       {
         "src": "images/gallery/Events/Halal Training/Halal Training (3).jpeg",
