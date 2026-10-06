@@ -76,18 +76,6 @@
     "published": true
   },
   {
-    "id": "cordyceps-tablets-120",
-    "name": "Cordyceps Tablets 120",
-    "type": "Nutraceuticals",
-    "description": "",
-    "image": "images/products/nutraceuticals/Cordyceps Tablets 120.jpg",
-    "packageSize": "120 Tabs × 300 mg",
-    "status": "upcoming",
-    "featured": false,
-    "upcoming": true,
-    "published": true
-  },
-  {
     "id": "cordyceps-tablets-360",
     "name": "Cordyceps Tablets 360",
     "type": "Nutraceuticals",
@@ -269,6 +257,18 @@
     "description": "",
     "image": "",
     "packageSize": "360 Caps. × 450 mg",
+    "status": "upcoming",
+    "featured": false,
+    "upcoming": true,
+    "published": true
+  },
+  {
+    "id": "cordyceps-tablets-120",
+    "name": "Cordyceps Tablets 120",
+    "type": "Nutraceuticals",
+    "description": "",
+    "image": "",
+    "packageSize": "120 Tabs × 300 mg",
     "status": "upcoming",
     "featured": false,
     "upcoming": true,
