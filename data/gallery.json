@@ -185,8 +185,13 @@
     "title": "Halal Training",
     "folder": "images/gallery/Events/Halal Training",
     "count": 18,
-    "cover": "images/gallery/Events/Halal Training/Halal Training (2).jpeg",
+    "cover": "images/gallery/Events/Halal Training/Halal Training (1).jpeg",
     "images": [
+      {
+        "src": "images/gallery/Events/Halal Training/Halal Training (1).jpeg",
+        "alt": "Halal Training (1)",
+        "title": "Halal Training (1)"
+      },
       {
         "src": "images/gallery/Events/Halal Training/Halal Training (2).jpeg",
         "alt": "Halal Training (2)",
@@ -211,11 +216,6 @@
         "src": "images/gallery/Events/Halal Training/Halal Training (6).jpeg",
         "alt": "Halal Training (6)",
         "title": "Halal Training (6)"
-      },
-      {
-        "src": "images/gallery/Events/Halal Training/Halal Training (7).jpeg",
-        "alt": "Halal Training (7)",
-        "title": "Halal Training (7)"
       },
       {
         "src": "images/gallery/Events/Halal Training/Halal Training (8).jpeg",
