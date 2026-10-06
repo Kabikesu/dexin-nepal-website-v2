@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T06:00:41.805Z",
+  "generatedAt": "2026-10-06T06:01:05.782Z",
   "policy": {
     "warningBytes": 1500000,
     "criticalBytes": 5000000,
@@ -7,9 +7,9 @@
     "duplicateDeletion": false
   },
   "summary": {
-    "totalFiles": 162,
-    "totalBytes": 135664858,
-    "totalMb": 129.38,
+    "totalFiles": 161,
+    "totalBytes": 134309924,
+    "totalMb": 128.09,
     "warningFiles": 30,
     "criticalFiles": 6,
     "exactDuplicateGroups": 1,
@@ -17,9 +17,9 @@
   },
   "categories": {
     "gallery": {
-      "files": 108,
-      "bytes": 76895580,
-      "mb": 73.33
+      "files": 107,
+      "bytes": 75540646,
+      "mb": 72.04
     },
     "hero": {
       "files": 1,
