@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T05:59:16.938Z",
+  "generatedAt": "2026-10-06T06:00:02.023Z",
   "policy": {
     "warningBytes": 1500000,
     "criticalBytes": 5000000,
@@ -7,19 +7,19 @@
     "duplicateDeletion": false
   },
   "summary": {
-    "totalFiles": 165,
-    "totalBytes": 136798031,
-    "totalMb": 130.46,
+    "totalFiles": 163,
+    "totalBytes": 136499120,
+    "totalMb": 130.18,
     "warningFiles": 30,
     "criticalFiles": 6,
-    "exactDuplicateGroups": 4,
+    "exactDuplicateGroups": 2,
     "productImageCount": 19
   },
   "categories": {
     "gallery": {
-      "files": 111,
-      "bytes": 78028753,
-      "mb": 74.41
+      "files": 109,
+      "bytes": 77729842,
+      "mb": 74.13
     },
     "hero": {
       "files": 1,
@@ -263,20 +263,6 @@
       "files": [
         "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (9).jpg",
         "images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (9).jpg"
-      ]
-    },
-    {
-      "sha256": "bc17b2ffac3ee142ff9b9a293226312f68453bae1771faaa6e8a8d9a625909f2",
-      "files": [
-        "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (2).jpg",
-        "images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (2).jpg"
-      ]
-    },
-    {
-      "sha256": "ce322e463d6bd1efd35af4ad14f174aea42e2d9cc354665009bcea0030343508",
-      "files": [
-        "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (1).jpg",
-        "images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (1).jpg"
       ]
     }
   ],
