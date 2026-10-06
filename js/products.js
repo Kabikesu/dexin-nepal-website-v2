@@ -235,7 +235,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           const img = document.createElement("img");
           img.src = product.image;
           img.alt = product.name;
-          img.loading = index < 8 ? "eager" : "lazy";
+          img.loading = index < 4 ? "eager" : "lazy";
           img.decoding = "async";
           media.appendChild(img);
           normalizeHeroOrbitImage(img);
