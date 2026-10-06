@@ -23,6 +23,13 @@ function titleFromFilename(name) {
 }
 
 const details = JSON.parse(await readFile("data/product-details.json", "utf8"));
+let existingProducts = [];
+try {
+  existingProducts = JSON.parse(await readFile("data/products.json", "utf8"));
+} catch {
+  existingProducts = [];
+}
+const existingById = new Map(existingProducts.map(product => [product.id, product]));
 
 async function scan(folder, type) {
   try {
@@ -33,6 +40,7 @@ async function scan(folder, type) {
       .map(entry => {
         const id = slugFromFilename(entry.name);
         const known = details[id];
+        const existing = existingById.get(id) || {};
         return {
           id,
           name: known?.name || titleFromFilename(entry.name),
@@ -41,9 +49,12 @@ async function scan(folder, type) {
           image: join(folder, entry.name).replaceAll("\\", "/"),
           packageSize: known?.packageSize || "",
           status: known?.status || "current",
-          featured: known?.featured ?? false,
+          featured: known?.featured ?? existing.featured ?? false,
           upcoming: known?.status === "upcoming",
-          published: known?.published ?? true
+          published: known?.published ?? existing.published ?? true,
+          ...(known?.topCategory || existing.topCategory
+            ? { topCategory: known?.topCategory || existing.topCategory }
+            : {})
         };
       });
   } catch {
@@ -64,9 +75,12 @@ const catalogOnly = Object.entries(details)
     image: product.image || "",
     packageSize: product.packageSize || "",
     status: product.status || "review",
-    featured: product.featured ?? false,
+    featured: product.featured ?? existingById.get(id)?.featured ?? false,
     upcoming: product.status === "upcoming",
-    published: product.published ?? true
+    published: product.published ?? existingById.get(id)?.published ?? true,
+    ...(product.topCategory || existingById.get(id)?.topCategory
+      ? { topCategory: product.topCategory || existingById.get(id)?.topCategory }
+      : {})
   }));
 
 const products = [...detected, ...catalogOnly];
