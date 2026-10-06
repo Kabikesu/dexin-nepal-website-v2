@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T05:58:17.344Z",
+  "generatedAt": "2026-10-06T05:58:43.603Z",
   "policy": {
     "warningBytes": 1500000,
     "criticalBytes": 5000000,
@@ -7,19 +7,19 @@
     "duplicateDeletion": false
   },
   "summary": {
-    "totalFiles": 168,
-    "totalBytes": 139016149,
-    "totalMb": 132.58,
+    "totalFiles": 167,
+    "totalBytes": 138213951,
+    "totalMb": 131.81,
     "warningFiles": 30,
     "criticalFiles": 6,
-    "exactDuplicateGroups": 7,
+    "exactDuplicateGroups": 6,
     "productImageCount": 19
   },
   "categories": {
     "gallery": {
-      "files": 114,
-      "bytes": 80246871,
-      "mb": 76.53
+      "files": 113,
+      "bytes": 79444673,
+      "mb": 75.76
     },
     "hero": {
       "files": 1,
@@ -270,13 +270,6 @@
       "files": [
         "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (13).jpg",
         "images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (13).jpg"
-      ]
-    },
-    {
-      "sha256": "08fcb9d2ddb045810ba33de9ce19f85b7ff869b7e5841d3eeeb3963ccb1fdce4",
-      "files": [
-        "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (11).jpg",
-        "images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (11).jpg"
       ]
     },
     {
