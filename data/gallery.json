@@ -299,6 +299,45 @@
     ]
   },
   {
+    "id": "events-rasuwa-bhotekoshi-flood",
+    "title": "Rasuwa–Bhotekoshi Flood",
+    "folder": "images/gallery/Events/Rasuwa–Bhotekoshi Flood",
+    "count": 6,
+    "cover": "images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (1).jpeg",
+    "images": [
+      {
+        "src": "images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (1).jpeg",
+        "alt": "Moment Of Silence (1)",
+        "title": "Moment Of Silence (1)"
+      },
+      {
+        "src": "images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (2).jpeg",
+        "alt": "Moment Of Silence (2)",
+        "title": "Moment Of Silence (2)"
+      },
+      {
+        "src": "images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (3).jpeg",
+        "alt": "Moment Of Silence (3)",
+        "title": "Moment Of Silence (3)"
+      },
+      {
+        "src": "images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (4).jpeg",
+        "alt": "Moment Of Silence (4)",
+        "title": "Moment Of Silence (4)"
+      },
+      {
+        "src": "images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (5).jpeg",
+        "alt": "Moment Of Silence (5)",
+        "title": "Moment Of Silence (5)"
+      },
+      {
+        "src": "images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (6).jpeg",
+        "alt": "Moment Of Silence (6)",
+        "title": "Moment Of Silence (6)"
+      }
+    ]
+  },
+  {
     "id": "events-vishakarma-puja",
     "title": "Vishakarma Puja",
     "folder": "images/gallery/Events/Vishakarma Puja",
