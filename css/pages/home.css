@@ -569,11 +569,14 @@
   place-items:center;
 }
 .product-stage-modern{
-  width:100vw;
-  max-width:none;
+  position:relative;
+  width:100vw!important;
+  max-width:100vw!important;
   height:300px;
-  margin-left:calc(50% - 50vw);
-  margin-right:calc(50% - 50vw);
+  left:50%;
+  margin-left:0;
+  margin-right:0;
+  transform:translateX(-50%);
   border-radius:0;
   border-left:0;
   border-right:0;
