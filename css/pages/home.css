@@ -865,3 +865,52 @@
 
 /* Horizontal overflow safeguard for viewport-wide product presentation. */
 @media(min-width:601px){.home-products{overflow-x:clip}.home-product-stage{overflow-x:clip}.product-stage-modern{max-width:100vw!important}}
+
+
+/* Final viewport anchoring — escape the centered container cleanly. */
+.home-product-stage{
+  position:relative;
+  width:100vw!important;
+  max-width:none!important;
+  left:50%;
+  right:auto;
+  transform:translateX(-50%);
+  margin:10px 0 18px!important;
+  min-height:262px!important;
+  height:262px!important;
+  display:block;
+  overflow:visible;
+}
+.product-stage-modern{
+  position:relative;
+  left:0!important;
+  right:auto;
+  transform:none!important;
+  width:100vw!important;
+  max-width:none!important;
+  height:262px!important;
+  margin:0!important;
+  border-radius:0;
+  box-sizing:border-box;
+}
+@media(max-width:900px){
+  .home-product-stage{
+    min-height:262px!important;
+    height:262px!important;
+  }
+  .product-stage-modern{
+    height:262px!important;
+  }
+}
+@media(max-width:600px){
+  .home-product-stage{
+    min-height:210px!important;
+    height:210px!important;
+    margin:4px 0 12px!important;
+  }
+  .product-stage-modern{
+    width:100vw!important;
+    height:210px!important;
+    border-radius:0;
+  }
+}
