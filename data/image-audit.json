@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T06:04:27.236Z",
+  "generatedAt": "2026-10-06T06:08:07.757Z",
   "policy": {
     "warningBytes": 1500000,
     "criticalBytes": 5000000,
@@ -7,13 +7,13 @@
     "duplicateDeletion": false
   },
   "summary": {
-    "totalFiles": 159,
-    "totalBytes": 131969772,
-    "totalMb": 125.86,
-    "warningFiles": 29,
+    "totalFiles": 162,
+    "totalBytes": 135200263,
+    "totalMb": 128.94,
+    "warningFiles": 31,
     "criticalFiles": 6,
     "exactDuplicateGroups": 1,
-    "productImageCount": 17
+    "productImageCount": 20
   },
   "categories": {
     "gallery": {
@@ -37,9 +37,9 @@
       "mb": 25.73
     },
     "products": {
-      "files": 17,
-      "bytes": 13382904,
-      "mb": 12.76
+      "files": 20,
+      "bytes": 16613395,
+      "mb": 15.84
     },
     "logo": {
       "files": 1,
@@ -301,6 +301,22 @@
       "sha256": "61f6ff1c725bf2f2d9675e970daf40860ed405fa27664e1d7ffad6f0f3cf5c99"
     },
     {
+      "path": "images/products/nutraceuticals/Ganocelium 36 Capsule.jpg",
+      "category": "products",
+      "extension": "jpg",
+      "bytes": 1543513,
+      "mb": 1.47,
+      "sha256": "7334f61cac0763ca7f42fb5dfab914ce8717d2a5391d314687ff16ca1cb15f9e"
+    },
+    {
+      "path": "images/products/nutraceuticals/Reishi Gano 360 Capsule .png",
+      "category": "products",
+      "extension": "png",
+      "bytes": 1513265,
+      "mb": 1.44,
+      "sha256": "e2c9dd3efe84935e433db6b591a00934e961ce6cdcee4bb9a4eb0d892b774a8f"
+    },
+    {
       "path": "images/products/coffee/Lingzhi Coffee 2 in 1.jpg",
       "category": "products",
       "extension": "jpg",
@@ -395,6 +411,14 @@
       "bytes": 236559,
       "mb": 0.23,
       "sha256": "a06468f54bfdc9b42d60034d74810b4ba218defca1fbfc7cdea29da57d898a63"
+    },
+    {
+      "path": "images/products/nutraceuticals/Cordyceps Capsule 120.jpg",
+      "category": "products",
+      "extension": "jpg",
+      "bytes": 173713,
+      "mb": 0.17,
+      "sha256": "aa0a2794b6085929d80fbb7a21edf36deddff6dfb67784cbc8e24f75d413f012"
     }
   ]
 }
