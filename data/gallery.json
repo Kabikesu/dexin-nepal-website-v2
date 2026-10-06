@@ -548,14 +548,9 @@
     "id": "office-aniversary",
     "title": "Office Aniversary",
     "folder": "images/gallery/Office Aniversary",
-    "count": 16,
-    "cover": "images/gallery/Office Aniversary/office aniversary (2).jpeg",
+    "count": 15,
+    "cover": "images/gallery/Office Aniversary/office aniversary (3).jpeg",
     "images": [
-      {
-        "src": "images/gallery/Office Aniversary/office aniversary (2).jpeg",
-        "alt": "Office Aniversary (2)",
-        "title": "Office Aniversary (2)"
-      },
       {
         "src": "images/gallery/Office Aniversary/office aniversary (3).jpeg",
         "alt": "Office Aniversary (3)",
