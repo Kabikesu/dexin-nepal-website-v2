@@ -1,0 +1,1019 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-10-06",
+  "settings": {
+    "applicationEmail": "dexin_nepal@dxn2u.com",
+    "defaultSelectionProcess": [
+      {
+        "name": "Application Review",
+        "status": "pending"
+      },
+      {
+        "name": "Shortlisting",
+        "status": "pending"
+      },
+      {
+        "name": "Interview",
+        "status": "pending"
+      },
+      {
+        "name": "Final Selection",
+        "status": "pending"
+      }
+    ]
+  },
+  "vacancies": [
+    {
+      "id": "vac-001",
+      "title": "Deputy Factory PIC",
+      "department": "Overall Operation",
+      "experience": "4-5 Years",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-002",
+      "title": "Admin Manager",
+      "department": "Administration",
+      "experience": "5 Yrs",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-003",
+      "title": "Receptionist",
+      "department": "Administration",
+      "experience": "1-2 Years",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-004",
+      "title": "Driver (For Office Vehicle / Pick Up Van)",
+      "department": "Administration",
+      "experience": "3 Years",
+      "openings": 2,
+      "remarks": "1 for Marketing Vehicle",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-005",
+      "title": "HR Assistant",
+      "department": "HR",
+      "experience": "2-3 Years",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-006",
+      "title": "Senior Assistant Accountant",
+      "department": "Finance",
+      "experience": "2 Years",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-007",
+      "title": "Production Manager",
+      "department": "Production",
+      "experience": "5 Years",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-008",
+      "title": "Production Officer / Production Trainee",
+      "department": "Production",
+      "experience": "1-3 Yrs",
+      "openings": 2,
+      "remarks": "1 for Coffee & 1 for Nutra",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-009",
+      "title": "Line Supervisor",
+      "department": "Production",
+      "experience": "2-3 Years",
+      "openings": 2,
+      "remarks": "1 for Coffee & 1 for Nutra",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-010",
+      "title": "Skilled Operator - Coffee",
+      "department": "Production",
+      "experience": "2-3 Years",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-011",
+      "title": "Semi Skilled Operator - Coffee",
+      "department": "Production",
+      "experience": "1-2 Years",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-012",
+      "title": "Sieving & Bending Operator - Nutra",
+      "department": "Production",
+      "experience": "1-2 Years",
+      "openings": 2,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-013",
+      "title": "Secondary Packing Operator - Nutra",
+      "department": "Production",
+      "experience": "2-3 Years",
+      "openings": 3,
+      "remarks": "1 for Coffee & 2 for Nutra",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-014",
+      "title": "Packing Assistant - Coffee",
+      "department": "Production",
+      "experience": "0-1 Year",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-015",
+      "title": "Production Trainee - Capsule",
+      "department": "Production",
+      "experience": "0-1 Year",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-016",
+      "title": "Production Trainee - Tablet",
+      "department": "Production",
+      "experience": "0-1 Year",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-017",
+      "title": "QC Asst. Manager",
+      "department": "Quality Control",
+      "experience": "4-5 years",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-018",
+      "title": "QC Executive - Microbiology - Nutra",
+      "department": "Quality Control",
+      "experience": "2-3 years",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-019",
+      "title": "QC Trainee",
+      "department": "Quality Control",
+      "experience": "0-1 Year",
+      "openings": 2,
+      "remarks": "1 for Coffee & 1 for Nutra",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-020",
+      "title": "R.O. & ETP Operator",
+      "department": "Engineering",
+      "experience": "2 Years",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-021",
+      "title": "Electrical Trainee",
+      "department": "Utility & Maintenance",
+      "experience": "0-1 Year",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-022",
+      "title": "Mechanical Fitter",
+      "department": "Utility & Maintenance",
+      "experience": "2-3 Years",
+      "openings": 2,
+      "remarks": "1 for Coffee & 1 for Nutra",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-023",
+      "title": "Mechanical Technician",
+      "department": "Utility & Maintenance",
+      "experience": "2-3 Years",
+      "openings": 1,
+      "remarks": "For Coffee & Nutra",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-024",
+      "title": "Mechanical Trainee",
+      "department": "Utility & Maintenance",
+      "experience": "0-1 Year",
+      "openings": 2,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-025",
+      "title": "IT Assistant",
+      "department": "IT",
+      "experience": "1-2 Years",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-026",
+      "title": "Environment Health & Safety Officer",
+      "department": "Safety",
+      "experience": "2-3 Years",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-027",
+      "title": "Procurement Officer",
+      "department": "Procurement",
+      "experience": "2-3 years",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-028",
+      "title": "Procurement Trainee",
+      "department": "Procurement",
+      "experience": "0-1 Year",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-029",
+      "title": "Warehouse Assistant Manager",
+      "department": "Warehouse",
+      "experience": "4-5 years",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-030",
+      "title": "Warehouse Executive",
+      "department": "Warehouse",
+      "experience": "2-3 years",
+      "openings": 1,
+      "remarks": "1 vacancy",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-031",
+      "title": "Warehouse Asst. / Warehouse Trainee",
+      "department": "Warehouse",
+      "experience": "0-1 Year",
+      "openings": 1,
+      "remarks": "",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vac-032",
+      "title": "Secondary Packing Labour - Nutra",
+      "department": "Production",
+      "experience": "0-1 Year",
+      "openings": 3,
+      "remarks": "3 more required",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "open",
+      "published": true,
+      "deadline": null,
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "pending"
+        },
+        {
+          "name": "Shortlisting",
+          "status": "pending"
+        },
+        {
+          "name": "Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Final Selection",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}
