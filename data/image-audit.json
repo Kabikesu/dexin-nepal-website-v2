@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T07:01:40.305Z",
+  "generatedAt": "2026-10-06T07:12:07.060Z",
   "policy": {
     "warningBytes": 1500000,
     "criticalBytes": 5000000,
@@ -8,9 +8,9 @@
   },
   "summary": {
     "totalFiles": 166,
-    "totalBytes": 136028470,
-    "totalMb": 129.73,
-    "warningFiles": 31,
+    "totalBytes": 133805883,
+    "totalMb": 127.61,
+    "warningFiles": 30,
     "criticalFiles": 6,
     "exactDuplicateGroups": 3,
     "productImageCount": 19
@@ -18,8 +18,8 @@
   "categories": {
     "gallery": {
       "files": 111,
-      "bytes": 75034322,
-      "mb": 71.56
+      "bytes": 72811735,
+      "mb": 69.44
     },
     "hero": {
       "files": 1,
@@ -127,14 +127,6 @@
       "bytes": 2294920,
       "mb": 2.19,
       "sha256": "e6778ba8aa57570e1bec960f29e45d315a7165833781b0d7ab6fc069f5b3dce1"
-    },
-    {
-      "path": "images/gallery/Inauguration Day/Inauguration21.png",
-      "category": "gallery",
-      "extension": "png",
-      "bytes": 2222589,
-      "mb": 2.12,
-      "sha256": "4852671dae453462201552da2cd5225fee81c78c8b751d9e2a391c37a43cfb6a"
     },
     {
       "path": "images/staff/ram-kumar-chauhan.png",
@@ -247,6 +239,14 @@
       "bytes": 1646951,
       "mb": 1.57,
       "sha256": "ad278a58ef5a182a333e22dedadc7dc478534f824f29fbbf0d6ca934c33d3711"
+    },
+    {
+      "path": "images/products/nutraceuticals/Spirulina 120 Tablet.png",
+      "category": "products",
+      "extension": "png",
+      "bytes": 1611594,
+      "mb": 1.54,
+      "sha256": "2e5efb2f9d0d892d2639198f9835e9bd46798a2b34032e12bd6244c2b7960432"
     }
   ],
   "duplicateGroups": [
