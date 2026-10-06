@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T06:55:07.771Z",
+  "generatedAt": "2026-10-06T07:01:40.305Z",
   "policy": {
     "warningBytes": 1500000,
     "criticalBytes": 5000000,
@@ -7,9 +7,9 @@
     "duplicateDeletion": false
   },
   "summary": {
-    "totalFiles": 165,
-    "totalBytes": 135926875,
-    "totalMb": 129.63,
+    "totalFiles": 166,
+    "totalBytes": 136028470,
+    "totalMb": 129.73,
     "warningFiles": 31,
     "criticalFiles": 6,
     "exactDuplicateGroups": 3,
@@ -32,9 +32,9 @@
       "mb": 6.52
     },
     "staff": {
-      "files": 32,
-      "bytes": 26889026,
-      "mb": 25.64
+      "files": 33,
+      "bytes": 26990621,
+      "mb": 25.74
     },
     "products": {
       "files": 19,
