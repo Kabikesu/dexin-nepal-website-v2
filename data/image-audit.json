@@ -1,0 +1,416 @@
+{
+  "generatedAt": "2026-10-06T04:29:22.713Z",
+  "policy": {
+    "warningBytes": 1500000,
+    "criticalBytes": 5000000,
+    "destructiveChanges": false,
+    "duplicateDeletion": false
+  },
+  "summary": {
+    "totalFiles": 162,
+    "totalBytes": 135664858,
+    "totalMb": 129.38,
+    "warningFiles": 30,
+    "criticalFiles": 6,
+    "exactDuplicateGroups": 1,
+    "productImageCount": 19
+  },
+  "categories": {
+    "gallery": {
+      "files": 108,
+      "bytes": 76895580,
+      "mb": 73.33
+    },
+    "hero": {
+      "files": 1,
+      "bytes": 10688891,
+      "mb": 10.19
+    },
+    "factory": {
+      "files": 1,
+      "bytes": 6835162,
+      "mb": 6.52
+    },
+    "staff": {
+      "files": 32,
+      "bytes": 26978034,
+      "mb": 25.73
+    },
+    "products": {
+      "files": 19,
+      "bytes": 14164553,
+      "mb": 13.51
+    },
+    "logo": {
+      "files": 1,
+      "bytes": 102638,
+      "mb": 0.1
+    }
+  },
+  "largestFiles": [
+    {
+      "path": "images/gallery/Inauguration Day/Inauguration12.JPG",
+      "category": "gallery",
+      "extension": "jpg",
+      "bytes": 10921106,
+      "mb": 10.42,
+      "sha256": "4125c5ddace9331fe1072991d522ef6fbb3cfda91764937b3eae6fac0c85613c"
+    },
+    {
+      "path": "images/hero/factory-main.png",
+      "category": "hero",
+      "extension": "png",
+      "bytes": 10688891,
+      "mb": 10.19,
+      "sha256": "4a5f217e8572d99bf3c5b895faafd0bc4630155e3e015f34e19a99276c0e946c"
+    },
+    {
+      "path": "images/factory/factory-intro.jpg",
+      "category": "factory",
+      "extension": "jpg",
+      "bytes": 6835162,
+      "mb": 6.52,
+      "sha256": "17de19ad34e25decd422644ac10c2dbeb518940f6dc146b3a94161d909ecaa1e"
+    },
+    {
+      "path": "images/gallery/Factory Images/Inauguration 2.png",
+      "category": "gallery",
+      "extension": "png",
+      "bytes": 6835162,
+      "mb": 6.52,
+      "sha256": "17de19ad34e25decd422644ac10c2dbeb518940f6dc146b3a94161d909ecaa1e"
+    },
+    {
+      "path": "images/gallery/Inauguration Day/Inauguration 2.png",
+      "category": "gallery",
+      "extension": "png",
+      "bytes": 6835162,
+      "mb": 6.52,
+      "sha256": "17de19ad34e25decd422644ac10c2dbeb518940f6dc146b3a94161d909ecaa1e"
+    },
+    {
+      "path": "images/gallery/Inauguration Day/Inauguration 6.JPG",
+      "category": "gallery",
+      "extension": "jpg",
+      "bytes": 6733113,
+      "mb": 6.42,
+      "sha256": "a1bc066a7ef592969fca32a8eae15bb99263d67441c2d3cf9af0a1e2fe6c7454"
+    },
+    {
+      "path": "images/gallery/Events/EMS Training/EMS Training (1).jpg",
+      "category": "gallery",
+      "extension": "jpg",
+      "bytes": 2913437,
+      "mb": 2.78,
+      "sha256": "a1fca3c633f7bdb8cad2264d22c13c0db9f725a0edca9cefd42da155fb859f75"
+    },
+    {
+      "path": "images/staff/bivash-tiwari.png",
+      "category": "staff",
+      "extension": "png",
+      "bytes": 2369308,
+      "mb": 2.26,
+      "sha256": "a5bb03a3e3bc6dad164bee969ac060afb471ec87624cdfc2340ff4aa5f9073a1"
+    },
+    {
+      "path": "images/gallery/Events/EMS Training/EMS Training (10).jpg",
+      "category": "gallery",
+      "extension": "jpg",
+      "bytes": 2357317,
+      "mb": 2.25,
+      "sha256": "c9ec3653a5b39a653e6981f18e2b7184b22d6a184804590776505ac12c6d0d3a"
+    },
+    {
+      "path": "images/gallery/Inauguration Day/Inauguration38.png",
+      "category": "gallery",
+      "extension": "png",
+      "bytes": 2332249,
+      "mb": 2.22,
+      "sha256": "4fba9f11aa63ba588ee125b1a3ff4c7322ab0a0b8f8c04bed2cf9aafc42d7042"
+    },
+    {
+      "path": "images/gallery/Inauguration Day/Inauguration15.png",
+      "category": "gallery",
+      "extension": "png",
+      "bytes": 2294920,
+      "mb": 2.19,
+      "sha256": "e6778ba8aa57570e1bec960f29e45d315a7165833781b0d7ab6fc069f5b3dce1"
+    },
+    {
+      "path": "images/gallery/Inauguration Day/Inauguration21.png",
+      "category": "gallery",
+      "extension": "png",
+      "bytes": 2222589,
+      "mb": 2.12,
+      "sha256": "4852671dae453462201552da2cd5225fee81c78c8b751d9e2a391c37a43cfb6a"
+    },
+    {
+      "path": "images/staff/ram-kumar-chauhan.png",
+      "category": "staff",
+      "extension": "png",
+      "bytes": 2092750,
+      "mb": 2,
+      "sha256": "bd963a98023ee9ae83a79dc677f0cf41e68276c17f319acaa4253c99eea22332"
+    },
+    {
+      "path": "images/staff/Kamla ghimre.png",
+      "category": "staff",
+      "extension": "png",
+      "bytes": 2089852,
+      "mb": 1.99,
+      "sha256": "d34f7da726f0410abacd6115c8db0b695699113320dc17e83b617300bdaa813d"
+    },
+    {
+      "path": "images/staff/bikash-chamar.png",
+      "category": "staff",
+      "extension": "png",
+      "bytes": 2085298,
+      "mb": 1.99,
+      "sha256": "7358da42455a6cde3926d9a21d9433b83c01304e90f7fd09af723bc2abe4c7a6"
+    },
+    {
+      "path": "images/gallery/Inauguration Day/Inauguration58.png",
+      "category": "gallery",
+      "extension": "png",
+      "bytes": 2036804,
+      "mb": 1.94,
+      "sha256": "3f4745b584ec3857545d81b450d170bceec185cdeda1169b6a0132832720b959"
+    },
+    {
+      "path": "images/gallery/Inauguration Day/Inauguration56.png",
+      "category": "gallery",
+      "extension": "png",
+      "bytes": 1999791,
+      "mb": 1.91,
+      "sha256": "92af346251b478ab37fc29215acd33c1bd715efc883c7b95db442849ea743de6"
+    },
+    {
+      "path": "images/staff/arun-kumar-nau.png",
+      "category": "staff",
+      "extension": "png",
+      "bytes": 1984130,
+      "mb": 1.89,
+      "sha256": "0b7dcb28540ff07c4c79368bf9842116ce7d6f4e26d03f6d54e6cc50214508a6"
+    },
+    {
+      "path": "images/staff/durgadas-mishra.png",
+      "category": "staff",
+      "extension": "png",
+      "bytes": 1968514,
+      "mb": 1.88,
+      "sha256": "7fae4f8d494621103fed1e90000f0052545cb02cbca89a69ada252504d25545f"
+    },
+    {
+      "path": "images/staff/ravikant-shukla.png",
+      "category": "staff",
+      "extension": "png",
+      "bytes": 1858006,
+      "mb": 1.77,
+      "sha256": "83f0f8fa2f9ad0680f1271623595ac9f806cc7b5625d626c4eaef5c21c7d15dc"
+    },
+    {
+      "path": "images/staff/ramraj-chaudhary.png",
+      "category": "staff",
+      "extension": "png",
+      "bytes": 1771202,
+      "mb": 1.69,
+      "sha256": "01c207c70210147ab2349a7fc61f5dc681759b49c0c72af99cf9aab1a0dd5bcc"
+    },
+    {
+      "path": "images/gallery/Inauguration Day/Inauguration60.png",
+      "category": "gallery",
+      "extension": "png",
+      "bytes": 1758999,
+      "mb": 1.68,
+      "sha256": "40bd4dbdeefb4c849a13068c326894cf0f311ee1667184ef3e551869bcfdb415"
+    },
+    {
+      "path": "images/gallery/Inauguration Day/Inauguration37.png",
+      "category": "gallery",
+      "extension": "png",
+      "bytes": 1737328,
+      "mb": 1.66,
+      "sha256": "9e6e7156ecbfbcf98d4474a8033646e0da6617bf089f098ecede44df0945586c"
+    },
+    {
+      "path": "images/staff/bandana-mishra.png",
+      "category": "staff",
+      "extension": "png",
+      "bytes": 1696101,
+      "mb": 1.62,
+      "sha256": "2dc9a4ba4697e7a0dca847143a816be08fbdedfa351b27a948aa5642bb74800f"
+    },
+    {
+      "path": "images/staff/brijesh-thakur.png",
+      "category": "staff",
+      "extension": "png",
+      "bytes": 1692900,
+      "mb": 1.61,
+      "sha256": "f9e0aff39ffeb0e127772b175a1cece0a240c07619e55ea09237ae0ebf8b2925"
+    }
+  ],
+  "duplicateGroups": [
+    {
+      "sha256": "17de19ad34e25decd422644ac10c2dbeb518940f6dc146b3a94161d909ecaa1e",
+      "files": [
+        "images/factory/factory-intro.jpg",
+        "images/gallery/Factory Images/Inauguration 2.png",
+        "images/gallery/Inauguration Day/Inauguration 2.png"
+      ]
+    }
+  ],
+  "productImages": [
+    {
+      "path": "images/products/nutraceuticals/Spirulina 50g Powder.png",
+      "category": "products",
+      "extension": "png",
+      "bytes": 1646951,
+      "mb": 1.57,
+      "sha256": "ad278a58ef5a182a333e22dedadc7dc478534f824f29fbbf0d6ca934c33d3711"
+    },
+    {
+      "path": "images/products/nutraceuticals/Spirulina 120 Tablet.png",
+      "category": "products",
+      "extension": "png",
+      "bytes": 1611594,
+      "mb": 1.54,
+      "sha256": "2e5efb2f9d0d892d2639198f9835e9bd46798a2b34032e12bd6244c2b7960432"
+    },
+    {
+      "path": "images/products/nutraceuticals/Spirulina 120 Capsule .png",
+      "category": "products",
+      "extension": "png",
+      "bytes": 1599946,
+      "mb": 1.53,
+      "sha256": "52091e376f1c609a9d34719daa4c5a78b062799ff05b0f8a592166a310f3a757"
+    },
+    {
+      "path": "images/products/nutraceuticals/Spirulina 360 Tablet  .png",
+      "category": "products",
+      "extension": "png",
+      "bytes": 1584304,
+      "mb": 1.51,
+      "sha256": "9482cd475eddef9c7bdc664e88f8b3222fca7b3c8b618503a8bcc642db222bc5"
+    },
+    {
+      "path": "images/products/nutraceuticals/Spirulina 360 Capsule .png",
+      "category": "products",
+      "extension": "png",
+      "bytes": 1551291,
+      "mb": 1.48,
+      "sha256": "61f6ff1c725bf2f2d9675e970daf40860ed405fa27664e1d7ffad6f0f3cf5c99"
+    },
+    {
+      "path": "images/products/coffee/Lingzhi Coffee 2 in 1.jpg",
+      "category": "products",
+      "extension": "jpg",
+      "bytes": 764609,
+      "mb": 0.73,
+      "sha256": "5c426295b9b9250f45007913c633df7ad4bab4046c111fe38b510cae4f4a46f3"
+    },
+    {
+      "path": "images/products/coffee/Cocozhi.jpg",
+      "category": "products",
+      "extension": "jpg",
+      "bytes": 658743,
+      "mb": 0.63,
+      "sha256": "39d78852dd8f4f293ba5cb4ff0d129ec9bf854c8553463af00f0c5484e3aa1d1"
+    },
+    {
+      "path": "images/products/coffee/Cordyceps Coffee 3 in 1.jpg",
+      "category": "products",
+      "extension": "jpg",
+      "bytes": 626144,
+      "mb": 0.6,
+      "sha256": "e372a24c62f17319b3215e816a3b5a5a7c8aac48bb2d65c65821121e79e77f08"
+    },
+    {
+      "path": "images/products/coffee/Lingzhi Coffee 3 in 1.jpg",
+      "category": "products",
+      "extension": "jpg",
+      "bytes": 623478,
+      "mb": 0.59,
+      "sha256": "a70c02e4c16bed7ab0ff5d30e70389a3772c65edeb3715fe1386b9292c68195a"
+    },
+    {
+      "path": "images/products/nutraceuticals/RG Tablet.png",
+      "category": "products",
+      "extension": "png",
+      "bytes": 463578,
+      "mb": 0.44,
+      "sha256": "61e6bae3f1e44cd0a157e560aea013f1da6b30161852f0f52d1f0d0c849b9efc"
+    },
+    {
+      "path": "images/products/nutraceuticals/Reishi Gano RG-90.jpg",
+      "category": "products",
+      "extension": "jpg",
+      "bytes": 455454,
+      "mb": 0.43,
+      "sha256": "2e3c685c098cc616f2e8b2dfd3a737ef6a6f36a997a25c7354147808bb73f21e"
+    },
+    {
+      "path": "images/products/nutraceuticals/Cordyceps Capsule 360.jpg",
+      "category": "products",
+      "extension": "jpg",
+      "bytes": 443997,
+      "mb": 0.42,
+      "sha256": "4b4f22890e7fb93c52c8102926d2722a216574cc3d098cd3dd19b53ae6ef5878"
+    },
+    {
+      "path": "images/products/nutraceuticals/LionsMane Capsule 360.jpg",
+      "category": "products",
+      "extension": "jpg",
+      "bytes": 403396,
+      "mb": 0.38,
+      "sha256": "a7cd676438113b47836b0a515befbde3b63cdd9795c597bb85ee57408f58d846"
+    },
+    {
+      "path": "images/products/nutraceuticals/Ganocelium GL-90.jpg",
+      "category": "products",
+      "extension": "jpg",
+      "bytes": 365198,
+      "mb": 0.35,
+      "sha256": "b3807397855e4823337fbb6bb32199d3150f629d2e3028e11175bd2cba5d3826"
+    },
+    {
+      "path": "images/products/nutraceuticals/GL Tablet.png",
+      "category": "products",
+      "extension": "png",
+      "bytes": 318071,
+      "mb": 0.3,
+      "sha256": "ca8c7256763ebe398d324d62f073a3195d8731b885baccfec4972d0da490b6a9"
+    },
+    {
+      "path": "images/products/nutraceuticals/LionsMane Capsule 120.jpg",
+      "category": "products",
+      "extension": "jpg",
+      "bytes": 286064,
+      "mb": 0.27,
+      "sha256": "c4710977fcfcdd562cc761146d2a5dc3541f0f8438e0dcc286391d9bf322214e"
+    },
+    {
+      "path": "images/products/nutraceuticals/LionsMane Tablets 360.jpg",
+      "category": "products",
+      "extension": "jpg",
+      "bytes": 268424,
+      "mb": 0.26,
+      "sha256": "e06855159992c00756f493bacc045f54367e4dc4f31eee5dc8b1b2d203ad7f30"
+    },
+    {
+      "path": "images/products/nutraceuticals/Cordyceps Tablets 360.jpg",
+      "category": "products",
+      "extension": "jpg",
+      "bytes": 256752,
+      "mb": 0.24,
+      "sha256": "1c128e494c65d812f14d108230c82398191d46eb242b4bba9b41a9f127929508"
+    },
+    {
+      "path": "images/products/nutraceuticals/Cordyceps Tablets 120.jpg",
+      "category": "products",
+      "extension": "jpg",
+      "bytes": 236559,
+      "mb": 0.23,
+      "sha256": "a06468f54bfdc9b42d60034d74810b4ba218defca1fbfc7cdea29da57d898a63"
+    }
+  ]
+}
