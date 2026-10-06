@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T06:02:26.656Z",
+  "generatedAt": "2026-10-06T06:04:11.916Z",
   "policy": {
     "warningBytes": 1500000,
     "criticalBytes": 5000000,
@@ -7,13 +7,13 @@
     "duplicateDeletion": false
   },
   "summary": {
-    "totalFiles": 161,
-    "totalBytes": 132751421,
-    "totalMb": 126.6,
+    "totalFiles": 160,
+    "totalBytes": 132287843,
+    "totalMb": 126.16,
     "warningFiles": 29,
     "criticalFiles": 6,
     "exactDuplicateGroups": 1,
-    "productImageCount": 19
+    "productImageCount": 18
   },
   "categories": {
     "gallery": {
@@ -37,9 +37,9 @@
       "mb": 25.73
     },
     "products": {
-      "files": 19,
-      "bytes": 14164553,
-      "mb": 13.51
+      "files": 18,
+      "bytes": 13700975,
+      "mb": 13.07
     },
     "logo": {
       "files": 1,
@@ -331,14 +331,6 @@
       "bytes": 623478,
       "mb": 0.59,
       "sha256": "a70c02e4c16bed7ab0ff5d30e70389a3772c65edeb3715fe1386b9292c68195a"
-    },
-    {
-      "path": "images/products/nutraceuticals/RG Tablet.png",
-      "category": "products",
-      "extension": "png",
-      "bytes": 463578,
-      "mb": 0.44,
-      "sha256": "61e6bae3f1e44cd0a157e560aea013f1da6b30161852f0f52d1f0d0c849b9efc"
     },
     {
       "path": "images/products/nutraceuticals/Reishi Gano RG-90.jpg",
