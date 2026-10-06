@@ -274,7 +274,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const mobile = window.innerWidth <= 760;
         const small = window.innerWidth <= 560;
         const radiusX = small ? Math.min(width * 0.40, 175) : mobile ? Math.min(width * 0.43, 245) : Math.min(width * 0.45, 350);
-        const radiusY = small ? 135 : mobile ? 170 : 235;
+        const radiusY = 0;
         const cardWidth = small ? 88 : mobile ? 108 : 126;
         const cardHeight = small ? 102 : mobile ? 122 : 146;
         const step = (Math.PI * 2) / cards.length;
