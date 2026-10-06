@@ -2,6 +2,9 @@
   {
     "id": "environment-day",
     "title": "Environment Day",
+    "folder": "images/gallery/Environment Day",
+    "count": 7,
+    "cover": "images/gallery/Environment Day/1.jpeg",
     "images": [
       {
         "src": "images/gallery/Environment Day/1.jpeg",
@@ -38,14 +41,14 @@
         "alt": "Enviroment Day (22)",
         "title": "Enviroment Day (22)"
       }
-    ],
-    "folder": "images/gallery/Environment Day",
-    "count": 7,
-    "cover": "images/gallery/Environment Day/1.jpeg"
+    ]
   },
   {
     "id": "events-blood-donation-camp",
     "title": "Blood donation Camp",
+    "folder": "images/gallery/Events/Blood donation Camp",
+    "count": 8,
+    "cover": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff (2).jpeg",
     "images": [
       {
         "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff (2).jpeg",
@@ -87,14 +90,14 @@
         "alt": "Blood Donation Dexin Staff Keshav Thakur(3)",
         "title": "Blood Donation Dexin Staff Keshav Thakur(3)"
       }
-    ],
-    "folder": "images/gallery/Events/Blood donation Camp",
-    "count": 8,
-    "cover": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff (2).jpeg"
+    ]
   },
   {
     "id": "events-ems-training",
     "title": "EMS Training",
+    "folder": "images/gallery/Events/EMS Training",
+    "count": 10,
+    "cover": "images/gallery/Events/EMS Training/EMS Training (1).jpg",
     "images": [
       {
         "src": "images/gallery/Events/EMS Training/EMS Training (1).jpg",
@@ -146,14 +149,14 @@
         "alt": "EMS Training (10)",
         "title": "EMS Training (10)"
       }
-    ],
-    "folder": "images/gallery/Events/EMS Training",
-    "count": 10,
-    "cover": "images/gallery/Events/EMS Training/EMS Training (1).jpg"
+    ]
   },
   {
     "id": "events-gmp-training",
     "title": "GMP Training",
+    "folder": "images/gallery/Events/GMP Training",
+    "count": 13,
+    "cover": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (1).jpg",
     "images": [
       {
         "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (1).jpg",
@@ -220,14 +223,14 @@
         "alt": "Group Photo For The Fire And EHS Training (17)",
         "title": "Group Photo For The Fire And EHS Training (17)"
       }
-    ],
-    "folder": "images/gallery/Events/GMP Training",
-    "count": 13,
-    "cover": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (1).jpg"
+    ]
   },
   {
     "id": "events-halla-training",
     "title": "Halla Training",
+    "folder": "images/gallery/Events/Halla Training",
+    "count": 18,
+    "cover": "images/gallery/Events/Halla Training/Halla Tranning (1).jpeg",
     "images": [
       {
         "src": "images/gallery/Events/Halla Training/Halla Tranning (1).jpeg",
@@ -319,14 +322,14 @@
         "alt": "Halla Tranning (18)",
         "title": "Halla Tranning (18)"
       }
-    ],
-    "folder": "images/gallery/Events/Halla Training",
-    "count": 18,
-    "cover": "images/gallery/Events/Halla Training/Halla Tranning (1).jpeg"
+    ]
   },
   {
     "id": "events-personal-hygiene-and-sanitation-training-provide-by-qa-qc-manager-photos",
     "title": "Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos",
+    "folder": "images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos",
+    "count": 2,
+    "cover": "images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos/WhatsApp Image 2026-09-29 at 09.38.22.jpeg",
     "images": [
       {
         "src": "images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos/WhatsApp Image 2026-09-29 at 09.38.22.jpeg",
@@ -338,14 +341,14 @@
         "alt": "WhatsApp Image 2026 09 29 At 09.38.23 (1)",
         "title": "WhatsApp Image 2026 09 29 At 09.38.23 (1)"
       }
-    ],
-    "folder": "images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos",
-    "count": 2,
-    "cover": "images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos/WhatsApp Image 2026-09-29 at 09.38.22.jpeg"
+    ]
   },
   {
     "id": "events-vishakarma-puja",
     "title": "Vishakarma Puja",
+    "folder": "images/gallery/Events/Vishakarma Puja",
+    "count": 8,
+    "cover": "images/gallery/Events/Vishakarma Puja/Vishakarma Puja 1.jpeg",
     "images": [
       {
         "src": "images/gallery/Events/Vishakarma Puja/Vishakarma Puja 1.jpeg",
@@ -387,28 +390,28 @@
         "alt": "Vishwakarma Puja",
         "title": "Vishwakarma Puja"
       }
-    ],
-    "folder": "images/gallery/Events/Vishakarma Puja",
-    "count": 8,
-    "cover": "images/gallery/Events/Vishakarma Puja/Vishakarma Puja 1.jpeg"
+    ]
   },
   {
     "id": "factory-images",
     "title": "Factory Images",
+    "folder": "images/gallery/Factory Images",
+    "count": 1,
+    "cover": "images/gallery/Factory Images/Inauguration 2.png",
     "images": [
       {
         "src": "images/gallery/Factory Images/Inauguration 2.png",
         "alt": "Inauguration 2",
         "title": "Inauguration 2"
       }
-    ],
-    "folder": "images/gallery/Factory Images",
-    "count": 1,
-    "cover": "images/gallery/Factory Images/Inauguration 2.png"
+    ]
   },
   {
     "id": "fire-safety-and-emergency-preparedness-tranning",
     "title": "Fire Safety and Emergency preparedness Tranning",
+    "folder": "images/gallery/Fire Safety and Emergency preparedness Tranning",
+    "count": 8,
+    "cover": "images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (1).jpeg",
     "images": [
       {
         "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (1).jpeg",
@@ -450,14 +453,14 @@
         "alt": "Fire Safety And Emergency Preparedness Tranning (13)",
         "title": "Fire Safety And Emergency Preparedness Tranning (13)"
       }
-    ],
-    "folder": "images/gallery/Fire Safety and Emergency preparedness Tranning",
-    "count": 8,
-    "cover": "images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (1).jpeg"
+    ]
   },
   {
     "id": "inauguration-day",
     "title": "Inauguration Day",
+    "folder": "images/gallery/Inauguration Day",
+    "count": 17,
+    "cover": "images/gallery/Inauguration Day/Inauguration 2.png",
     "images": [
       {
         "src": "images/gallery/Inauguration Day/Inauguration 2.png",
@@ -544,14 +547,14 @@
         "alt": "Inauguration80",
         "title": "Inauguration80"
       }
-    ],
-    "folder": "images/gallery/Inauguration Day",
-    "count": 17,
-    "cover": "images/gallery/Inauguration Day/Inauguration 2.png"
+    ]
   },
   {
     "id": "office-aniversary",
     "title": "Office Aniversary",
+    "folder": "images/gallery/Office Aniversary",
+    "count": 16,
+    "cover": "images/gallery/Office Aniversary/office aniversary (2).jpeg",
     "images": [
       {
         "src": "images/gallery/Office Aniversary/office aniversary (2).jpeg",
@@ -633,9 +636,6 @@
         "alt": "Office Aniversary (52)",
         "title": "Office Aniversary (52)"
       }
-    ],
-    "folder": "images/gallery/Office Aniversary",
-    "count": 16,
-    "cover": "images/gallery/Office Aniversary/office aniversary (2).jpeg"
+    ]
   }
 ]
