@@ -96,14 +96,9 @@
     "id": "events-ems-training",
     "title": "EMS Training",
     "folder": "images/gallery/Events/EMS Training",
-    "count": 10,
-    "cover": "images/gallery/Events/EMS Training/EMS Training (1).jpg",
+    "count": 9,
+    "cover": "images/gallery/Events/EMS Training/EMS Training (2).jpg",
     "images": [
-      {
-        "src": "images/gallery/Events/EMS Training/EMS Training (1).jpg",
-        "alt": "EMS Training (1)",
-        "title": "EMS Training (1)"
-      },
       {
         "src": "images/gallery/Events/EMS Training/EMS Training (2).jpg",
         "alt": "EMS Training (2)",
@@ -370,7 +365,7 @@
     "id": "fire-safety-and-emergency-preparedness-tranning",
     "title": "Fire Safety and Emergency preparedness Tranning",
     "folder": "images/gallery/Fire Safety and Emergency preparedness Tranning",
-    "count": 15,
+    "count": 16,
     "cover": "images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (1).jpeg",
     "images": [
       {
@@ -422,6 +417,11 @@
         "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (2).jpg",
         "alt": "Group Photo For The Fire And EHS Training (2)",
         "title": "Group Photo For The Fire And EHS Training (2)"
+      },
+      {
+        "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (3).jpg",
+        "alt": "Group Photo For The Fire And EHS Training (3)",
+        "title": "Group Photo For The Fire And EHS Training (3)"
       },
       {
         "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (9).jpg",
