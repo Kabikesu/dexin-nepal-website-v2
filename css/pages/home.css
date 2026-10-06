@@ -526,8 +526,12 @@
   .home-section-intro>p{font-size:.86rem}
   .home-product-stage{min-height:180px;margin-top:2px}
   .product-stage-modern{
-    width:calc(100% + 14px);
-    margin-inline:-7px;
+    width:100vw!important;
+    max-width:100vw!important;
+    left:50%;
+    margin-left:0;
+    margin-right:0;
+    transform:translateX(-50%);
     height:178px;
     border-radius:18px;
   }
