@@ -38,21 +38,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-002",
@@ -69,21 +74,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-003",
@@ -100,21 +110,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-004",
@@ -131,21 +146,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-005",
@@ -162,21 +182,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-006",
@@ -193,21 +218,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-007",
@@ -224,21 +254,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-008",
@@ -255,21 +290,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-009",
@@ -286,21 +326,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-010",
@@ -317,21 +362,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-011",
@@ -348,21 +398,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-012",
@@ -379,21 +434,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-013",
@@ -410,21 +470,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-014",
@@ -441,21 +506,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-015",
@@ -472,21 +542,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-016",
@@ -503,21 +578,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-017",
@@ -534,21 +614,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-018",
@@ -565,21 +650,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-019",
@@ -596,21 +686,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-020",
@@ -627,21 +722,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-021",
@@ -658,21 +758,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-022",
@@ -689,21 +794,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-023",
@@ -720,21 +830,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-024",
@@ -751,21 +866,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-025",
@@ -782,21 +902,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-026",
@@ -813,21 +938,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-027",
@@ -844,21 +974,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-028",
@@ -875,21 +1010,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-029",
@@ -906,21 +1046,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-030",
@@ -937,21 +1082,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-031",
@@ -968,21 +1118,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     },
     {
       "id": "vac-032",
@@ -999,21 +1154,26 @@
       "selectionProcess": [
         {
           "name": "Application Review",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Shortlisting",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Interview",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         },
         {
           "name": "Final Selection",
-          "status": "pending"
+          "status": "pending",
+          "completedOn": null
         }
-      ]
+      ],
+      "applicationOpenDate": null
     }
   ]
 }
