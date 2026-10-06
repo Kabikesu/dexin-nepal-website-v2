@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T06:38:38.397Z",
+  "generatedAt": "2026-10-06T06:41:32.286Z",
   "policy": {
     "warningBytes": 1500000,
     "criticalBytes": 5000000,
@@ -395,7 +395,7 @@
       "sha256": "b3807397855e4823337fbb6bb32199d3150f629d2e3028e11175bd2cba5d3826"
     },
     {
-      "path": "images/products/nutraceuticals/LionsMane Capsule 120.jpg",
+      "path": "images/products/nutraceuticals/LionsMane120 Tablet.jpg",
       "category": "products",
       "extension": "jpg",
       "bytes": 286064,
