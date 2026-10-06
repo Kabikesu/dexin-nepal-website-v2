@@ -161,18 +161,6 @@
     "published": true
   },
   {
-    "id": "reishi-gano-360-capsule",
-    "name": "Reishi Gano 360 Capsule",
-    "type": "Nutraceuticals",
-    "description": "",
-    "image": "images/products/nutraceuticals/Reishi Gano 360 Capsule .png",
-    "packageSize": "",
-    "status": "current",
-    "featured": false,
-    "upcoming": false,
-    "published": true
-  },
-  {
     "id": "reishi-gano-rg-90",
     "name": "Reishi Gano (RG-90) Capsule",
     "type": "Nutraceuticals",
