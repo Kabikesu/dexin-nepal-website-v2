@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T07:12:07.060Z",
+  "generatedAt": "2026-10-06T09:06:19.820Z",
   "policy": {
     "warningBytes": 1500000,
     "criticalBytes": 5000000,
@@ -7,19 +7,19 @@
     "duplicateDeletion": false
   },
   "summary": {
-    "totalFiles": 166,
-    "totalBytes": 133805883,
-    "totalMb": 127.61,
+    "totalFiles": 165,
+    "totalBytes": 133582230,
+    "totalMb": 127.39,
     "warningFiles": 30,
     "criticalFiles": 6,
-    "exactDuplicateGroups": 3,
+    "exactDuplicateGroups": 2,
     "productImageCount": 19
   },
   "categories": {
     "gallery": {
-      "files": 111,
-      "bytes": 72811735,
-      "mb": 69.44
+      "files": 110,
+      "bytes": 72588082,
+      "mb": 69.23
     },
     "hero": {
       "files": 1,
@@ -256,13 +256,6 @@
         "images/factory/factory-intro.jpg",
         "images/gallery/Factory Images/Inauguration 2.png",
         "images/gallery/Inauguration Day/Inauguration 2.png"
-      ]
-    },
-    {
-      "sha256": "1fddff8f77cb548166595cb86ab62c22380c517a0eb31a5d710b1988f636583e",
-      "files": [
-        "images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (4).jpeg",
-        "images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (6).jpeg"
       ]
     },
     {
