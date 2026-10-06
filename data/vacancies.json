@@ -32,8 +32,8 @@
       "remarks": "",
       "location": "Kapilvastu, Nepal",
       "employment": "Full-time",
-      "status": "open",
-      "published": true,
+      "status": "fulfilled",
+      "published": false,
       "deadline": null,
       "selectionProcess": [
         {
@@ -57,7 +57,8 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "fulfilledOn": "2026-10-06"
     },
     {
       "id": "vac-002",
@@ -212,8 +213,8 @@
       "remarks": "",
       "location": "Kapilvastu, Nepal",
       "employment": "Full-time",
-      "status": "open",
-      "published": true,
+      "status": "fulfilled",
+      "published": false,
       "deadline": null,
       "selectionProcess": [
         {
@@ -237,7 +238,8 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "fulfilledOn": "2026-10-06"
     },
     {
       "id": "vac-007",
@@ -392,8 +394,8 @@
       "remarks": "",
       "location": "Kapilvastu, Nepal",
       "employment": "Full-time",
-      "status": "open",
-      "published": true,
+      "status": "fulfilled",
+      "published": false,
       "deadline": null,
       "selectionProcess": [
         {
@@ -417,7 +419,8 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "fulfilledOn": "2026-10-06"
     },
     {
       "id": "vac-012",
@@ -464,8 +467,8 @@
       "remarks": "1 for Coffee & 2 for Nutra",
       "location": "Kapilvastu, Nepal",
       "employment": "Full-time",
-      "status": "open",
-      "published": true,
+      "status": "fulfilled",
+      "published": false,
       "deadline": null,
       "selectionProcess": [
         {
@@ -489,7 +492,8 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "fulfilledOn": "2026-10-06"
     },
     {
       "id": "vac-014",
@@ -536,8 +540,8 @@
       "remarks": "",
       "location": "Kapilvastu, Nepal",
       "employment": "Full-time",
-      "status": "open",
-      "published": true,
+      "status": "fulfilled",
+      "published": false,
       "deadline": null,
       "selectionProcess": [
         {
@@ -561,7 +565,8 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "fulfilledOn": "2026-10-06"
     },
     {
       "id": "vac-016",
@@ -572,8 +577,8 @@
       "remarks": "",
       "location": "Kapilvastu, Nepal",
       "employment": "Full-time",
-      "status": "open",
-      "published": true,
+      "status": "fulfilled",
+      "published": false,
       "deadline": null,
       "selectionProcess": [
         {
@@ -597,7 +602,8 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "fulfilledOn": "2026-10-06"
     },
     {
       "id": "vac-017",
@@ -608,8 +614,8 @@
       "remarks": "",
       "location": "Kapilvastu, Nepal",
       "employment": "Full-time",
-      "status": "open",
-      "published": true,
+      "status": "fulfilled",
+      "published": false,
       "deadline": null,
       "selectionProcess": [
         {
@@ -633,7 +639,8 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "fulfilledOn": "2026-10-06"
     },
     {
       "id": "vac-018",
@@ -644,8 +651,8 @@
       "remarks": "",
       "location": "Kapilvastu, Nepal",
       "employment": "Full-time",
-      "status": "open",
-      "published": true,
+      "status": "fulfilled",
+      "published": false,
       "deadline": null,
       "selectionProcess": [
         {
@@ -669,7 +676,8 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "fulfilledOn": "2026-10-06"
     },
     {
       "id": "vac-019",
@@ -716,8 +724,8 @@
       "remarks": "",
       "location": "Kapilvastu, Nepal",
       "employment": "Full-time",
-      "status": "open",
-      "published": true,
+      "status": "fulfilled",
+      "published": false,
       "deadline": null,
       "selectionProcess": [
         {
@@ -741,7 +749,8 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "fulfilledOn": "2026-10-06"
     },
     {
       "id": "vac-021",
@@ -824,8 +833,8 @@
       "remarks": "For Coffee & Nutra",
       "location": "Kapilvastu, Nepal",
       "employment": "Full-time",
-      "status": "open",
-      "published": true,
+      "status": "fulfilled",
+      "published": false,
       "deadline": null,
       "selectionProcess": [
         {
@@ -849,7 +858,8 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "fulfilledOn": "2026-10-06"
     },
     {
       "id": "vac-024",
@@ -932,8 +942,8 @@
       "remarks": "",
       "location": "Kapilvastu, Nepal",
       "employment": "Full-time",
-      "status": "open",
-      "published": true,
+      "status": "fulfilled",
+      "published": false,
       "deadline": null,
       "selectionProcess": [
         {
@@ -957,7 +967,8 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "fulfilledOn": "2026-10-06"
     },
     {
       "id": "vac-027",
@@ -968,8 +979,8 @@
       "remarks": "",
       "location": "Kapilvastu, Nepal",
       "employment": "Full-time",
-      "status": "open",
-      "published": true,
+      "status": "fulfilled",
+      "published": false,
       "deadline": null,
       "selectionProcess": [
         {
@@ -993,7 +1004,8 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "fulfilledOn": "2026-10-06"
     },
     {
       "id": "vac-028",
@@ -1112,8 +1124,8 @@
       "remarks": "",
       "location": "Kapilvastu, Nepal",
       "employment": "Full-time",
-      "status": "open",
-      "published": true,
+      "status": "fulfilled",
+      "published": false,
       "deadline": null,
       "selectionProcess": [
         {
@@ -1137,7 +1149,8 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "fulfilledOn": "2026-10-06"
     },
     {
       "id": "vac-032",
@@ -1174,6 +1187,43 @@
         }
       ],
       "applicationOpenDate": null
+    },
+    {
+      "id": "vac-033",
+      "title": "Logistic Executive",
+      "department": "Logistics",
+      "experience": "As per manpower plan",
+      "openings": 1,
+      "remarks": "Position fulfilled; retained in the vacancy archive for HR tracking.",
+      "location": "Kapilvastu, Nepal",
+      "employment": "Full-time",
+      "status": "fulfilled",
+      "published": false,
+      "applicationOpenDate": null,
+      "deadline": null,
+      "fulfilledOn": "2026-10-06",
+      "selectionProcess": [
+        {
+          "name": "Application Review",
+          "status": "completed",
+          "completedOn": null
+        },
+        {
+          "name": "Shortlisting",
+          "status": "completed",
+          "completedOn": null
+        },
+        {
+          "name": "Interview",
+          "status": "completed",
+          "completedOn": null
+        },
+        {
+          "name": "Final Selection",
+          "status": "completed",
+          "completedOn": null
+        }
+      ]
     }
   ]
 }
