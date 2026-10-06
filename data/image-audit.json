@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T06:43:07.013Z",
+  "generatedAt": "2026-10-06T06:44:38.477Z",
   "policy": {
     "warningBytes": 1500000,
     "criticalBytes": 5000000,
@@ -8,8 +8,8 @@
   },
   "summary": {
     "totalFiles": 166,
-    "totalBytes": 134715891,
-    "totalMb": 128.48,
+    "totalBytes": 134685643,
+    "totalMb": 128.45,
     "warningFiles": 30,
     "criticalFiles": 6,
     "exactDuplicateGroups": 3,
@@ -38,8 +38,8 @@
     },
     "products": {
       "files": 19,
-      "bytes": 15100130,
-      "mb": 14.4
+      "bytes": 15069882,
+      "mb": 14.37
     },
     "logo": {
       "files": 1,
@@ -315,12 +315,12 @@
       "sha256": "61f6ff1c725bf2f2d9675e970daf40860ed405fa27664e1d7ffad6f0f3cf5c99"
     },
     {
-      "path": "images/products/nutraceuticals/Ganocelium 360 Capsule.jpg",
+      "path": "images/products/nutraceuticals/Reishi Gano (RG-360) Capsule .png",
       "category": "products",
-      "extension": "jpg",
-      "bytes": 1543513,
-      "mb": 1.47,
-      "sha256": "7334f61cac0763ca7f42fb5dfab914ce8717d2a5391d314687ff16ca1cb15f9e"
+      "extension": "png",
+      "bytes": 1513265,
+      "mb": 1.44,
+      "sha256": "e2c9dd3efe84935e433db6b591a00934e961ce6cdcee4bb9a4eb0d892b774a8f"
     },
     {
       "path": "images/products/coffee/Lingzhi Coffee 2 in 1.jpg",
