@@ -24,6 +24,7 @@ function slugFromPath(relativePath) {
 function imageFiles(dir, relativeDir) {
   return fs.readdirSync(dir, { withFileTypes: true })
     .filter(entry =>
+      !entry.name.startsWith(".") &&
       entry.isFile() &&
       extensions.has(path.extname(entry.name).toLowerCase())
     )
@@ -51,6 +52,7 @@ function imageFiles(dir, relativeDir) {
 function collectAlbums(dir, relativeDir = "") {
   const albums = [];
   const entries = fs.readdirSync(dir, { withFileTypes: true })
+    .filter(entry => !entry.name.startsWith("."))
     .sort((a, b) =>
       a.name.localeCompare(b.name, undefined, {
         numeric: true,
@@ -67,6 +69,9 @@ function collectAlbums(dir, relativeDir = "") {
     albums.push({
       id: slugFromPath(relativeDir),
       title: path.basename(relativeDir),
+      folder: path.posix.join("images/gallery", relativeDir),
+      count: images.length,
+      cover: images[0]?.src || "",
       images
     });
   }
