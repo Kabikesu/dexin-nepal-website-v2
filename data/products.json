@@ -163,19 +163,6 @@
     "topCategory": "DXN RG & GL"
   },
   {
-    "id": "rg-tablet",
-    "name": "RG Tablet",
-    "type": "Nutraceuticals",
-    "description": "",
-    "image": "images/products/nutraceuticals/RG Tablet.png",
-    "packageSize": "",
-    "status": "current",
-    "featured": true,
-    "upcoming": false,
-    "published": true,
-    "topCategory": "DXN RG & GL"
-  },
-  {
     "id": "spirulina-120-capsule",
     "name": "Spirulina Capsule 120",
     "type": "Nutraceuticals",
