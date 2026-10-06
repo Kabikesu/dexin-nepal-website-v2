@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T06:04:11.916Z",
+  "generatedAt": "2026-10-06T06:04:27.236Z",
   "policy": {
     "warningBytes": 1500000,
     "criticalBytes": 5000000,
@@ -7,13 +7,13 @@
     "duplicateDeletion": false
   },
   "summary": {
-    "totalFiles": 160,
-    "totalBytes": 132287843,
-    "totalMb": 126.16,
+    "totalFiles": 159,
+    "totalBytes": 131969772,
+    "totalMb": 125.86,
     "warningFiles": 29,
     "criticalFiles": 6,
     "exactDuplicateGroups": 1,
-    "productImageCount": 18
+    "productImageCount": 17
   },
   "categories": {
     "gallery": {
@@ -37,9 +37,9 @@
       "mb": 25.73
     },
     "products": {
-      "files": 18,
-      "bytes": 13700975,
-      "mb": 13.07
+      "files": 17,
+      "bytes": 13382904,
+      "mb": 12.76
     },
     "logo": {
       "files": 1,
@@ -363,14 +363,6 @@
       "bytes": 365198,
       "mb": 0.35,
       "sha256": "b3807397855e4823337fbb6bb32199d3150f629d2e3028e11175bd2cba5d3826"
-    },
-    {
-      "path": "images/products/nutraceuticals/GL Tablet.png",
-      "category": "products",
-      "extension": "png",
-      "bytes": 318071,
-      "mb": 0.3,
-      "sha256": "ca8c7256763ebe398d324d62f073a3195d8731b885baccfec4972d0da490b6a9"
     },
     {
       "path": "images/products/nutraceuticals/LionsMane Capsule 120.jpg",
