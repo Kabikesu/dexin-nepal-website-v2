@@ -70,8 +70,6 @@
       const status = getEffectiveStatus(vacancy);
       const displayStatus = isClosingSoon(vacancy) ? "closing-soon" : status;
       const process = Array.isArray(vacancy.selectionProcess) ? vacancy.selectionProcess : [];
-      const completedCount = process.filter(step => step.status === "completed").length;
-      const progressText = process.length ? `${completedCount}/${process.length} stages completed` : "Process to be updated";
       const subject = encodeURIComponent(`Application for ${vacancy.title} Position`);
       const canApply = status === "open";
       const action = canApply
@@ -106,13 +104,23 @@
         <div class="vacancy-summary">
           <div><span>Experience</span><strong>${escapeHtml(vacancy.experience || "As per role")}</strong></div>
           <div><span>Application Deadline</span><strong>${escapeHtml(formatDate(vacancy.deadline))}</strong></div>
-          <div><span>Selection Progress</span><strong>${escapeHtml(progressText)}</strong></div>
         </div>
 
-        ${canApply ? `<div class="vacancy-apply">
-          ${currentProcessMarkup}
-          ${action}
-        </div>` : ""}
+        <div class="vacancy-actions">
+          <button class="button button-secondary vacancy-details-toggle" type="button" aria-expanded="false">View Details <span>+</span></button>
+          ${canApply ? action : ""}
+        </div>
+
+        <div class="vacancy-details" hidden>
+          <div class="vacancy-detail-section"><h4>Job Description</h4><p>${escapeHtml(vacancy.details?.jobDescription || "Detailed job description will be provided by HR for this position.")}</p></div>
+          <div class="vacancy-detail-section"><h4>Job purpose:</h4><p>${escapeHtml(vacancy.details?.jobPurpose || "To effectively perform the responsibilities of this position and support the objectives of the relevant department.")}</p></div>
+          <div class="vacancy-detail-section"><h4>Roles and Responsibilities:</h4>${Array.isArray(vacancy.details?.responsibilities) && vacancy.details.responsibilities.length ? `<ul>${vacancy.details.responsibilities.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : "<p>Role-specific responsibilities will be provided by HR.</p>"}</div>
+          <div class="vacancy-detail-section"><h4>Education &amp; Experience</h4><p>${escapeHtml(vacancy.details?.educationExperience || vacancy.experience || "As per role requirements.")}</p></div>
+          <div class="vacancy-detail-section"><h4>Skills and Competencies:</h4>${Array.isArray(vacancy.details?.skills) && vacancy.details.skills.length ? `<ul>${vacancy.details.skills.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : "<p>Role-specific skills and competencies will be provided by HR.</p>"}</div>
+          <div class="vacancy-detail-section vacancy-additional-info"><h4>Additional Information</h4><p>Any telephone enquiries/and or attempts to apply undue influence will result disqualification of candidates. Only short-listed candidates will be contacted for the selection process. Dexin Manufacturing Nepal reserves the right to reject any or all applications without assigning any reasons.</p></div>
+        </div>
+
+        ${canApply ? `<div class="vacancy-current-process-wrap">${currentProcessMarkup}</div>` : ""}
       </article>`;
     }).join("");
   };
@@ -131,6 +139,18 @@
       console.error("Careers vacancy data:", error);
     }
   };
+
+  list.addEventListener("click", event => {
+    const button = event.target.closest(".vacancy-details-toggle");
+    if (!button) return;
+    const card = button.closest(".vacancy-card");
+    const details = card?.querySelector(".vacancy-details");
+    if (!details) return;
+    const expanded = button.getAttribute("aria-expanded") === "true";
+    button.setAttribute("aria-expanded", String(!expanded));
+    details.hidden = expanded;
+    button.innerHTML = expanded ? "View Details <span>+</span>" : "Hide Details <span>−</span>";
+  });
 
   filters.forEach(button => {
     button.addEventListener("click", () => {
