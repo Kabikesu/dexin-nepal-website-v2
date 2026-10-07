@@ -236,3 +236,42 @@
   .process-step{grid-template-columns:9px 1fr;align-items:start}
   .process-step small{grid-column:2}
 }
+
+
+/* Compact vacancy card + expandable requirements */
+.vacancy-card{box-shadow:0 10px 28px rgba(23,23,23,.055)}
+.vacancy-header{padding:24px clamp(20px,3vw,34px)}
+.vacancy-header h3{margin:12px 0 8px;font-size:clamp(1.8rem,3.5vw,3rem)}
+.vacancy-summary{grid-template-columns:repeat(2,minmax(0,1fr))}
+.vacancy-summary>div{padding:12px clamp(18px,2.5vw,28px)}
+.vacancy-actions{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px clamp(18px,2.5vw,28px);border-bottom:1px solid var(--line)}
+.vacancy-actions .button{padding:9px 14px;font-size:.76rem}
+.vacancy-details{border-bottom:1px solid var(--line);background:#fbfaf8}
+.vacancy-detail-section{padding:22px clamp(20px,3vw,34px);border-top:1px solid var(--line)}
+.vacancy-detail-section:first-child{border-top:0}
+.vacancy-detail-section h4{margin:0 0 8px;font-size:.98rem}
+.vacancy-detail-section p,.vacancy-detail-section li{margin:0;color:var(--muted);font-size:.88rem;line-height:1.7}
+.vacancy-detail-section ul{margin:0;padding-left:20px}
+.vacancy-detail-section li+li{margin-top:5px}
+.vacancy-additional-info{background:#f5f1eb}
+.vacancy-current-process-wrap{padding:12px clamp(18px,2.5vw,28px) 14px}
+.vacancy-current-process{display:flex;align-items:center;gap:9px;color:var(--muted);font-size:.78rem}
+.vacancy-current-process strong{color:var(--dark)}
+.vacancy-current-process small{margin-left:auto;color:var(--primary);font-size:.68rem;font-weight:700}
+.process-dot-active{border-color:var(--primary);box-shadow:0 0 0 3px rgba(181,18,27,.08)}
+.process-dot-pending{background:#fff}
+@media(max-width:700px){
+  .vacancy-actions{align-items:stretch;flex-direction:column}
+  .vacancy-actions .button{width:100%;justify-content:center}
+}
+@media(max-width:560px){
+  .vacancy-header{padding:22px 18px}
+  .vacancy-summary{grid-template-columns:1fr}
+  .vacancy-summary>div{border-right:0;border-bottom:1px solid var(--line)}
+  .vacancy-summary>div:last-child{border-bottom:0}
+  .vacancy-actions{padding:12px 18px}
+  .vacancy-detail-section{padding:19px 18px}
+  .vacancy-current-process-wrap{padding:11px 18px 13px}
+  .vacancy-current-process{align-items:flex-start;flex-wrap:wrap}
+  .vacancy-current-process small{margin-left:auto}
+}
