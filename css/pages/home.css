@@ -329,7 +329,8 @@
   position:relative;
   z-index:2;
   width:100%;
-  grid-template-columns:minmax(0,1fr) minmax(280px,.55fr);
+  grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);
+  gap:clamp(40px,8vw,120px);
   align-items:center;
 }
 .home-hero-copy{
