@@ -418,7 +418,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (!reduceMotion) requestAnimationFrame(tick);
     };
     renderHomeProducts(items);
-    setupProductQuickView(items);
 
     const setupProductQuickView = catalogue => {
       const existing = document.getElementById("product-quick-view");
@@ -526,6 +525,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         if (event.key === "Escape" && !modal.hidden) close();
       });
     };
+
+    setupProductQuickView(items);
 
     const normalizeProductImages = root => {
       root.querySelectorAll(".product-image-normalized").forEach(img => {
