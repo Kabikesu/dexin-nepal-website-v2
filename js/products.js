@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     ? '<div class="product-image-fit"><img class="product-image-normalized" src="' + escapeHtml(product.image) + '" alt="' + escapeHtml(product.name) + '" loading="lazy"></div>'
     : '<div class="product-image-empty"><span>DEXIN</span><small>Image coming soon</small></div>';
 
-  const card = product => '<a class="product-card product-card-editorial reveal" data-status="' + escapeHtml(product.status) + '" data-type="' + escapeHtml(product.type) + '" href="product-detail.html?id=' + encodeURIComponent(product.id || product.name) + '">' +
+  const card = product => '<a class="product-card product-card-editorial reveal" data-product-id="' + escapeHtml(product.id || product.name) + '" data-status="' + escapeHtml(product.status) + '" data-type="' + escapeHtml(product.type) + '" href="product-detail.html?id=' + encodeURIComponent(product.id || product.name) + '">' +
     '<div class="product-card-media">' + imageMarkup(product) +
     '<span class="product-status product-status-' + escapeHtml(product.status) + '">' + (product.status === "upcoming" ? "Upcoming" : "Current") + '</span></div>' +
     '<div class="product-card-body"><div class="product-card-meta"><small>' + escapeHtml(product.type || "Product") + '</small><span>↗</span></div>' +
@@ -224,6 +224,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const makeHeroItem = (product, index) => {
         const card = document.createElement("a");
         card.className = "hero-product-orbit-card";
+        card.dataset.productId = product.id || product.name;
         card.href = "product-detail.html?id=" + encodeURIComponent(product.id || product.name);
         card.setAttribute("aria-label", "View " + product.name);
         card.dataset.index = String(index);
@@ -333,6 +334,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const makeItem = (product, index) => {
         const card = document.createElement("a");
         card.className = "hero-product-orbit-card";
+        card.dataset.productId = product.id || product.name;
         card.href = "product-detail.html?id=" + encodeURIComponent(product.id || product.name);
         card.setAttribute("aria-label", "View " + product.name);
 
@@ -416,6 +418,114 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (!reduceMotion) requestAnimationFrame(tick);
     };
     renderHomeProducts(items);
+    setupProductQuickView(items);
+
+    const setupProductQuickView = catalogue => {
+      const existing = document.getElementById("product-quick-view");
+      if (existing) existing.remove();
+
+      const modal = document.createElement("div");
+      modal.id = "product-quick-view";
+      modal.className = "product-quick-view";
+      modal.hidden = true;
+      modal.innerHTML =
+        '<div class="product-quick-view-backdrop" data-product-modal-close></div>' +
+        '<section class="product-quick-view-dialog" role="dialog" aria-modal="true" aria-labelledby="product-quick-view-title" tabindex="-1">' +
+          '<button class="product-quick-view-close" type="button" aria-label="Close product details" data-product-modal-close>×</button>' +
+          '<div class="product-quick-view-media"><img id="product-quick-view-image" alt=""><div class="product-quick-view-image-empty" hidden><span>DEXIN</span><small>Image coming soon</small></div></div>' +
+          '<div class="product-quick-view-content">' +
+            '<div class="product-quick-view-meta"><span id="product-quick-view-type"></span><span id="product-quick-view-status"></span></div>' +
+            '<h2 id="product-quick-view-title"></h2>' +
+            '<p id="product-quick-view-description" class="product-quick-view-description"></p>' +
+            '<dl class="product-quick-view-facts">' +
+              '<div id="product-quick-view-package-row"><dt>Package</dt><dd id="product-quick-view-package"></dd></div>' +
+              '<div id="product-quick-view-category-row"><dt>Category</dt><dd id="product-quick-view-category"></dd></div>' +
+            '</dl>' +
+            '<div class="product-quick-view-actions">' +
+              '<a id="product-quick-view-full" class="button button-primary" href="#">View Full Product</a>' +
+              '<button class="button button-ghost product-quick-view-dismiss" type="button" data-product-modal-close>Close</button>' +
+            '</div>' +
+          '</div>' +
+        '</section>';
+      document.body.appendChild(modal);
+
+      const dialog = modal.querySelector(".product-quick-view-dialog");
+      const image = modal.querySelector("#product-quick-view-image");
+      const emptyImage = modal.querySelector(".product-quick-view-image-empty");
+      const title = modal.querySelector("#product-quick-view-title");
+      const type = modal.querySelector("#product-quick-view-type");
+      const status = modal.querySelector("#product-quick-view-status");
+      const description = modal.querySelector("#product-quick-view-description");
+      const packageRow = modal.querySelector("#product-quick-view-package-row");
+      const packageValue = modal.querySelector("#product-quick-view-package");
+      const categoryRow = modal.querySelector("#product-quick-view-category-row");
+      const categoryValue = modal.querySelector("#product-quick-view-category");
+      const fullLink = modal.querySelector("#product-quick-view-full");
+      let lastFocused = null;
+
+      const findProduct = id => catalogue.find(product => String(product.id || product.name) === String(id));
+
+      const open = product => {
+        if (!product) return;
+        lastFocused = document.activeElement;
+        title.textContent = product.name || "Product";
+        type.textContent = product.type || "Product";
+        status.textContent = product.status === "upcoming" ? "Upcoming" : "Current";
+        status.className = "product-quick-view-status product-quick-view-status-" + (product.status === "upcoming" ? "upcoming" : "current");
+
+        description.textContent = product.description || "Product information will be available soon.";
+        packageValue.textContent = product.packageSize || "";
+        packageRow.hidden = !product.packageSize;
+        categoryValue.textContent = product.topCategory || product.type || "";
+        categoryRow.hidden = !(product.topCategory || product.type);
+
+        if (product.image) {
+          image.src = product.image;
+          image.alt = product.name || "Product";
+          image.hidden = false;
+          emptyImage.hidden = true;
+        } else {
+          image.removeAttribute("src");
+          image.alt = "";
+          image.hidden = true;
+          emptyImage.hidden = false;
+        }
+
+        fullLink.href = "product-detail.html?id=" + encodeURIComponent(product.id || product.name);
+        modal.hidden = false;
+        document.body.classList.add("product-quick-view-open");
+        requestAnimationFrame(() => {
+          modal.classList.add("is-open");
+          dialog.focus();
+        });
+      };
+
+      const close = () => {
+        if (modal.hidden) return;
+        modal.classList.remove("is-open");
+        document.body.classList.remove("product-quick-view-open");
+        window.setTimeout(() => { modal.hidden = true; }, 220);
+        if (lastFocused && typeof lastFocused.focus === "function") lastFocused.focus();
+      };
+
+      document.addEventListener("click", event => {
+        const trigger = event.target.closest("[data-product-id]");
+        if (trigger && !event.target.closest("#product-quick-view")) {
+          const product = findProduct(trigger.dataset.productId);
+          if (product) {
+            event.preventDefault();
+            open(product);
+          }
+          return;
+        }
+
+        if (event.target.closest("[data-product-modal-close]")) close();
+      });
+
+      document.addEventListener("keydown", event => {
+        if (event.key === "Escape" && !modal.hidden) close();
+      });
+    };
 
     const normalizeProductImages = root => {
       root.querySelectorAll(".product-image-normalized").forEach(img => {
