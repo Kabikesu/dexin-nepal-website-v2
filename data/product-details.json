@@ -2,12 +2,14 @@
   "cocozhi": {
     "name": "Cocoa Drink Premix with Ganoderma Extract (Cocozhi)",
     "type": "Coffee",
-    "status": "current"
+    "status": "current",
+    "description": "Cocozhi is formulated from the finest cocoa with Ganoderma extract. Besides the excellent Cocoa aroma, the stimulating effect of Ganoderma will make you healthy. Pour the Cocozhi powder in a cup, add hot water/milk and stir. Enjoy the drink Cocozhi. Cocozhi is a delicious Cold Drink too. Ingredients: Sugar, Non Dairy Creamer, Cocoa powder, Vanilla Flavour, Skimmed milk powder, Malt extract and Ganoderma extract (0.6%). Direction: Pour the contents of Cocozhi in a cup, add 150 ml hot water/milk and stir. Suitable for: Drinking (Beverage). Category in Nepal: DFTQC. Caution: NA. Shelf Life: Best Before 36 months from the MFG. Date. Storage: Keep in a cool and Dry Place. Physical Appearance: Pre-Mix Powder form. Colour: Dark Brown."
   },
   "cordyceps-coffee-3-in-1": {
     "name": "Coffee Drink Premix With Cordyceps Powder (Cordyceps Coffee 3 in 1)",
     "type": "Coffee",
-    "status": "current"
+    "status": "current",
+    "description": "DXN Cordyceps Coffee 3 in 1 is a mixture of Coffee Powder and Cordyceps. Pour Lingzhi Coffee powder in a cup, add hot water and stir well to enjoy the original taste of DXN Cordyceps Coffee. Ingredients: Sugar, Non Dairy Creamer, Instant Coffee, Mocha Flavour and Cordyceps (0.31%). Direction: Pour the contents of DXN Cordyceps coffee 3 in 1 into a cup, add 150 ml hot water and stir well. Suitable for: Drinking (Beverage). Category in Nepal: DFTQC. Caution: NA. Shelf Life: Best Before 36 months from the MFG. Date. Storage: Keep in a cool and Dry Place. Physical Appearance: Pre-Mix Powder form. Colour & Taste: Dark Brown and Coffee taste."
   },
   "lingzhi-coffee-2-in-1": {
     "name": "Lingzhi Coffee 2 in 1",
@@ -17,7 +19,8 @@
   "lingzhi-coffee-3-in-1": {
     "name": "Coffee Drink Premix with Ganoderma Extract Lingzhi Coffee 3 in 1",
     "type": "Coffee",
-    "status": "current"
+    "status": "current",
+    "description": "DXN Lingzhi Coffee 3 in 1 is a mixture of Coffee Powder and Ganoderma mushroom. Pour Lingzhi Coffee powder in a cup, add hot water and stir well to enjoy the original taste of DXN Lingzhi Coffee. Ingredients: Sugar, Non Dairy Creamer, Instant Coffee, Cocoa powder, Vanilla flavour and Ganoderma extract (0.25%). Direction: Pour the contents of DXN lingzhi coffee 3 in 1 into a cup, add 150 ml hot water and stir well. Suitable for: Drinking (Beverage). Category in Nepal: DFTQC. Caution: NA. Shelf Life: Best Before 36 months from the MFG. Date. Storage: Keep in a cool and Dry Place. Physical Appearance: Pre-Mix Powder form. Colour & Taste: Brown and Coffee taste."
   },
   "ganocelium-gl-90": {
     "name": "Ganocelium (GL-90) Capsule",
@@ -65,66 +68,77 @@
     "name": "Reishi Gano (RG-360) Capsule",
     "type": "Nutraceuticals",
     "status": "upcoming",
-    "packageSize": "360 Caps. × 270 mg"
+    "packageSize": "360 Caps. × 270 mg",
+    "description": "Reishi Gano (RG). Ingredients: Chatrakh (Ganoderma Lucidum) Fruit body Powder; Cellulose Capsule (HPMC). Dosage: One capsule three times daily or as advised by the dietitian. Category in Nepal: Dietary Supplement. Caution: NOT FOR MEDICINAL USE. Shelf Life: 36 months from the MFG. Date. Storage: Store in a cool and dry place. Keep away from moisture. Avoid direct heat and sunlight. Colour: Brown."
   },
   "ganocelium-gl-360": {
     "name": "Ganocelium (GL-360) Capsule",
     "type": "Nutraceuticals",
     "status": "upcoming",
-    "packageSize": "360 Caps. × 450 mg"
+    "packageSize": "360 Caps. × 450 mg",
+    "description": "Ganocelium (GL). Ingredients: Chatrakh (Ganoderma Lucidum) mycelium Powder; Cellulose Capsule (HPMC). Dosage: One capsule three times daily or as advised by the dietitian. Category in Nepal: Dietary Supplement. Caution: NOT FOR MEDICINAL USE. Shelf Life: 36 months from the MFG. Date. Storage: Store in a cool and dry place. Keep away from moisture. Avoid direct heat and sunlight. Colour: Creamy White."
   },
   "cordyceps-capsule-120": {
     "name": "Cordyceps Capsule 120",
     "type": "Nutraceuticals",
     "status": "upcoming",
-    "packageSize": "120 Caps. × 450 mg"
+    "packageSize": "120 Caps. × 450 mg",
+    "description": "Cordyceps Capsule. Ingredients: Cordyceps Sinensis Powder; Cellulose Capsule (HPMC). Dosage: Take 1-3 capsules a day or as advised by the dietitian. Category in Nepal: Dietary Supplement. Caution: NOT FOR MEDICINAL USE. Shelf Life: 36 months from the MFG. Date. Storage: Store in a cool and dry place. Keep away from moisture. Avoid direct heat and sunlight. Colour: Pale Yellow Colour."
   },
   "cordyceps-capsule-360": {
     "name": "Cordyceps Capsule 360",
     "type": "Nutraceuticals",
     "status": "upcoming",
-    "packageSize": "360 Caps. × 450 mg"
+    "packageSize": "360 Caps. × 450 mg",
+    "description": "Cordyceps Capsule. Ingredients: Cordyceps Sinensis Powder; Cellulose Capsule (HPMC). Dosage: Take 1-3 capsules a day or as advised by the dietitian. Category in Nepal: Dietary Supplement. Caution: NOT FOR MEDICINAL USE. Shelf Life: 36 months from the MFG. Date. Storage: Store in a cool and dry place. Keep away from moisture. Avoid direct heat and sunlight. Colour: Pale Yellow Colour."
   },
   "cordyceps-tablets-120": {
     "name": "Cordyceps Tablets 120",
     "type": "Nutraceuticals",
     "status": "upcoming",
-    "packageSize": "120 Tabs × 300 mg"
+    "packageSize": "120 Tabs × 300 mg",
+    "description": "Cordyceps Tablet. Ingredients: Cordyceps Sinensis; Microcrystalline Cellulose [E460(i)]. Dosage: Take 6 tablets a day or as advised by the dietitian. Category in Nepal: Dietary Supplement. Caution: NOT FOR MEDICINAL USE. Shelf Life: 36 months from the MFG. Date. Storage: Keep away from moisture. Avoid direct heat and sunlight. Store in a cool and dry place. Colour: Pale Yellow Colour."
   },
   "cordyceps-tablets-360": {
     "name": "Cordyceps Tablets 360",
     "type": "Nutraceuticals",
     "status": "upcoming",
-    "packageSize": "360 Tabs × 300 mg"
+    "packageSize": "360 Tabs × 300 mg",
+    "description": "Cordyceps Tablet. Ingredients: Cordyceps Sinensis; Microcrystalline Cellulose [E460(i)]. Dosage: Take 6 tablets a day or as advised by the dietitian. Category in Nepal: Dietary Supplement. Caution: NOT FOR MEDICINAL USE. Shelf Life: 36 months from the MFG. Date. Storage: Keep away from moisture. Avoid direct heat and sunlight. Store in a cool and dry place. Colour: Pale Yellow Colour."
   },
   "lionsmane-capsule-120": {
     "name": "LionsMane Capsule 120",
     "type": "Nutraceuticals",
     "status": "upcoming",
-    "packageSize": "120 Caps. × 450 mg"
+    "packageSize": "120 Caps. × 450 mg",
+    "description": "Lions Mane Capsule. Ingredients: Lionsmane Powder (100%); Cellulose Capsule (HPMC). Dosage: Take 3-6 capsules a day or as advised by the dietitian. Category in Nepal: Dietary Supplement. Caution: NOT FOR MEDICINAL USE. Shelf Life: 36 months from the MFG. Date. Storage: Store in a cool and dry place. Keep away from moisture. Avoid direct heat and sunlight. Colour: Pale yellow (Colour may vary due to the natural properties of Lion’s mane)."
   },
   "lionsmane-capsule-360": {
     "name": "LionsMane Capsule 360",
     "type": "Nutraceuticals",
     "status": "upcoming",
-    "packageSize": "360 Caps. × 450 mg"
+    "packageSize": "360 Caps. × 450 mg",
+    "description": "Lions Mane Capsule. Ingredients: Lionsmane Powder (100%); Cellulose Capsule (HPMC). Dosage: Take 3-6 capsules a day or as advised by the dietitian. Category in Nepal: Dietary Supplement. Caution: NOT FOR MEDICINAL USE. Shelf Life: 36 months from the MFG. Date. Storage: Store in a cool and dry place. Keep away from moisture. Avoid direct heat and sunlight. Colour: Pale yellow (Colour may vary due to the natural properties of Lion’s mane)."
   },
   "lionsmane-tablets-120": {
     "name": "LionsMane Tablets 120",
     "type": "Nutraceuticals",
     "status": "upcoming",
-    "packageSize": "120 Tabs × 300 mg"
+    "packageSize": "120 Tabs × 300 mg",
+    "description": "Lions Mane Tablet. Ingredients: Lionsmane Powder (98%); Microcrystalline Cellulose (2%). Dosage: Take 6 tablets a day or as advised by the dietitian. Category in Nepal: Dietary Supplement. Caution: NOT FOR MEDICINAL USE. Shelf Life: 36 months from the MFG. Date. Storage: Store in a cool and dry place. Keep away from moisture. Avoid direct heat and sunlight. Colour: Pale yellow (No artificial flavours or colours added)."
   },
   "lionsmane-tablets-360": {
     "name": "LionsMane Tablets 360",
     "type": "Nutraceuticals",
     "status": "upcoming",
-    "packageSize": "360 Tabs × 300 mg"
+    "packageSize": "360 Tabs × 300 mg",
+    "description": "Lions Mane Tablet. Ingredients: Lionsmane Powder (98%); Microcrystalline Cellulose (2%). Dosage: Take 6 tablets a day or as advised by the dietitian. Category in Nepal: Dietary Supplement. Caution: NOT FOR MEDICINAL USE. Shelf Life: 36 months from the MFG. Date. Storage: Store in a cool and dry place. Keep away from moisture. Avoid direct heat and sunlight. Colour: Pale yellow (No artificial flavours or colours added)."
   },
   "reishi-mushroom-powder-70-gm": {
     "name": "Reishi Mushroom Powder -70 gm",
     "type": "Nutraceuticals",
     "status": "upcoming",
-    "packageSize": "70 gm"
+    "packageSize": "70 gm",
+    "description": "Reishi Mushroom Powder. Ingredients: Ganoderma Lucidum Mycelium 42.0 g (60%); Ganoderma Lucidum Fruit body 28.0 g (40%). Dosage: Mix 1 scoop – 1 2/3 scoops (3.0 g- 5.0 g) of powder with 100 ml of warm water. Stir well and consume immediately once daily. Category in Nepal: Dietary Supplement. Caution: This product is not a drug. Shelf Life: 36 months from the MFG. Date. Storage: Store in a cool and dry place. Keep away from moisture. Avoid direct heat and sunlight. Colour: Light Brown to Dark Brown."
   }
 }
