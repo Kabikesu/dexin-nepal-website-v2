@@ -147,6 +147,16 @@
     const details = card?.querySelector(".vacancy-details");
     if (!details) return;
     const expanded = button.getAttribute("aria-expanded") === "true";
+    if (!expanded) {
+      list.querySelectorAll('.vacancy-details-toggle[aria-expanded="true"]').forEach(otherButton => {
+        if (otherButton === button) return;
+        const otherCard = otherButton.closest('.vacancy-card');
+        const otherDetails = otherCard?.querySelector('.vacancy-details');
+        otherButton.setAttribute('aria-expanded', 'false');
+        if (otherDetails) otherDetails.hidden = true;
+        otherButton.innerHTML = 'View Details <span>+</span>';
+      });
+    }
     button.setAttribute("aria-expanded", String(!expanded));
     details.hidden = expanded;
     button.innerHTML = expanded ? "View Details <span>+</span>" : "Hide Details <span>−</span>";
