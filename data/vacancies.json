@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-06",
+  "lastUpdated": "2026-10-08",
   "settings": {
     "applicationEmail": "dexin_nepal@dxn2u.com",
     "defaultSelectionProcess": [
@@ -94,7 +94,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Lead administrative operations and workplace services, ensuring smooth coordination of office and factory support activities.",
+        "jobPurpose": "To manage day-to-day administration and support efficient, organized and compliant workplace operations.",
+        "responsibilities": [
+          "Oversee general administration, office facilities and workplace services.",
+          "Coordinate transport, housekeeping, security, utilities and administrative support requirements.",
+          "Maintain administrative records, service arrangements and documentation.",
+          "Coordinate with departments, suppliers and service providers for operational needs.",
+          "Support management with administrative reporting, planning and issue resolution.",
+          "Promote disciplined workplace practices and compliance with company procedures."
+        ],
+        "educationExperience": "Bachelor's degree in Business Administration, Management or a related field with around 5 years of relevant administrative experience, preferably in a manufacturing or corporate environment.",
+        "skills": [
+          "Strong administrative and organizational skills.",
+          "Good communication, coordination and problem-solving ability.",
+          "Proficiency in MS Office and routine administrative reporting.",
+          "Ability to manage multiple priorities and external service providers.",
+          "Professional conduct, confidentiality and attention to detail."
+        ]
+      }
     },
     {
       "id": "vac-003",
@@ -130,7 +150,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Manage front-desk and reception activities while providing professional assistance to visitors, callers and employees.",
+        "jobPurpose": "To provide a welcoming, organized and professional reception service and support day-to-day administrative coordination.",
+        "responsibilities": [
+          "Receive and guide visitors, guests and service providers professionally.",
+          "Handle incoming calls, messages and routine correspondence.",
+          "Maintain visitor records and coordinate access as required.",
+          "Support meeting arrangements, document handling and basic administrative tasks.",
+          "Coordinate with HR, Administration and other departments for visitor and office requirements.",
+          "Maintain a clean, organized and professional reception area."
+        ],
+        "educationExperience": "Bachelor's degree or relevant diploma in Management, Business Administration or a related field with 1–2 years of relevant experience.",
+        "skills": [
+          "Professional communication and interpersonal skills.",
+          "Good spoken and written English and Nepali.",
+          "Basic MS Office and record-keeping skills.",
+          "Pleasant personality, punctuality and customer-service orientation.",
+          "Ability to handle visitors and routine tasks with discretion."
+        ]
+      }
     },
     {
       "id": "vac-004",
@@ -166,7 +206,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Safely operate assigned office and pick-up vehicles for official transportation, staff movement and business requirements.",
+        "jobPurpose": "To provide safe, reliable and timely transportation while maintaining the assigned vehicle in good operating condition.",
+        "responsibilities": [
+          "Drive company vehicles safely and responsibly according to assigned schedules.",
+          "Transport staff, documents, materials and authorized visitors as required.",
+          "Perform routine vehicle checks and report maintenance or safety issues.",
+          "Maintain vehicle cleanliness, logbooks, fuel records and required documents.",
+          "Follow traffic rules, company driving procedures and safety requirements.",
+          "Support administrative and marketing transportation needs when assigned."
+        ],
+        "educationExperience": "Valid driving licence appropriate for the assigned vehicle with at least 3 years of professional driving experience; clean driving record and practical knowledge of local routes.",
+        "skills": [
+          "Safe and defensive driving practices.",
+          "Knowledge of local roads and routes.",
+          "Basic vehicle inspection and maintenance awareness.",
+          "Punctuality, reliability and responsible handling of company property.",
+          "Professional behaviour and confidentiality."
+        ]
+      }
     },
     {
       "id": "vac-005",
@@ -202,7 +262,28 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Manage core HR activities including recruitment, employee administration, attendance, employee relations and HR coordination.",
+        "jobPurpose": "To support an effective workforce and ensure HR processes are implemented consistently across the factory and office.",
+        "responsibilities": [
+          "Coordinate recruitment, onboarding and employee documentation.",
+          "Maintain personnel files, attendance and HR records accurately.",
+          "Support payroll inputs, leave administration and employee-related documentation.",
+          "Coordinate employee relations, HR communication and workplace activities.",
+          "Support training, performance-management and employee-engagement activities.",
+          "Ensure HR practices follow company policies and applicable requirements.",
+          "Prepare routine HR reports and coordinate with management on manpower matters."
+        ],
+        "educationExperience": "Bachelor's degree in Human Resources, Business Administration, Management or a related field with 2–3 years of relevant HR experience, preferably in a manufacturing environment.",
+        "skills": [
+          "Working knowledge of HR administration and employee lifecycle processes.",
+          "Strong communication, coordination and interpersonal skills.",
+          "Good MS Office and HR documentation skills.",
+          "Confidentiality, fairness and sound judgement.",
+          "Ability to handle employee matters professionally and maintain accurate records."
+        ]
+      }
     },
     {
       "id": "vac-006",
@@ -275,7 +356,28 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Plan, coordinate and monitor production activities across assigned manufacturing operations to achieve production, quality, safety and efficiency objectives.",
+        "jobPurpose": "To ensure safe, efficient and consistent production in coordination with Quality, Engineering, Warehouse, Planning and other support functions.",
+        "responsibilities": [
+          "Plan daily and periodic production activities according to requirements.",
+          "Monitor production output, manpower, materials and equipment utilization.",
+          "Coordinate with Quality Control to maintain product and process standards.",
+          "Coordinate with Engineering and Utility & Maintenance for equipment availability.",
+          "Ensure production activities follow GMP, hygiene, safety and approved procedures.",
+          "Monitor production records, downtime, wastage and operational performance.",
+          "Lead production teams and support continuous improvement initiatives."
+        ],
+        "educationExperience": "Bachelor's degree in Food Technology, Production, Industrial Engineering, Mechanical Engineering or a related field with around 5 years of relevant manufacturing/production experience.",
+        "skills": [
+          "Production planning and team leadership.",
+          "Understanding of GMP, hygiene, food safety and manufacturing controls.",
+          "Problem-solving, root-cause analysis and continuous-improvement mindset.",
+          "Good reporting, coordination and decision-making skills.",
+          "Ability to work under production targets and operational pressure."
+        ]
+      }
     },
     {
       "id": "vac-008",
@@ -311,7 +413,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Support and coordinate daily production activities for Coffee or Nutraceutical manufacturing while developing practical production-management capability.",
+        "jobPurpose": "To contribute to safe, efficient and consistent production operations and build competency in manufacturing processes.",
+        "responsibilities": [
+          "Assist with daily production planning and line coordination.",
+          "Monitor production activities, manpower, materials and process parameters.",
+          "Ensure operators follow approved SOPs, GMP, hygiene and safety practices.",
+          "Maintain production records and report deviations, downtime and material issues.",
+          "Coordinate with Quality, Warehouse and Engineering teams as required.",
+          "Support housekeeping, line clearance and continuous-improvement activities."
+        ],
+        "educationExperience": "Bachelor's degree or diploma in Food Technology, Industrial/Production Engineering, Pharmacy, Biotechnology or a related field; 1–3 years of relevant experience preferred. Fresh candidates may be considered for trainee placement.",
+        "skills": [
+          "Basic understanding of manufacturing and production processes.",
+          "Good communication and teamwork.",
+          "Ability to learn SOPs, GMP and production documentation.",
+          "Basic computer and reporting skills.",
+          "Attention to detail, discipline and willingness to work in shifts."
+        ]
+      }
     },
     {
       "id": "vac-009",
@@ -347,7 +469,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Supervise production-line activities and operators to ensure safe, efficient and consistent execution of the assigned Coffee or Nutra production process.",
+        "jobPurpose": "To maintain smooth line operations, manpower discipline, productivity and compliance with approved production procedures.",
+        "responsibilities": [
+          "Allocate operators and monitor attendance and line manpower.",
+          "Supervise production activities according to SOPs and production plans.",
+          "Monitor line output, material usage, downtime and process issues.",
+          "Ensure GMP, hygiene, safety and housekeeping requirements are followed.",
+          "Coordinate with Production Officer, Quality and Engineering for deviations and equipment issues.",
+          "Maintain line records and communicate shift handover information."
+        ],
+        "educationExperience": "Diploma or bachelor's degree in a relevant technical, food, production or manufacturing field with 2–3 years of production-line supervisory experience.",
+        "skills": [
+          "Production-line supervision and team coordination.",
+          "Knowledge of GMP, hygiene and workplace safety.",
+          "Good communication and shift-handover skills.",
+          "Problem-solving and attention to process details.",
+          "Ability to work in a manufacturing environment and shifts."
+        ]
+      }
     },
     {
       "id": "vac-010",
@@ -383,7 +525,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Operate Coffee production equipment and perform assigned processing and packing activities according to approved procedures and quality standards.",
+        "jobPurpose": "To operate the assigned production line safely and consistently while meeting output and quality requirements.",
+        "responsibilities": [
+          "Operate and monitor assigned Coffee production equipment.",
+          "Follow SOPs, GMP, hygiene and safety requirements.",
+          "Check basic process conditions and report abnormalities promptly.",
+          "Maintain production records and support line clearance and housekeeping.",
+          "Handle materials and finished products according to instructions.",
+          "Support troubleshooting and routine cleaning activities with the responsible team."
+        ],
+        "educationExperience": "Relevant technical education or vocational training with 2–3 years of experience operating Coffee, beverage, food or similar manufacturing equipment.",
+        "skills": [
+          "Practical machine-operation skills.",
+          "Understanding of basic production and food-hygiene practices.",
+          "Attention to quality, safety and process parameters.",
+          "Basic record keeping and communication.",
+          "Willingness to work shifts and follow production schedules."
+        ]
+      }
     },
     {
       "id": "vac-011",
@@ -456,7 +618,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Operate and monitor sieving and bending-related equipment in the Nutra production process while maintaining process and hygiene standards.",
+        "jobPurpose": "To perform assigned Nutra processing operations safely and consistently according to approved procedures.",
+        "responsibilities": [
+          "Operate assigned sieving and bending/process equipment as instructed.",
+          "Monitor material flow and basic operating conditions.",
+          "Follow SOPs, GMP, hygiene, safety and contamination-control practices.",
+          "Maintain process and production records accurately.",
+          "Perform cleaning, line clearance and housekeeping activities.",
+          "Report equipment abnormalities, material issues and process deviations."
+        ],
+        "educationExperience": "Relevant technical/vocational qualification or secondary education with 1–2 years of experience in food, nutraceutical, pharmaceutical or similar manufacturing operations.",
+        "skills": [
+          "Basic machine-operation and process-monitoring ability.",
+          "Good hygiene and safety awareness.",
+          "Attention to detail and accurate record keeping.",
+          "Ability to follow SOPs and work in shifts.",
+          "Teamwork and willingness to learn."
+        ]
+      }
     },
     {
       "id": "vac-013",
@@ -529,7 +711,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Support Coffee production and packing activities, including material handling, line preparation, packing assistance and housekeeping.",
+        "jobPurpose": "To provide reliable operational support to the Coffee production/packing team while maintaining hygiene and safety standards.",
+        "responsibilities": [
+          "Assist operators with production and packing-line activities.",
+          "Handle approved materials and packaging items carefully.",
+          "Support line clearance, cleaning and housekeeping.",
+          "Follow GMP, hygiene, safety and work instructions.",
+          "Assist with counting, packing and basic production records as assigned.",
+          "Report abnormalities or material shortages to the supervisor."
+        ],
+        "educationExperience": "Basic education/secondary level preferred; fresh candidates with 0–1 year experience may be considered.",
+        "skills": [
+          "Willingness to learn and follow instructions.",
+          "Good hygiene and safety awareness.",
+          "Physical fitness for factory work.",
+          "Punctuality, discipline and teamwork.",
+          "Ability to work shifts and maintain workplace cleanliness."
+        ]
+      }
     },
     {
       "id": "vac-015",
@@ -713,7 +915,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Support Quality Control activities for Coffee or Nutra operations through sampling, basic testing, documentation and compliance checks under supervision.",
+        "jobPurpose": "To help maintain product and process quality by following approved QC procedures and accurate documentation.",
+        "responsibilities": [
+          "Assist in collection and handling of samples according to procedures.",
+          "Support routine physical, chemical or basic quality checks as assigned.",
+          "Maintain QC records, worksheets and sample identification accurately.",
+          "Follow laboratory hygiene, safety and good documentation practices.",
+          "Report abnormal observations or results to the responsible QC personnel.",
+          "Support housekeeping and organization of the QC/laboratory area."
+        ],
+        "educationExperience": "Bachelor's degree or relevant diploma in Food Technology, Chemistry, Microbiology, Biotechnology, Pharmacy or a related field; fresh graduates may be considered.",
+        "skills": [
+          "Basic knowledge of quality-control and laboratory practices.",
+          "Good documentation and observation skills.",
+          "Understanding of hygiene, GMP and food-safety principles.",
+          "Careful, methodical and detail-oriented working style.",
+          "Willingness to learn and work with both Coffee and Nutra operations."
+        ]
+      }
     },
     {
       "id": "vac-020",
@@ -786,7 +1008,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Assist the electrical/utility team with inspection, maintenance and troubleshooting of electrical systems and factory utilities.",
+        "jobPurpose": "To support safe and reliable electrical and utility operations across the manufacturing facility.",
+        "responsibilities": [
+          "Assist with routine inspection and maintenance of electrical systems and equipment.",
+          "Support troubleshooting under supervision of qualified technical personnel.",
+          "Maintain basic maintenance records and report abnormalities.",
+          "Follow electrical safety, lockout/tagout and PPE requirements as instructed.",
+          "Assist with preventive-maintenance activities and housekeeping of electrical areas.",
+          "Coordinate with production and maintenance teams when required."
+        ],
+        "educationExperience": "Technical diploma/CTEVT qualification or relevant electrical training; 0–1 year experience or trainee-level candidates may be considered.",
+        "skills": [
+          "Basic electrical knowledge and safe working practices.",
+          "Willingness to learn industrial electrical systems.",
+          "Attention to safety and technical detail.",
+          "Basic documentation and communication skills.",
+          "Ability to work shifts and respond to operational requirements."
+        ]
+      }
     },
     {
       "id": "vac-022",
@@ -822,7 +1064,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Perform mechanical maintenance, fitting and troubleshooting activities for Coffee and Nutra production equipment and supporting machinery.",
+        "jobPurpose": "To maintain equipment reliability and minimize production interruptions through safe and effective mechanical maintenance.",
+        "responsibilities": [
+          "Perform preventive and corrective mechanical maintenance.",
+          "Inspect machinery, identify mechanical abnormalities and assist with troubleshooting.",
+          "Carry out fitting, alignment, lubrication and component replacement as required.",
+          "Support maintenance during breakdowns and planned shutdowns.",
+          "Maintain maintenance records and report spare-parts requirements.",
+          "Follow safety procedures, PPE requirements and good housekeeping practices."
+        ],
+        "educationExperience": "Diploma/CTEVT or equivalent technical qualification in Mechanical Engineering with 2–3 years of relevant industrial maintenance experience.",
+        "skills": [
+          "Mechanical fitting and maintenance skills.",
+          "Understanding of industrial machinery and basic troubleshooting.",
+          "Ability to use common mechanical tools safely.",
+          "Preventive-maintenance mindset and attention to detail.",
+          "Teamwork, discipline and willingness to work shifts."
+        ]
+      }
     },
     {
       "id": "vac-023",
@@ -895,7 +1157,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Support the mechanical maintenance team in routine inspection, servicing, cleaning and repair of factory machinery and utilities.",
+        "jobPurpose": "To develop practical mechanical maintenance capability while supporting reliable factory operations.",
+        "responsibilities": [
+          "Assist technicians in preventive and corrective maintenance.",
+          "Support inspection, lubrication, cleaning and basic mechanical work.",
+          "Assist with tools, spare parts and maintenance documentation.",
+          "Report abnormal sounds, vibration, leakage or equipment conditions.",
+          "Follow maintenance safety procedures and PPE requirements.",
+          "Maintain an organized and safe maintenance work area."
+        ],
+        "educationExperience": "CTEVT/technical training in Mechanical Engineering or a related trade; fresh/trainee candidates with 0–1 year experience may be considered.",
+        "skills": [
+          "Basic mechanical knowledge and tool handling.",
+          "Safety awareness and willingness to learn.",
+          "Physical fitness for industrial maintenance work.",
+          "Teamwork and discipline.",
+          "Ability to follow technical instructions and maintenance procedures."
+        ]
+      }
     },
     {
       "id": "vac-025",
@@ -931,7 +1213,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Provide first-line IT support to users and assist with computers, networks, systems, devices and routine IT operations at the factory.",
+        "jobPurpose": "To maintain reliable day-to-day IT support and help ensure users, systems and connectivity remain operational.",
+        "responsibilities": [
+          "Provide first-line troubleshooting for Windows computers, printers and user devices.",
+          "Assist with LAN, Wi-Fi, internet and basic network troubleshooting.",
+          "Support Microsoft 365, user accounts and routine application issues.",
+          "Maintain IT asset records, device allocation and basic documentation.",
+          "Assist with backups, antivirus/security checks and IT maintenance activities.",
+          "Escalate complex infrastructure or security issues appropriately."
+        ],
+        "educationExperience": "Diploma or bachelor's degree in Information Technology, Computer Science, Networking or a related field with 1–2 years of relevant IT support experience.",
+        "skills": [
+          "Windows desktop and basic networking knowledge.",
+          "Hardware/software troubleshooting skills.",
+          "Basic Microsoft 365 and user-support knowledge.",
+          "Good documentation, communication and service-desk discipline.",
+          "Awareness of cybersecurity, access control and data protection."
+        ]
+      }
     },
     {
       "id": "vac-026",
@@ -1041,7 +1343,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Support procurement activities including supplier coordination, quotations, purchase documentation and timely sourcing of materials and services.",
+        "jobPurpose": "To assist the Procurement team in obtaining required materials and services efficiently and with proper documentation.",
+        "responsibilities": [
+          "Assist in obtaining and comparing supplier quotations.",
+          "Prepare and maintain purchase-related documents and records.",
+          "Coordinate with suppliers regarding quotations, delivery and documentation.",
+          "Support purchase requisition and purchase-order processes as assigned.",
+          "Maintain supplier information and procurement records.",
+          "Coordinate with Finance, Warehouse and requesting departments when required."
+        ],
+        "educationExperience": "Bachelor's degree or relevant diploma in Business Administration, Supply Chain, Management or a related field; fresh graduates/trainees may be considered.",
+        "skills": [
+          "Basic procurement and commercial awareness.",
+          "Good MS Office and documentation skills.",
+          "Communication and supplier-coordination ability.",
+          "Numerical accuracy and attention to detail.",
+          "Integrity, follow-up discipline and willingness to learn."
+        ]
+      }
     },
     {
       "id": "vac-029",
@@ -1077,7 +1399,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Assist in managing warehouse operations, inventory control, material receiving, storage and dispatch activities in coordination with Production, Procurement and Finance.",
+        "jobPurpose": "To maintain accurate, safe and efficient warehouse operations and ensure materials are available when required.",
+        "responsibilities": [
+          "Supervise receiving, storage, issue and dispatch of materials and finished goods.",
+          "Monitor inventory accuracy, stock movement and warehouse records.",
+          "Coordinate material availability with Production and Procurement.",
+          "Ensure proper storage, identification, segregation and housekeeping.",
+          "Support stock counts, reconciliation and investigation of discrepancies.",
+          "Guide warehouse staff and ensure safe material-handling practices."
+        ],
+        "educationExperience": "Bachelor's degree or diploma in Supply Chain, Logistics, Management or a related field with 4–5 years of warehouse/inventory experience, preferably in manufacturing.",
+        "skills": [
+          "Warehouse and inventory-management knowledge.",
+          "Strong organization and team-supervision skills.",
+          "Good documentation and ERP/system skills.",
+          "Understanding of stock control, FIFO/FEFO where applicable and material traceability.",
+          "Problem-solving, accuracy and safety awareness."
+        ]
+      }
     },
     {
       "id": "vac-030",
@@ -1113,7 +1455,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Coordinate daily warehouse activities including receiving, storage, material issue, inventory records and dispatch while supporting accurate stock control.",
+        "jobPurpose": "To ensure timely and accurate movement and documentation of materials and products within the warehouse.",
+        "responsibilities": [
+          "Coordinate receiving, inspection and proper storage of materials.",
+          "Prepare and maintain material issue, receipt and dispatch records.",
+          "Monitor stock levels and coordinate replenishment requirements.",
+          "Support physical stock counts and reconciliation.",
+          "Ensure materials are properly labelled, segregated and traceable.",
+          "Coordinate with Production, Procurement, Finance and transport teams."
+        ],
+        "educationExperience": "Bachelor's degree or diploma in Logistics, Supply Chain, Management or a related field with 2–3 years of warehouse/inventory experience.",
+        "skills": [
+          "Inventory and warehouse documentation skills.",
+          "Good computer/ERP and MS Office ability.",
+          "Strong coordination and follow-up.",
+          "Accuracy, organization and material-traceability awareness.",
+          "Ability to work in a factory warehouse environment."
+        ]
+      }
     },
     {
       "id": "vac-031",
@@ -1186,7 +1548,27 @@
           "completedOn": null
         }
       ],
-      "applicationOpenDate": null
+      "applicationOpenDate": null,
+      "details": {
+        "jobDescription": "Perform secondary packing and material-handling activities for Nutra products while following approved packing, hygiene and safety procedures.",
+        "jobPurpose": "To support efficient and hygienic secondary packing operations and ensure packed products meet the required handling and identification standards.",
+        "responsibilities": [
+          "Perform secondary packing, labelling and related manual packing activities.",
+          "Handle packaging materials and products carefully according to instructions.",
+          "Follow GMP, hygiene, safety and line-clearance requirements.",
+          "Check basic packing information and report discrepancies to the supervisor.",
+          "Maintain cleanliness and organization of the packing area.",
+          "Support counting, sorting and material movement as assigned."
+        ],
+        "educationExperience": "Basic education/secondary level preferred; previous factory or packing experience is an advantage. Fresh candidates may be considered.",
+        "skills": [
+          "Good hygiene and safety awareness.",
+          "Ability to follow packing instructions accurately.",
+          "Physical fitness and manual-handling ability.",
+          "Punctuality, discipline and teamwork.",
+          "Willingness to work shifts and maintain production-area standards."
+        ]
+      }
     },
     {
       "id": "vac-033",
