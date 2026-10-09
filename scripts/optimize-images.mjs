@@ -41,7 +41,7 @@ for (const file of await walk(inputRoot)) {
       .webp({ quality: 82, effort: 5, smartSubsample: true })
       .toFile(outputFile);
     const outputStat = await fs.promises.stat(outputFile);
-    if (outputStat.size >= originalStat.size && originalStat.size < 250_000) {
+    if (outputStat.size >= originalStat.size) {
       await fs.promises.rm(outputFile, { force: true });
       summary.skipped++;
       continue;
