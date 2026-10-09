@@ -59,11 +59,11 @@
       current = nextIndex;
       activeLayer = nextLayer;
       if (firstImage) firstImage.src = ordered[nextIndex].src;
-      window.setTimeout(rotate, 10000 + Math.random() * 5000);
+      window.setTimeout(rotate, 12000);
     };
     window.setTimeout(rotate, 10000 + Math.random() * 5000);
   };
-  const setupRotator = (images, minInterval = 10000, maxInterval = 15000) => {
+  const setupRotator = (images, interval = 12000) => {
     document.querySelectorAll('[data-image-rotator="factory"]').forEach(img => {
       if (images.length < 2) return;
       let current = images.findIndex(item => decodeURI(item.src) === decodeURI(img.getAttribute("src") || ""));
@@ -82,12 +82,12 @@
             img.alt = next.alt || titleFromPath(next.src);
             img.style.opacity = "1";
             current = nextIndex;
-            window.setTimeout(rotate, minInterval + Math.random() * (maxInterval - minInterval));
+            window.setTimeout(rotate, interval);
           }, 450);
         };
         preload.onerror = () => {
           current = nextIndex;
-          window.setTimeout(rotate, minInterval + Math.random() * (maxInterval - minInterval));
+          window.setTimeout(rotate, interval);
         };
         preload.src = next.src;
       };
