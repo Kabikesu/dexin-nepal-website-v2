@@ -65,4 +65,4 @@ console.log(JSON.stringify({
   savedMB: Number((saved / 1048576).toFixed(2)),
   savedPercent: summary.originalBytes ? Number((saved / summary.originalBytes * 100).toFixed(1)) : 0
 }, null, 2));
-if (summary.failures.length) process.exitCode = 1;
+if (summary.failures.length) console.warn("Some images could not be optimized and will keep their originals.");
