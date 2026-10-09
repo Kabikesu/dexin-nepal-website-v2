@@ -35,11 +35,9 @@ function imageFiles(dir, relativeDir) {
       })
     )
     .map(entry => {
-      const src = path.posix.join(
-        "images/gallery",
-        relativeDir,
-        entry.name
-      );
+      const sourcePath = path.posix.join("images/gallery", relativeDir, entry.name);
+      const optimizedPath = path.posix.join("optimized-images/gallery", relativeDir, entry.name.replace(/\.[^.]+$/, ".webp"));
+      const src = fs.existsSync(path.resolve(optimizedPath)) ? optimizedPath : sourcePath;
 
       return {
         src,

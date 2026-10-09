@@ -315,7 +315,7 @@
   background:
     linear-gradient(90deg,rgba(8,8,8,.78) 0%,rgba(8,8,8,.58) 42%,rgba(8,8,8,.28) 72%,rgba(8,8,8,.18) 100%),
     linear-gradient(180deg,rgba(8,8,8,.20),rgba(8,8,8,.38)),
-    url('../../images/hero/factory-main.png') center center / cover no-repeat;
+    url('../../optimized-images/hero/factory-main.webp') center center / cover no-repeat;
   color:#fff;
 }
 .home-hero::before{
@@ -393,7 +393,7 @@
     background-position:center center;
     background-image:
       linear-gradient(180deg,rgba(8,8,8,.58) 0%,rgba(8,8,8,.64) 48%,rgba(8,8,8,.78) 100%),
-      url('../../images/hero/factory-main.png');
+      url('../../optimized-images/hero/factory-main.webp');
   }
   .home-hero-grid{
     gap:48px;

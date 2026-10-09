@@ -50,7 +50,7 @@
     layers[0].style.opacity = "1";
     const firstImage = hero.querySelector("[data-auto-hero-fallback]");
     if (firstImage) firstImage.src = ordered[0].src;
-    window.setInterval(() => {
+    const rotate = () => {
       const nextIndex = (current + 1) % ordered.length;
       const nextLayer = 1 - activeLayer;
       paint(layers[nextLayer], ordered[nextIndex]);
@@ -59,14 +59,18 @@
       current = nextIndex;
       activeLayer = nextLayer;
       if (firstImage) firstImage.src = ordered[nextIndex].src;
-    }, 6000);
+      window.setTimeout(rotate, 10000 + Math.random() * 5000);
+    };
+    window.setTimeout(rotate, 10000 + Math.random() * 5000);
   };
-  const setupRotator = (images, interval = 5000) => {
+  const setupRotator = (images, minInterval = 10000, maxInterval = 15000) => {
     document.querySelectorAll('[data-image-rotator="factory"]').forEach(img => {
       if (images.length < 2) return;
       let current = images.findIndex(item => decodeURI(item.src) === decodeURI(img.getAttribute("src") || ""));
       if (current < 0) current = 0;
       img.style.transition = "opacity 450ms ease";
+      img.src = images[current].src;
+      img.alt = images[current].alt || titleFromPath(images[current].src);
       const rotate = () => {
         const nextIndex = (current + 1) % images.length;
         const next = images[nextIndex];

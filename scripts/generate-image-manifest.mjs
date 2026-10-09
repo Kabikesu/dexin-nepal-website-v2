@@ -22,7 +22,9 @@ function collectImages(folder, directory = path.join(root, folder), relative = "
     if (entry.isDirectory()) {
       result.push(...collectImages(folder, fullPath, localPath));
     } else if (entry.isFile() && extensions.has(path.extname(entry.name).toLowerCase())) {
-      const src = path.posix.join("images", folder, localPath.split(path.sep).join("/"));
+      const sourcePath = path.posix.join("images", folder, localPath.split(path.sep).join("/"));
+      const optimizedPath = path.posix.join("optimized-images", folder, localPath.replace(/\.[^.]+$/, ".webp").split(path.sep).join("/"));
+      const src = fs.existsSync(path.resolve(optimizedPath)) ? optimizedPath : sourcePath;
       const title = titleFromFile(entry.name);
       result.push({ src, title, alt: title });
     }

@@ -1,15 +1,12 @@
-name: Update image manifests
+name: Update image manifests and optimized images
 on:
   push:
     branches: [main]
     paths:
-      - 'images/gallery/**'
-      - 'images/hero/**'
-      - 'images/factory/**'
-      - 'images/certifications/**'
-      - 'images/careers/**'
+      - 'images/**'
       - 'scripts/generate-gallery.mjs'
       - 'scripts/generate-image-manifest.mjs'
+      - 'scripts/optimize-images.mjs'
       - '.github/workflows/update-gallery-manifest.yml'
   workflow_dispatch:
 permissions:
@@ -22,15 +19,19 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Install image optimizer
+        run: npm install --no-save sharp
+      - name: Generate optimized WebP derivatives
+        run: node scripts/optimize-images.mjs
       - name: Generate gallery manifest
         run: node scripts/generate-gallery.mjs
       - name: Generate automatic image manifest
         run: node scripts/generate-image-manifest.mjs
-      - name: Commit manifests
+      - name: Commit optimized images and manifests
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/gallery.json data/image-manifest.json
-          git diff --cached --quiet || git commit -m "chore: update gallery and image manifests"
+          git add optimized-images data/gallery.json data/image-manifest.json data/image-optimization-map.json
+          git diff --cached --quiet || git commit -m "chore: optimize images and refresh manifests"
           git pull --rebase origin main
           git push
