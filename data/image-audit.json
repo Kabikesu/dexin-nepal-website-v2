@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T05:40:03.299Z",
+  "generatedAt": "2026-10-09T06:49:00.524Z",
   "policy": {
     "warningBytes": 1500000,
     "criticalBytes": 5000000,
@@ -7,24 +7,24 @@
     "duplicateDeletion": false
   },
   "summary": {
-    "totalFiles": 168,
-    "totalBytes": 134446594,
-    "totalMb": 128.22,
-    "warningFiles": 30,
-    "criticalFiles": 6,
+    "totalFiles": 172,
+    "totalBytes": 169379511,
+    "totalMb": 161.53,
+    "warningFiles": 34,
+    "criticalFiles": 10,
     "exactDuplicateGroups": 1,
     "productImageCount": 19
   },
   "categories": {
+    "hero": {
+      "files": 5,
+      "bytes": 45621808,
+      "mb": 43.51
+    },
     "gallery": {
       "files": 109,
       "bytes": 72384237,
       "mb": 69.03
-    },
-    "hero": {
-      "files": 1,
-      "bytes": 10688891,
-      "mb": 10.19
     },
     "factory": {
       "files": 5,
@@ -49,6 +49,14 @@
   },
   "largestFiles": [
     {
+      "path": "images/hero/Factroy Hero image 1.png",
+      "category": "hero",
+      "extension": "png",
+      "bytes": 11224543,
+      "mb": 10.7,
+      "sha256": "2d4851832d04873e7feb1a489aca14ff665d274ab038da5705451484cd81e068"
+    },
+    {
       "path": "images/gallery/Inauguration Day/Inauguration12.JPG",
       "category": "gallery",
       "extension": "jpg",
@@ -63,6 +71,22 @@
       "bytes": 10688891,
       "mb": 10.19,
       "sha256": "4a5f217e8572d99bf3c5b895faafd0bc4630155e3e015f34e19a99276c0e946c"
+    },
+    {
+      "path": "images/hero/Factory hero image.png",
+      "category": "hero",
+      "extension": "png",
+      "bytes": 10265485,
+      "mb": 9.79,
+      "sha256": "d0e8bfd72f7e726b752abe781da6d6295034a9285078dda64a2bd70b1c4037f7"
+    },
+    {
+      "path": "images/hero/Factory Hero image 2.JPG",
+      "category": "hero",
+      "extension": "jpg",
+      "bytes": 7284862,
+      "mb": 6.95,
+      "sha256": "a5287927e4894f45f72197fefbf33fbf86bd8344b33375ba34fefe27662dc3ac"
     },
     {
       "path": "images/factory/factory-intro.jpg",
@@ -95,6 +119,14 @@
       "bytes": 6733113,
       "mb": 6.42,
       "sha256": "a1bc066a7ef592969fca32a8eae15bb99263d67441c2d3cf9af0a1e2fe6c7454"
+    },
+    {
+      "path": "images/hero/Factroy hero image 3.JPG",
+      "category": "hero",
+      "extension": "jpg",
+      "bytes": 6158027,
+      "mb": 5.87,
+      "sha256": "79760e81f744512e40c0f44608cb044c5d71d11322b5e2a9d1d2862d03f765e3"
     },
     {
       "path": "images/staff/bivash-tiwari.png",
@@ -215,38 +247,6 @@
       "bytes": 1737328,
       "mb": 1.66,
       "sha256": "9e6e7156ecbfbcf98d4474a8033646e0da6617bf089f098ecede44df0945586c"
-    },
-    {
-      "path": "images/staff/bandana-mishra.png",
-      "category": "staff",
-      "extension": "png",
-      "bytes": 1696101,
-      "mb": 1.62,
-      "sha256": "2dc9a4ba4697e7a0dca847143a816be08fbdedfa351b27a948aa5642bb74800f"
-    },
-    {
-      "path": "images/staff/brijesh-thakur.png",
-      "category": "staff",
-      "extension": "png",
-      "bytes": 1692900,
-      "mb": 1.61,
-      "sha256": "f9e0aff39ffeb0e127772b175a1cece0a240c07619e55ea09237ae0ebf8b2925"
-    },
-    {
-      "path": "images/products/nutraceuticals/Spirulina 50g Powder.png",
-      "category": "products",
-      "extension": "png",
-      "bytes": 1646951,
-      "mb": 1.57,
-      "sha256": "ad278a58ef5a182a333e22dedadc7dc478534f824f29fbbf0d6ca934c33d3711"
-    },
-    {
-      "path": "images/products/nutraceuticals/Spirulina 120 Tablet.png",
-      "category": "products",
-      "extension": "png",
-      "bytes": 1611594,
-      "mb": 1.54,
-      "sha256": "2e5efb2f9d0d892d2639198f9835e9bd46798a2b34032e12bd6244c2b7960432"
     }
   ],
   "duplicateGroups": [
