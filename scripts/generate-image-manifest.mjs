@@ -7,8 +7,8 @@ const folders = ["hero", "factory", "certifications", "careers"];
 const extensions = new Set([".jpg", ".jpeg", ".png", ".webp", ".avif"]);
 
 function titleFromFile(name) {
-  return name.replace(/\\.[^.]+$/, "").replace(/[-_]+/g, " ")
-    .replace(/\\s+/g, " ").trim().replace(/\\b\\w/g, letter => letter.toUpperCase());
+  return name.replace(/\.[^.]+$/, "").replace(/[-_]+/g, " ")
+    .replace(/\s+/g, " ").trim().replace(/\b\\w/g, letter => letter.toUpperCase());
 }
 
 function collectImages(folder, directory = path.join(root, folder), relative = "") {
