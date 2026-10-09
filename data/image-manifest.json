@@ -1,0 +1,18 @@
+{
+  "hero": [
+    {
+      "src": "images/hero/factory-main.png",
+      "title": "Factory Main",
+      "alt": "Factory Main"
+    }
+  ],
+  "factory": [
+    {
+      "src": "images/factory/factory-intro.jpg",
+      "title": "Factory Intro",
+      "alt": "Factory Intro"
+    }
+  ],
+  "certifications": [],
+  "careers": []
+}
