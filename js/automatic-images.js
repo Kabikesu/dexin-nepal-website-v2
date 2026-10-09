@@ -39,8 +39,8 @@
     const paint = (layer, item) => {
       const src = JSON.stringify(item.src);
       const gradient = isSmall()
-        ? "linear-gradient(180deg,rgba(8,8,8,.58) 0%,rgba(8,8,8,.64) 48%,rgba(8,8,8,.78) 100%),"
-        : "linear-gradient(90deg,rgba(5,5,5,.90) 0%,rgba(5,5,5,.76) 38%,rgba(5,5,5,.42) 68%,rgba(5,5,5,.20) 100%),linear-gradient(180deg,rgba(5,5,5,.24),rgba(5,5,5,.40)),";
+        ? "linear-gradient(180deg,rgba(5,5,5,.72) 0%,rgba(5,5,5,.70) 48%,rgba(5,5,5,.82) 100%),"
+        : "linear-gradient(90deg,rgba(3,3,3,.96) 0%,rgba(3,3,3,.88) 30%,rgba(3,3,3,.66) 52%,rgba(3,3,3,.34) 76%,rgba(3,3,3,.18) 100%),linear-gradient(180deg,rgba(3,3,3,.20),rgba(3,3,3,.38)),";
       layer.style.backgroundImage = gradient + "url(" + src + ")";
       layer.style.backgroundPosition = isSmall() ? "58% center" : "center center";
     };
@@ -59,11 +59,11 @@
       current = nextIndex;
       activeLayer = nextLayer;
       if (firstImage) firstImage.src = ordered[nextIndex].src;
-      window.setTimeout(rotate, 12000);
+      window.setTimeout(rotate, 15000);
     };
     window.setTimeout(rotate, 12000);
   };
-  const setupRotator = (images, interval = 12000) => {
+  const setupRotator = (images, interval = 15000) => {
     document.querySelectorAll('[data-image-rotator="factory"]').forEach(img => {
       if (images.length < 2) return;
       let current = images.findIndex(item => decodeURI(item.src) === decodeURI(img.getAttribute("src") || ""));
