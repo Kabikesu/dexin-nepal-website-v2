@@ -340,7 +340,7 @@
   left:clamp(24px,4vw,64px);
 }
 .home-hero-copy .eyebrow{
-  color:rgba(255,255,255,.82);
+  color:#e31e24;
 }
 .home-hero-copy h1{
   color:#fff;
