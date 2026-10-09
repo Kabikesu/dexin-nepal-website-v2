@@ -61,7 +61,7 @@
       if (firstImage) firstImage.src = ordered[nextIndex].src;
       window.setTimeout(rotate, 15000);
     };
-    window.setTimeout(rotate, 12000);
+    window.setTimeout(rotate, 15000);
   };
   const setupRotator = (images, interval = 15000) => {
     document.querySelectorAll('[data-image-rotator="factory"]').forEach(img => {
