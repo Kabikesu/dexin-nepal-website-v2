@@ -3,7 +3,7 @@
   const titleFromPath = value => {
     const file = String(value || "").split("/").pop().replace(/\.[^.]+$/, "");
     return file.replace(/[-_]+/g, " ").replace(/\s+/g, " ").trim()
-      .replace(/\b\\w/g, letter => letter.toUpperCase()) || "Dexin Manufacturing Nepal";
+      .replace(/\b\w/g, letter => letter.toUpperCase()) || "Dexin Manufacturing Nepal";
   };
   const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({
     "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
