@@ -284,6 +284,6 @@
 .career-image-card button{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in;text-align:left}
 .career-image-card img{display:block;width:100%;height:clamp(190px,25vw,340px);object-fit:cover;transition:transform .35s ease}
 .career-image-card button:hover img{transform:scale(1.035)}
-.career-image-card figcaption{padding:13px 15px;color:var(--muted);font-size:.82rem}
+.career-image-card button>span{display:block;padding:13px 15px;color:var(--muted);font-size:.82rem}
 @media(max-width:800px){.careers-image-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:540px){.careers-image-grid{grid-template-columns:1fr}.career-image-card img{height:250px}}
