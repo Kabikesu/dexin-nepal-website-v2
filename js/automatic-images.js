@@ -82,12 +82,16 @@
             img.alt = next.alt || titleFromPath(next.src);
             img.style.opacity = "1";
             current = nextIndex;
-          }, 300);
+            window.setTimeout(rotate, minInterval + Math.random() * (maxInterval - minInterval));
+          }, 450);
         };
-        preload.onerror = () => { current = nextIndex; };
+        preload.onerror = () => {
+          current = nextIndex;
+          window.setTimeout(rotate, minInterval + Math.random() * (maxInterval - minInterval));
+        };
         preload.src = next.src;
       };
-      window.setInterval(rotate, interval);
+      window.setTimeout(rotate, minInterval + Math.random() * (maxInterval - minInterval));
     });
   };
   const ensureViewer = () => {
