@@ -11,6 +11,26 @@
       "src": "images/factory/factory-intro.jpg",
       "title": "Factory Intro",
       "alt": "Factory Intro"
+    },
+    {
+      "src": "images/factory/office area (1).jpeg",
+      "title": "Office Area (1)",
+      "alt": "Office Area (1)"
+    },
+    {
+      "src": "images/factory/office area (2).jpeg",
+      "title": "Office Area (2)",
+      "alt": "Office Area (2)"
+    },
+    {
+      "src": "images/factory/office area (3).jpeg",
+      "title": "Office Area (3)",
+      "alt": "Office Area (3)"
+    },
+    {
+      "src": "images/factory/office area (4).jpeg",
+      "title": "Office Area (4)",
+      "alt": "Office Area (4)"
     }
   ],
   "certifications": [],
