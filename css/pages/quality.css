@@ -4,7 +4,7 @@
 .certification-card{min-width:0;margin:0;overflow:hidden;border:1px solid var(--line);border-radius:var(--radius);background:#fff;box-shadow:0 10px 28px rgba(23,23,23,.045)}
 .certification-card button{display:flex;width:100%;height:100%;flex-direction:column;padding:0;border:0;background:#fff;text-align:left;cursor:zoom-in}
 .certification-card img{display:block;width:100%;height:260px;padding:14px;object-fit:contain;background:#fff}
-.certification-card figcaption{width:100%;padding:14px 16px;border-top:1px solid var(--line);color:var(--dark);font-size:.88rem;font-weight:650}
+.certification-card button>span{display:block;width:100%;padding:14px 16px;border-top:1px solid var(--line);color:var(--dark);font-size:.88rem;font-weight:650}
 .cert-placeholder{grid-column:1/-1}
 .image-viewer{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;padding:24px;background:rgba(10,10,10,.82);backdrop-filter:blur(8px)}
 .image-viewer[hidden]{display:none}
