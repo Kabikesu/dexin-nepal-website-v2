@@ -40,7 +40,7 @@
       const src = JSON.stringify(item.src);
       const gradient = isSmall()
         ? "linear-gradient(180deg,rgba(8,8,8,.58) 0%,rgba(8,8,8,.64) 48%,rgba(8,8,8,.78) 100%),"
-        : "linear-gradient(90deg,rgba(8,8,8,.78) 0%,rgba(8,8,8,.58) 42%,rgba(8,8,8,.28) 72%,rgba(8,8,8,.18) 100%),linear-gradient(180deg,rgba(8,8,8,.20),rgba(8,8,8,.38)),";
+        : "linear-gradient(90deg,rgba(5,5,5,.90) 0%,rgba(5,5,5,.76) 38%,rgba(5,5,5,.42) 68%,rgba(5,5,5,.20) 100%),linear-gradient(180deg,rgba(5,5,5,.24),rgba(5,5,5,.40)),";
       layer.style.backgroundImage = gradient + "url(" + src + ")";
       layer.style.backgroundPosition = isSmall() ? "58% center" : "center center";
     };
@@ -61,7 +61,7 @@
       if (firstImage) firstImage.src = ordered[nextIndex].src;
       window.setTimeout(rotate, 12000);
     };
-    window.setTimeout(rotate, 10000 + Math.random() * 5000);
+    window.setTimeout(rotate, 12000);
   };
   const setupRotator = (images, interval = 12000) => {
     document.querySelectorAll('[data-image-rotator="factory"]').forEach(img => {
@@ -91,7 +91,7 @@
         };
         preload.src = next.src;
       };
-      window.setTimeout(rotate, minInterval + Math.random() * (maxInterval - minInterval));
+      window.setTimeout(rotate, interval);
     });
   };
   const ensureViewer = () => {
