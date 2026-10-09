@@ -28,7 +28,7 @@
       const layer = document.createElement("div");
       layer.className = "auto-hero-image";
       Object.assign(layer.style, {
-        position:"absolute", inset:"0", zIndex:"-2", opacity:"0",
+        position:"absolute", inset:"0", zIndex:"0", opacity:"0",
         transition:"opacity 1100ms ease", backgroundPosition:"center center",
         backgroundSize:"cover", backgroundRepeat:"no-repeat", pointerEvents:"none"
       });
