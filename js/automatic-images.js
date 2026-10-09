@@ -39,8 +39,8 @@
     const paint = (layer, item) => {
       const src = JSON.stringify(item.src);
       const gradient = isSmall()
-        ? "linear-gradient(180deg,rgba(5,5,5,.72) 0%,rgba(5,5,5,.70) 48%,rgba(5,5,5,.82) 100%),"
-        : "linear-gradient(90deg,rgba(3,3,3,.96) 0%,rgba(3,3,3,.88) 30%,rgba(3,3,3,.66) 52%,rgba(3,3,3,.34) 76%,rgba(3,3,3,.18) 100%),linear-gradient(180deg,rgba(3,3,3,.20),rgba(3,3,3,.38)),";
+        ? "linear-gradient(180deg,rgba(5,5,5,.42) 0%,rgba(5,5,5,.46) 48%,rgba(5,5,5,.58) 100%),"
+        : "linear-gradient(90deg,rgba(3,3,3,.52) 0%,rgba(3,3,3,.40) 30%,rgba(3,3,3,.25) 52%,rgba(3,3,3,.14) 76%,rgba(3,3,3,.08) 100%),linear-gradient(180deg,rgba(3,3,3,.10),rgba(3,3,3,.20)),";
       layer.style.backgroundImage = gradient + "url(" + src + ")";
       layer.style.backgroundPosition = isSmall() ? "58% center" : "center center";
     };
