@@ -471,6 +471,10 @@
     height:262px!important;
   }
 }
+/* The slideshow layers supply their own cross-fading hero backgrounds. */
+.home-hero.has-auto-hero{background:none}
+@media(max-width:900px){.home-hero.has-auto-hero{background:none}}
+
 @media(max-width:600px){
   .home-product-stage{
     min-height:210px!important;
