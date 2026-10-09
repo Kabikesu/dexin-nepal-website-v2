@@ -2,15 +2,15 @@
   "hero": [
     {
       "src": "images/hero/factory-main.png",
-      "title": "factory main.png",
-      "alt": "factory main.png"
+      "title": "factory main",
+      "alt": "factory main"
     }
   ],
   "factory": [
     {
       "src": "images/factory/factory-intro.jpg",
-      "title": "factory intro.jpg",
-      "alt": "factory intro.jpg"
+      "title": "factory intro",
+      "alt": "factory intro"
     }
   ],
   "certifications": [],
