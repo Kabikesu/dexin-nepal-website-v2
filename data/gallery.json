@@ -4,25 +4,25 @@
     "title": "Environment Day",
     "folder": "images/gallery/Environment Day",
     "count": 7,
-    "cover": "images/gallery/Environment Day/1.jpeg",
+    "cover": "optimized-images/gallery/Environment Day/1.webp",
     "images": [
       {
-        "src": "images/gallery/Environment Day/1.jpeg",
+        "src": "optimized-images/gallery/Environment Day/1.webp",
         "alt": "1",
         "title": "1"
       },
       {
-        "src": "images/gallery/Environment Day/2.jpeg",
+        "src": "optimized-images/gallery/Environment Day/2.webp",
         "alt": "2",
         "title": "2"
       },
       {
-        "src": "images/gallery/Environment Day/3.jpeg",
+        "src": "optimized-images/gallery/Environment Day/3.webp",
         "alt": "3",
         "title": "3"
       },
       {
-        "src": "images/gallery/Environment Day/4.jpeg",
+        "src": "optimized-images/gallery/Environment Day/4.webp",
         "alt": "4",
         "title": "4"
       },
@@ -37,7 +37,7 @@
         "title": "Enviroment Day (8)"
       },
       {
-        "src": "images/gallery/Environment Day/Enviroment Day (22).jpeg",
+        "src": "optimized-images/gallery/Environment Day/Enviroment Day (22).webp",
         "alt": "Enviroment Day (22)",
         "title": "Enviroment Day (22)"
       }
@@ -48,45 +48,45 @@
     "title": "Blood donation Camp",
     "folder": "images/gallery/Events/Blood donation Camp",
     "count": 8,
-    "cover": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff (2).jpeg",
+    "cover": "optimized-images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff (2).webp",
     "images": [
       {
-        "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff (2).jpeg",
+        "src": "optimized-images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff (2).webp",
         "alt": "Blood Donation Dexin Staff (2)",
         "title": "Blood Donation Dexin Staff (2)"
       },
       {
-        "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Achal Acharya(8).jpeg",
+        "src": "optimized-images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Achal Acharya(8).webp",
         "alt": "Blood Donation Dexin Staff Achal Acharya(8)",
         "title": "Blood Donation Dexin Staff Achal Acharya(8)"
       },
       {
-        "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff DayaRam Gaire(5).jpeg",
+        "src": "optimized-images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff DayaRam Gaire(5).webp",
         "alt": "Blood Donation Dexin Staff DayaRam Gaire(5)",
         "title": "Blood Donation Dexin Staff DayaRam Gaire(5)"
       },
       {
-        "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Deep Chaudhary(4).jpeg",
+        "src": "optimized-images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Deep Chaudhary(4).webp",
         "alt": "Blood Donation Dexin Staff Deep Chaudhary(4)",
         "title": "Blood Donation Dexin Staff Deep Chaudhary(4)"
       },
       {
-        "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Dipesh Chaudhary (7).jpeg",
+        "src": "optimized-images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Dipesh Chaudhary (7).webp",
         "alt": "Blood Donation Dexin Staff Dipesh Chaudhary (7)",
         "title": "Blood Donation Dexin Staff Dipesh Chaudhary (7)"
       },
       {
-        "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Dipesh Chaudhary(9).jpeg",
+        "src": "optimized-images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Dipesh Chaudhary(9).webp",
         "alt": "Blood Donation Dexin Staff Dipesh Chaudhary(9)",
         "title": "Blood Donation Dexin Staff Dipesh Chaudhary(9)"
       },
       {
-        "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Group(6).jpeg",
+        "src": "optimized-images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Group(6).webp",
         "alt": "Blood Donation Dexin Staff Group(6)",
         "title": "Blood Donation Dexin Staff Group(6)"
       },
       {
-        "src": "images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Keshav Thakur(3).jpeg",
+        "src": "optimized-images/gallery/Events/Blood donation Camp/Blood Donation Dexin Staff Keshav Thakur(3).webp",
         "alt": "Blood Donation Dexin Staff Keshav Thakur(3)",
         "title": "Blood Donation Dexin Staff Keshav Thakur(3)"
       }
@@ -97,50 +97,50 @@
     "title": "EMS Training",
     "folder": "images/gallery/Events/EMS Training",
     "count": 9,
-    "cover": "images/gallery/Events/EMS Training/EMS Training (2).jpg",
+    "cover": "optimized-images/gallery/Events/EMS Training/EMS Training (2).webp",
     "images": [
       {
-        "src": "images/gallery/Events/EMS Training/EMS Training (2).jpg",
+        "src": "optimized-images/gallery/Events/EMS Training/EMS Training (2).webp",
         "alt": "EMS Training (2)",
         "title": "EMS Training (2)"
       },
       {
-        "src": "images/gallery/Events/EMS Training/EMS Training (3).jpg",
+        "src": "optimized-images/gallery/Events/EMS Training/EMS Training (3).webp",
         "alt": "EMS Training (3)",
         "title": "EMS Training (3)"
       },
       {
-        "src": "images/gallery/Events/EMS Training/EMS Training (4).jpg",
+        "src": "optimized-images/gallery/Events/EMS Training/EMS Training (4).webp",
         "alt": "EMS Training (4)",
         "title": "EMS Training (4)"
       },
       {
-        "src": "images/gallery/Events/EMS Training/EMS Training (5).jpg",
+        "src": "optimized-images/gallery/Events/EMS Training/EMS Training (5).webp",
         "alt": "EMS Training (5)",
         "title": "EMS Training (5)"
       },
       {
-        "src": "images/gallery/Events/EMS Training/EMS Training (6).jpg",
+        "src": "optimized-images/gallery/Events/EMS Training/EMS Training (6).webp",
         "alt": "EMS Training (6)",
         "title": "EMS Training (6)"
       },
       {
-        "src": "images/gallery/Events/EMS Training/EMS Training (7).jpg",
+        "src": "optimized-images/gallery/Events/EMS Training/EMS Training (7).webp",
         "alt": "EMS Training (7)",
         "title": "EMS Training (7)"
       },
       {
-        "src": "images/gallery/Events/EMS Training/EMS Training (8).jpg",
+        "src": "optimized-images/gallery/Events/EMS Training/EMS Training (8).webp",
         "alt": "EMS Training (8)",
         "title": "EMS Training (8)"
       },
       {
-        "src": "images/gallery/Events/EMS Training/EMS Training (9).jpg",
+        "src": "optimized-images/gallery/Events/EMS Training/EMS Training (9).webp",
         "alt": "EMS Training (9)",
         "title": "EMS Training (9)"
       },
       {
-        "src": "images/gallery/Events/EMS Training/EMS Training (10).jpg",
+        "src": "optimized-images/gallery/Events/EMS Training/EMS Training (10).webp",
         "alt": "EMS Training (10)",
         "title": "EMS Training (10)"
       }
@@ -151,30 +151,30 @@
     "title": "GMP Training",
     "folder": "images/gallery/Events/GMP Training",
     "count": 5,
-    "cover": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (4).jpg",
+    "cover": "optimized-images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (4).webp",
     "images": [
       {
-        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (4).jpg",
+        "src": "optimized-images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (4).webp",
         "alt": "Group Photo For The Fire And EHS Training (4)",
         "title": "Group Photo For The Fire And EHS Training (4)"
       },
       {
-        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (14).jpg",
+        "src": "optimized-images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (14).webp",
         "alt": "Group Photo For The Fire And EHS Training (14)",
         "title": "Group Photo For The Fire And EHS Training (14)"
       },
       {
-        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (15).jpg",
+        "src": "optimized-images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (15).webp",
         "alt": "Group Photo For The Fire And EHS Training (15)",
         "title": "Group Photo For The Fire And EHS Training (15)"
       },
       {
-        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (16).jpg",
+        "src": "optimized-images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (16).webp",
         "alt": "Group Photo For The Fire And EHS Training (16)",
         "title": "Group Photo For The Fire And EHS Training (16)"
       },
       {
-        "src": "images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (17).jpg",
+        "src": "optimized-images/gallery/Events/GMP Training/Group Photo for the Fire and EHS training (17).webp",
         "alt": "Group Photo For The Fire And EHS Training (17)",
         "title": "Group Photo For The Fire And EHS Training (17)"
       }
@@ -193,7 +193,7 @@
         "title": "Halal Training (1)"
       },
       {
-        "src": "images/gallery/Events/Halal Training/Halal Training (3).jpeg",
+        "src": "optimized-images/gallery/Events/Halal Training/Halal Training (3).webp",
         "alt": "Halal Training (3)",
         "title": "Halal Training (3)"
       },
@@ -203,72 +203,72 @@
         "title": "Halal Training (4)"
       },
       {
-        "src": "images/gallery/Events/Halal Training/Halal Training (5).jpeg",
+        "src": "optimized-images/gallery/Events/Halal Training/Halal Training (5).webp",
         "alt": "Halal Training (5)",
         "title": "Halal Training (5)"
       },
       {
-        "src": "images/gallery/Events/Halal Training/Halal Training (6).jpeg",
+        "src": "optimized-images/gallery/Events/Halal Training/Halal Training (6).webp",
         "alt": "Halal Training (6)",
         "title": "Halal Training (6)"
       },
       {
-        "src": "images/gallery/Events/Halal Training/Halal Training (8).jpeg",
+        "src": "optimized-images/gallery/Events/Halal Training/Halal Training (8).webp",
         "alt": "Halal Training (8)",
         "title": "Halal Training (8)"
       },
       {
-        "src": "images/gallery/Events/Halal Training/Halal Training (9).jpeg",
+        "src": "optimized-images/gallery/Events/Halal Training/Halal Training (9).webp",
         "alt": "Halal Training (9)",
         "title": "Halal Training (9)"
       },
       {
-        "src": "images/gallery/Events/Halal Training/Halal Training (10).jpeg",
+        "src": "optimized-images/gallery/Events/Halal Training/Halal Training (10).webp",
         "alt": "Halal Training (10)",
         "title": "Halal Training (10)"
       },
       {
-        "src": "images/gallery/Events/Halal Training/Halal Training (11).jpeg",
+        "src": "optimized-images/gallery/Events/Halal Training/Halal Training (11).webp",
         "alt": "Halal Training (11)",
         "title": "Halal Training (11)"
       },
       {
-        "src": "images/gallery/Events/Halal Training/Halal Training (12).jpeg",
+        "src": "optimized-images/gallery/Events/Halal Training/Halal Training (12).webp",
         "alt": "Halal Training (12)",
         "title": "Halal Training (12)"
       },
       {
-        "src": "images/gallery/Events/Halal Training/Halal Training (13).jpeg",
+        "src": "optimized-images/gallery/Events/Halal Training/Halal Training (13).webp",
         "alt": "Halal Training (13)",
         "title": "Halal Training (13)"
       },
       {
-        "src": "images/gallery/Events/Halal Training/Halal Training (14).jpeg",
+        "src": "optimized-images/gallery/Events/Halal Training/Halal Training (14).webp",
         "alt": "Halal Training (14)",
         "title": "Halal Training (14)"
       },
       {
-        "src": "images/gallery/Events/Halal Training/Halal Training (15).jpeg",
+        "src": "optimized-images/gallery/Events/Halal Training/Halal Training (15).webp",
         "alt": "Halal Training (15)",
         "title": "Halal Training (15)"
       },
       {
-        "src": "images/gallery/Events/Halal Training/Halal Training (16).jpeg",
+        "src": "optimized-images/gallery/Events/Halal Training/Halal Training (16).webp",
         "alt": "Halal Training (16)",
         "title": "Halal Training (16)"
       },
       {
-        "src": "images/gallery/Events/Halal Training/Halal Training (17).jpeg",
+        "src": "optimized-images/gallery/Events/Halal Training/Halal Training (17).webp",
         "alt": "Halal Training (17)",
         "title": "Halal Training (17)"
       },
       {
-        "src": "images/gallery/Events/Halal Training/Halal Training (18).jpeg",
+        "src": "optimized-images/gallery/Events/Halal Training/Halal Training (18).webp",
         "alt": "Halal Training (18)",
         "title": "Halal Training (18)"
       },
       {
-        "src": "images/gallery/Events/Halal Training/Halal Training 7.jpeg",
+        "src": "optimized-images/gallery/Events/Halal Training/Halal Training 7.webp",
         "alt": "Halal Training 7",
         "title": "Halal Training 7"
       }
@@ -279,15 +279,15 @@
     "title": "Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos",
     "folder": "images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos",
     "count": 2,
-    "cover": "images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos/WhatsApp Image 2026-09-29 at 09.38.22.jpeg",
+    "cover": "optimized-images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos/WhatsApp Image 2026-09-29 at 09.38.22.webp",
     "images": [
       {
-        "src": "images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos/WhatsApp Image 2026-09-29 at 09.38.22.jpeg",
+        "src": "optimized-images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos/WhatsApp Image 2026-09-29 at 09.38.22.webp",
         "alt": "WhatsApp Image 2026 09 29 At 09.38.22",
         "title": "WhatsApp Image 2026 09 29 At 09.38.22"
       },
       {
-        "src": "images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos/WhatsApp Image 2026-09-29 at 09.38.23 (1).jpeg",
+        "src": "optimized-images/gallery/Events/Personal Hygiene and Sanitation Training Provide by QA & QC Manager Photos/WhatsApp Image 2026-09-29 at 09.38.23 (1).webp",
         "alt": "WhatsApp Image 2026 09 29 At 09.38.23 (1)",
         "title": "WhatsApp Image 2026 09 29 At 09.38.23 (1)"
       }
@@ -298,10 +298,10 @@
     "title": "Rasuwa–Bhotekoshi Flood",
     "folder": "images/gallery/Events/Rasuwa–Bhotekoshi Flood",
     "count": 4,
-    "cover": "images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (1).jpeg",
+    "cover": "optimized-images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (1).webp",
     "images": [
       {
-        "src": "images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (1).jpeg",
+        "src": "optimized-images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (1).webp",
         "alt": "Moment Of Silence (1)",
         "title": "Moment Of Silence (1)"
       },
@@ -311,12 +311,12 @@
         "title": "Moment Of Silence (2)"
       },
       {
-        "src": "images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (4).jpeg",
+        "src": "optimized-images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (4).webp",
         "alt": "Moment Of Silence (4)",
         "title": "Moment Of Silence (4)"
       },
       {
-        "src": "images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (5).jpeg",
+        "src": "optimized-images/gallery/Events/Rasuwa–Bhotekoshi Flood/moment of silence (5).webp",
         "alt": "Moment Of Silence (5)",
         "title": "Moment Of Silence (5)"
       }
@@ -327,10 +327,10 @@
     "title": "Vishakarma Puja",
     "folder": "images/gallery/Events/Vishakarma Puja",
     "count": 8,
-    "cover": "images/gallery/Events/Vishakarma Puja/Vishakarma Puja 1.jpeg",
+    "cover": "optimized-images/gallery/Events/Vishakarma Puja/Vishakarma Puja 1.webp",
     "images": [
       {
-        "src": "images/gallery/Events/Vishakarma Puja/Vishakarma Puja 1.jpeg",
+        "src": "optimized-images/gallery/Events/Vishakarma Puja/Vishakarma Puja 1.webp",
         "alt": "Vishakarma Puja 1",
         "title": "Vishakarma Puja 1"
       },
@@ -345,27 +345,27 @@
         "title": "Vishakarma Puja 3"
       },
       {
-        "src": "images/gallery/Events/Vishakarma Puja/Vishakarma Puja.jpeg",
+        "src": "optimized-images/gallery/Events/Vishakarma Puja/Vishakarma Puja.webp",
         "alt": "Vishakarma Puja",
         "title": "Vishakarma Puja"
       },
       {
-        "src": "images/gallery/Events/Vishakarma Puja/vishwakarma Puja 1.jpeg",
+        "src": "optimized-images/gallery/Events/Vishakarma Puja/vishwakarma Puja 1.webp",
         "alt": "Vishwakarma Puja 1",
         "title": "Vishwakarma Puja 1"
       },
       {
-        "src": "images/gallery/Events/Vishakarma Puja/vishwakarma Puja 2.jpeg",
+        "src": "optimized-images/gallery/Events/Vishakarma Puja/vishwakarma Puja 2.webp",
         "alt": "Vishwakarma Puja 2",
         "title": "Vishwakarma Puja 2"
       },
       {
-        "src": "images/gallery/Events/Vishakarma Puja/vishwakarma Puja 5.jpeg",
+        "src": "optimized-images/gallery/Events/Vishakarma Puja/vishwakarma Puja 5.webp",
         "alt": "Vishwakarma Puja 5",
         "title": "Vishwakarma Puja 5"
       },
       {
-        "src": "images/gallery/Events/Vishakarma Puja/vishwakarma Puja.jpeg",
+        "src": "optimized-images/gallery/Events/Vishakarma Puja/vishwakarma Puja.webp",
         "alt": "Vishwakarma Puja",
         "title": "Vishwakarma Puja"
       }
@@ -376,10 +376,10 @@
     "title": "Factory Images",
     "folder": "images/gallery/Factory Images",
     "count": 1,
-    "cover": "images/gallery/Factory Images/Inauguration 2.png",
+    "cover": "optimized-images/gallery/Factory Images/Inauguration 2.webp",
     "images": [
       {
-        "src": "images/gallery/Factory Images/Inauguration 2.png",
+        "src": "optimized-images/gallery/Factory Images/Inauguration 2.webp",
         "alt": "Inauguration 2",
         "title": "Inauguration 2"
       }
@@ -390,25 +390,25 @@
     "title": "Fire Safety and Emergency preparedness Tranning",
     "folder": "images/gallery/Fire Safety and Emergency preparedness Tranning",
     "count": 16,
-    "cover": "images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (1).jpeg",
+    "cover": "optimized-images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (1).webp",
     "images": [
       {
-        "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (1).jpeg",
+        "src": "optimized-images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (1).webp",
         "alt": "Fire Safety And Emergency Preparedness Tranning (1)",
         "title": "Fire Safety And Emergency Preparedness Tranning (1)"
       },
       {
-        "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (2).jpeg",
+        "src": "optimized-images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (2).webp",
         "alt": "Fire Safety And Emergency Preparedness Tranning (2)",
         "title": "Fire Safety And Emergency Preparedness Tranning (2)"
       },
       {
-        "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (3).jpeg",
+        "src": "optimized-images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (3).webp",
         "alt": "Fire Safety And Emergency Preparedness Tranning (3)",
         "title": "Fire Safety And Emergency Preparedness Tranning (3)"
       },
       {
-        "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (5).jpeg",
+        "src": "optimized-images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (5).webp",
         "alt": "Fire Safety And Emergency Preparedness Tranning (5)",
         "title": "Fire Safety And Emergency Preparedness Tranning (5)"
       },
@@ -418,7 +418,7 @@
         "title": "Fire Safety And Emergency Preparedness Tranning (6)"
       },
       {
-        "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (7).jpeg",
+        "src": "optimized-images/gallery/Fire Safety and Emergency preparedness Tranning/Fire Safety and Emergency preparedness Tranning (7).webp",
         "alt": "Fire Safety And Emergency Preparedness Tranning (7)",
         "title": "Fire Safety And Emergency Preparedness Tranning (7)"
       },
@@ -433,42 +433,42 @@
         "title": "Fire Safety And Emergency Preparedness Tranning (13)"
       },
       {
-        "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (1).jpg",
+        "src": "optimized-images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (1).webp",
         "alt": "Group Photo For The Fire And EHS Training (1)",
         "title": "Group Photo For The Fire And EHS Training (1)"
       },
       {
-        "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (2).jpg",
+        "src": "optimized-images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (2).webp",
         "alt": "Group Photo For The Fire And EHS Training (2)",
         "title": "Group Photo For The Fire And EHS Training (2)"
       },
       {
-        "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (3).jpg",
+        "src": "optimized-images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (3).webp",
         "alt": "Group Photo For The Fire And EHS Training (3)",
         "title": "Group Photo For The Fire And EHS Training (3)"
       },
       {
-        "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (9).jpg",
+        "src": "optimized-images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (9).webp",
         "alt": "Group Photo For The Fire And EHS Training (9)",
         "title": "Group Photo For The Fire And EHS Training (9)"
       },
       {
-        "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (10).jpg",
+        "src": "optimized-images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (10).webp",
         "alt": "Group Photo For The Fire And EHS Training (10)",
         "title": "Group Photo For The Fire And EHS Training (10)"
       },
       {
-        "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (11).jpg",
+        "src": "optimized-images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (11).webp",
         "alt": "Group Photo For The Fire And EHS Training (11)",
         "title": "Group Photo For The Fire And EHS Training (11)"
       },
       {
-        "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (12).jpg",
+        "src": "optimized-images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (12).webp",
         "alt": "Group Photo For The Fire And EHS Training (12)",
         "title": "Group Photo For The Fire And EHS Training (12)"
       },
       {
-        "src": "images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (13).jpg",
+        "src": "optimized-images/gallery/Fire Safety and Emergency preparedness Tranning/Group Photo for the Fire and EHS training (13).webp",
         "alt": "Group Photo For The Fire And EHS Training (13)",
         "title": "Group Photo For The Fire And EHS Training (13)"
       }
@@ -479,15 +479,15 @@
     "title": "Inauguration Day",
     "folder": "images/gallery/Inauguration Day",
     "count": 17,
-    "cover": "images/gallery/Inauguration Day/Inauguration 2.png",
+    "cover": "optimized-images/gallery/Inauguration Day/Inauguration 2.webp",
     "images": [
       {
-        "src": "images/gallery/Inauguration Day/Inauguration 2.png",
+        "src": "optimized-images/gallery/Inauguration Day/Inauguration 2.webp",
         "alt": "Inauguration 2",
         "title": "Inauguration 2"
       },
       {
-        "src": "images/gallery/Inauguration Day/Inauguration 6.JPG",
+        "src": "optimized-images/gallery/Inauguration Day/Inauguration 6.webp",
         "alt": "Inauguration 6",
         "title": "Inauguration 6"
       },
@@ -497,72 +497,72 @@
         "title": "Inauguration1"
       },
       {
-        "src": "images/gallery/Inauguration Day/Inauguration12.JPG",
+        "src": "optimized-images/gallery/Inauguration Day/Inauguration12.webp",
         "alt": "Inauguration12",
         "title": "Inauguration12"
       },
       {
-        "src": "images/gallery/Inauguration Day/Inauguration15.png",
+        "src": "optimized-images/gallery/Inauguration Day/Inauguration15.webp",
         "alt": "Inauguration15",
         "title": "Inauguration15"
       },
       {
-        "src": "images/gallery/Inauguration Day/Inauguration17.png",
+        "src": "optimized-images/gallery/Inauguration Day/Inauguration17.webp",
         "alt": "Inauguration17",
         "title": "Inauguration17"
       },
       {
-        "src": "images/gallery/Inauguration Day/Inauguration24.png",
+        "src": "optimized-images/gallery/Inauguration Day/Inauguration24.webp",
         "alt": "Inauguration24",
         "title": "Inauguration24"
       },
       {
-        "src": "images/gallery/Inauguration Day/Inauguration25.png",
+        "src": "optimized-images/gallery/Inauguration Day/Inauguration25.webp",
         "alt": "Inauguration25",
         "title": "Inauguration25"
       },
       {
-        "src": "images/gallery/Inauguration Day/Inauguration26.png",
+        "src": "optimized-images/gallery/Inauguration Day/Inauguration26.webp",
         "alt": "Inauguration26",
         "title": "Inauguration26"
       },
       {
-        "src": "images/gallery/Inauguration Day/Inauguration37.png",
+        "src": "optimized-images/gallery/Inauguration Day/Inauguration37.webp",
         "alt": "Inauguration37",
         "title": "Inauguration37"
       },
       {
-        "src": "images/gallery/Inauguration Day/Inauguration38.png",
+        "src": "optimized-images/gallery/Inauguration Day/Inauguration38.webp",
         "alt": "Inauguration38",
         "title": "Inauguration38"
       },
       {
-        "src": "images/gallery/Inauguration Day/Inauguration56.png",
+        "src": "optimized-images/gallery/Inauguration Day/Inauguration56.webp",
         "alt": "Inauguration56",
         "title": "Inauguration56"
       },
       {
-        "src": "images/gallery/Inauguration Day/Inauguration58.png",
+        "src": "optimized-images/gallery/Inauguration Day/Inauguration58.webp",
         "alt": "Inauguration58",
         "title": "Inauguration58"
       },
       {
-        "src": "images/gallery/Inauguration Day/Inauguration60.png",
+        "src": "optimized-images/gallery/Inauguration Day/Inauguration60.webp",
         "alt": "Inauguration60",
         "title": "Inauguration60"
       },
       {
-        "src": "images/gallery/Inauguration Day/Inauguration63.png",
+        "src": "optimized-images/gallery/Inauguration Day/Inauguration63.webp",
         "alt": "Inauguration63",
         "title": "Inauguration63"
       },
       {
-        "src": "images/gallery/Inauguration Day/Inauguration69.jpg",
+        "src": "optimized-images/gallery/Inauguration Day/Inauguration69.webp",
         "alt": "Inauguration69",
         "title": "Inauguration69"
       },
       {
-        "src": "images/gallery/Inauguration Day/Inauguration80.jpg",
+        "src": "optimized-images/gallery/Inauguration Day/Inauguration80.webp",
         "alt": "Inauguration80",
         "title": "Inauguration80"
       }
@@ -581,7 +581,7 @@
         "title": "Office Aniversary (3)"
       },
       {
-        "src": "images/gallery/Office Aniversary/office aniversary (11).jpeg",
+        "src": "optimized-images/gallery/Office Aniversary/office aniversary (11).webp",
         "alt": "Office Aniversary (11)",
         "title": "Office Aniversary (11)"
       },
@@ -596,22 +596,22 @@
         "title": "Office Aniversary (19)"
       },
       {
-        "src": "images/gallery/Office Aniversary/office aniversary (22).jpeg",
+        "src": "optimized-images/gallery/Office Aniversary/office aniversary (22).webp",
         "alt": "Office Aniversary (22)",
         "title": "Office Aniversary (22)"
       },
       {
-        "src": "images/gallery/Office Aniversary/office aniversary (23).jpeg",
+        "src": "optimized-images/gallery/Office Aniversary/office aniversary (23).webp",
         "alt": "Office Aniversary (23)",
         "title": "Office Aniversary (23)"
       },
       {
-        "src": "images/gallery/Office Aniversary/office aniversary (24).jpeg",
+        "src": "optimized-images/gallery/Office Aniversary/office aniversary (24).webp",
         "alt": "Office Aniversary (24)",
         "title": "Office Aniversary (24)"
       },
       {
-        "src": "images/gallery/Office Aniversary/office aniversary (28).jpeg",
+        "src": "optimized-images/gallery/Office Aniversary/office aniversary (28).webp",
         "alt": "Office Aniversary (28)",
         "title": "Office Aniversary (28)"
       },
@@ -631,7 +631,7 @@
         "title": "Office Aniversary (44)"
       },
       {
-        "src": "images/gallery/Office Aniversary/office aniversary (45).jpeg",
+        "src": "optimized-images/gallery/Office Aniversary/office aniversary (45).webp",
         "alt": "Office Aniversary (45)",
         "title": "Office Aniversary (45)"
       },
@@ -641,7 +641,7 @@
         "title": "Office Aniversary (47)"
       },
       {
-        "src": "images/gallery/Office Aniversary/office aniversary (51).jpeg",
+        "src": "optimized-images/gallery/Office Aniversary/office aniversary (51).webp",
         "alt": "Office Aniversary (51)",
         "title": "Office Aniversary (51)"
       },

@@ -1,54 +1,54 @@
 {
   "hero": [
     {
-      "src": "images/hero/Factory Hero image 2.JPG",
+      "src": "optimized-images/hero/Factory Hero image 2.webp",
       "title": "Factory Hero Image 2",
       "alt": "Factory Hero Image 2"
     },
     {
-      "src": "images/hero/Factory hero image.png",
+      "src": "optimized-images/hero/Factory hero image.webp",
       "title": "Factory Hero Image",
       "alt": "Factory Hero Image"
     },
     {
-      "src": "images/hero/factory-main.png",
+      "src": "optimized-images/hero/factory-main.webp",
       "title": "Factory Main",
       "alt": "Factory Main"
     },
     {
-      "src": "images/hero/Factroy Hero image 1.png",
+      "src": "optimized-images/hero/Factroy Hero image 1.webp",
       "title": "Factroy Hero Image 1",
       "alt": "Factroy Hero Image 1"
     },
     {
-      "src": "images/hero/Factroy hero image 3.JPG",
+      "src": "optimized-images/hero/Factroy hero image 3.webp",
       "title": "Factroy Hero Image 3",
       "alt": "Factroy Hero Image 3"
     }
   ],
   "factory": [
     {
-      "src": "images/factory/factory-intro.jpg",
+      "src": "optimized-images/factory/factory-intro.webp",
       "title": "Factory Intro",
       "alt": "Factory Intro"
     },
     {
-      "src": "images/factory/office area (1).jpeg",
+      "src": "optimized-images/factory/office area (1).webp",
       "title": "Office Area (1)",
       "alt": "Office Area (1)"
     },
     {
-      "src": "images/factory/office area (2).jpeg",
+      "src": "optimized-images/factory/office area (2).webp",
       "title": "Office Area (2)",
       "alt": "Office Area (2)"
     },
     {
-      "src": "images/factory/office area (3).jpeg",
+      "src": "optimized-images/factory/office area (3).webp",
       "title": "Office Area (3)",
       "alt": "Office Area (3)"
     },
     {
-      "src": "images/factory/office area (4).jpeg",
+      "src": "optimized-images/factory/office area (4).webp",
       "title": "Office Area (4)",
       "alt": "Office Area (4)"
     }
