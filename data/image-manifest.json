@@ -1,9 +1,29 @@
 {
   "hero": [
     {
+      "src": "images/hero/Factory Hero image 2.JPG",
+      "title": "Factory Hero Image 2",
+      "alt": "Factory Hero Image 2"
+    },
+    {
+      "src": "images/hero/Factory hero image.png",
+      "title": "Factory Hero Image",
+      "alt": "Factory Hero Image"
+    },
+    {
       "src": "images/hero/factory-main.png",
       "title": "Factory Main",
       "alt": "Factory Main"
+    },
+    {
+      "src": "images/hero/Factroy Hero image 1.png",
+      "title": "Factroy Hero Image 1",
+      "alt": "Factroy Hero Image 1"
+    },
+    {
+      "src": "images/hero/Factroy hero image 3.JPG",
+      "title": "Factroy Hero Image 3",
+      "alt": "Factroy Hero Image 3"
     }
   ],
   "factory": [
