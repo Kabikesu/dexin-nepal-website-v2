@@ -64,18 +64,26 @@
   const setupRotator = (images, interval = 5000) => {
     document.querySelectorAll('[data-image-rotator="factory"]').forEach(img => {
       if (images.length < 2) return;
-      let current = Math.max(0, images.findIndex(item => item.src === img.getAttribute("src")));
-      img.style.transition = "opacity 350ms ease";
-      window.setInterval(() => {
-        img.style.opacity = "0.25";
-        window.setTimeout(() => {
-          current = (current + 1) % images.length;
-          img.src = images[current].src;
-          img.alt = images[current].alt || titleFromPath(images[current].src);
-          img.onload = () => { img.style.opacity = "1"; };
-          if (img.complete) img.style.opacity = "1";
-        }, 350);
-      }, interval);
+      let current = images.findIndex(item => decodeURI(item.src) === decodeURI(img.getAttribute("src") || ""));
+      if (current < 0) current = 0;
+      img.style.transition = "opacity 450ms ease";
+      const rotate = () => {
+        const nextIndex = (current + 1) % images.length;
+        const next = images[nextIndex];
+        const preload = new Image();
+        preload.onload = () => {
+          img.style.opacity = "0";
+          window.setTimeout(() => {
+            img.src = next.src;
+            img.alt = next.alt || titleFromPath(next.src);
+            img.style.opacity = "1";
+            current = nextIndex;
+          }, 300);
+        };
+        preload.onerror = () => { current = nextIndex; };
+        preload.src = next.src;
+      };
+      window.setInterval(rotate, interval);
     });
   };
   const ensureViewer = () => {
@@ -133,12 +141,20 @@
       openViewer({src:button.dataset.previewSrc,title:button.dataset.previewTitle,alt:button.dataset.previewAlt});
     });
   };
-  document.addEventListener("DOMContentLoaded", async () => {
+  const initializeAutomaticImages = async () => {
     const manifest = await loadManifest();
-    if (!manifest) return;
+    if (!manifest) {
+      console.warn("Dexin automatic images: manifest could not be loaded.");
+      return;
+    }
     setupHeroSlideshow(manifest.hero || []);
     setupRotator(manifest.factory || []);
     renderGrid("certifications", manifest.certifications || []);
     renderGrid("careers", manifest.careers || []);
-  });
+  };
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initializeAutomaticImages, { once: true });
+  } else {
+    initializeAutomaticImages();
+  }
 })();
