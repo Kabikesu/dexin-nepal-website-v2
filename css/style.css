@@ -47,3 +47,19 @@ body.product-quick-view-open{overflow:hidden}
 @media(prefers-reduced-motion:reduce){
   .product-quick-view-backdrop,.product-quick-view-dialog,.product-quick-view-close{transition:none}
 }
+
+
+/* Translucent glass header — retain the existing Dexin navigation styling. */
+.site-header{
+  background:rgba(255,255,255,.78);
+  -webkit-backdrop-filter:blur(18px) saturate(145%);
+  backdrop-filter:blur(18px) saturate(145%);
+  border-bottom:1px solid rgba(222,222,216,.72);
+  box-shadow:0 8px 28px rgba(23,23,23,.045);
+}
+@supports not ((-webkit-backdrop-filter:blur(1px)) or (backdrop-filter:blur(1px))){
+  .site-header{background:rgba(255,255,255,.94)}
+}
+@media(max-width:820px){
+  .site-nav{background:rgba(255,255,255,.94);-webkit-backdrop-filter:blur(18px) saturate(145%);backdrop-filter:blur(18px) saturate(145%);border-bottom-color:rgba(222,222,216,.78)}
+}
