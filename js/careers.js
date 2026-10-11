@@ -73,7 +73,7 @@
       const subject = encodeURIComponent(`Application for ${vacancy.title} Position`);
       const canApply = status === "open";
       const action = canApply
-        ? `<a class="button button-primary" href="mailto:${escapeHtml(vacancy.applicationEmail || "dexin_nepal@dxn2u.com")}?subject=${subject}">Apply Now <span>→</span></a>`
+        ? `<a class="button button-primary" href="mailto:${escapeHtml(vacancy.applicationEmail || "hr_nepal@dxn2u.com")}?subject=${subject}">Apply Now <span>→</span></a>`
         : "";
       const currentStep = process.find(step => step.status === "active")
         || process.find(step => step.status === "pending")
@@ -131,7 +131,7 @@
       if (!response.ok) throw new Error("Unable to load vacancy data");
       const data = await response.json();
       vacancies = Array.isArray(data.vacancies) ? data.vacancies : [];
-      const defaultEmail = data.settings?.applicationEmail || "dexin_nepal@dxn2u.com";
+      const defaultEmail = data.settings?.applicationEmail || "hr_nepal@dxn2u.com";
       vacancies = vacancies.map(v => ({...v, applicationEmail: v.applicationEmail || defaultEmail}));
       render();
     } catch (error) {
