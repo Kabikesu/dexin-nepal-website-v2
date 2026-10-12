@@ -1,5 +1,7 @@
+/* Automatic image loading, factory/hero rotations, and image preview viewer. */
 (() => {
   const manifestUrl = "data/image-manifest.json";
+  // Create a readable fallback title from an image file path.
   const titleFromPath = value => {
     const file = String(value || "").split("/").pop().replace(/\.[^.]+$/, "");
     return file.replace(/[-_]+/g, " ").replace(/\s+/g, " ").trim()
@@ -8,6 +10,7 @@
   const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({
     "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
   }[char]));
+  // Read the generated image manifest used by the gallery and hero sections.
   const loadManifest = async () => {
     try {
       const response = await fetch(manifestUrl, { cache: "no-cache" });
@@ -17,6 +20,7 @@
       return null;
     }
   };
+  // Rotate the homepage hero backgrounds when multiple images are available.
   const setupHeroSlideshow = images => {
     const hero = document.querySelector(".home-hero");
     if (!hero || !images.length) return;
@@ -63,6 +67,7 @@
     };
     window.setTimeout(rotate, 15000);
   };
+  // Rotate factory images in elements marked with the factory rotator attribute.
   const setupRotator = (images, interval = 15000) => {
     document.querySelectorAll('[data-image-rotator="factory"]').forEach(img => {
       if (images.length < 2) return;
@@ -94,6 +99,7 @@
       window.setTimeout(rotate, interval);
     });
   };
+  // Create the shared image viewer once and reuse it for previews.
   const ensureViewer = () => {
     let viewer = document.querySelector(".image-viewer");
     if (viewer) return viewer;
@@ -120,6 +126,7 @@
     document.body.style.overflow = "hidden";
     viewer.querySelector(".image-viewer-close").focus();
   };
+  // Populate image grids from the manifest and handle empty states.
   const renderGrid = (key, images) => {
     const grid = document.querySelector('[data-image-grid="' + key + '"]');
     if (!grid) return;
@@ -149,6 +156,7 @@
       openViewer({src:button.dataset.previewSrc,title:button.dataset.previewTitle,alt:button.dataset.previewAlt});
     });
   };
+  // Initialize all automatic image features after the manifest is loaded.
   const initializeAutomaticImages = async () => {
     const manifest = await loadManifest();
     if (!manifest) {
