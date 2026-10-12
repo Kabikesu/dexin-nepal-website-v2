@@ -1,3 +1,4 @@
+// Product catalogue, homepage product orbit, featured products, and quick-view behavior.
 document.addEventListener("DOMContentLoaded", async () => {
   const allGrid = document.getElementById("all-products-grid");
   const topGrid = document.getElementById("top-products");
@@ -8,6 +9,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const topCategoryButtons = [...document.querySelectorAll(".top-product-submenu-item")];
   const topCategoryDetail = document.getElementById("top-product-category-detail");
   const topCategoryProductsTitle = document.getElementById("top-product-products-title");
+  // Editorial content shown when a featured-product category is selected.
   const topCategoryContent = {
     "DXN Coffee": {
       eyebrow: "DXN Coffee",
@@ -122,6 +124,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
   if (!grid && !homeProductStage) return;
 
+  // Shared helpers for safe markup and deciding which products are published.
   const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
   const published = product => product.published !== false && ["current","upcoming"].includes(product.status);
 
@@ -137,12 +140,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     (product.packageSize ? '<p class="product-package">' + escapeHtml(product.packageSize) + '</p>' : '') +
     '</div></a>';
 
+  // Load the catalogue once and reuse it for all product views on this page.
   try {
     const response = await fetch("data/products.json");
     if (!response.ok) throw new Error("Product data unavailable");
     const products = await response.json();
     const items = products.filter(published);
 
+    // Normalize transparent image padding so orbit items appear consistently sized.
     const normalizeHeroOrbitImage = img => {
       const apply = () => {
         if (!img.naturalWidth || !img.naturalHeight || !img.parentElement) return;
@@ -217,6 +222,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       else img.addEventListener("load", apply, { once: true });
     };
 
+    // Render the animated product orbit used by the dedicated hero stage.
     const renderHeroProducts = catalogue => {
       const stage = document.getElementById("hero-product-orbit");
       if (!stage || !catalogue.length) return;
@@ -327,6 +333,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     renderHeroProducts(items);
 
+    // Render the separate product orbit used on the homepage.
     const renderHomeProducts = catalogue => {
       const stage = document.getElementById("product-orbit");
       if (!stage || !catalogue.length) return;
@@ -419,6 +426,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     };
     renderHomeProducts(items);
 
+    // Create and wire the shared product quick-view dialog.
     const setupProductQuickView = catalogue => {
       const existing = document.getElementById("product-quick-view");
       if (existing) existing.remove();
@@ -528,6 +536,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     setupProductQuickView(items);
 
+    // Normalize product-card images after their dimensions are available.
     const normalizeProductImages = root => {
       root.querySelectorAll(".product-image-normalized").forEach(img => {
         const applyScale = () => {
@@ -555,6 +564,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       });
     };
 
+    // Filter the loaded catalogue and render the matching product cards.
     const render = filter => {
       let visible = items;
       if (topGrid) visible = items.filter(p => p.featured === true && (!filter || p.topCategory === filter));
@@ -569,6 +579,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       });
     };
 
+    // Render the editorial description for the selected featured category.
     const renderCategoryDetail = category => {
       const data = topCategoryContent[category];
       if (!topCategoryDetail || !data) return;
@@ -590,6 +601,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (topCategoryProductsTitle) topCategoryProductsTitle.textContent = category;
     };
 
+    // Keep featured-category buttons, editorial content, and product results in sync.
     topCategoryButtons.forEach(button => button.addEventListener("click", () => {
       const category = button.dataset.topCategory || "";
       topCategoryButtons.forEach(item => item.classList.remove("is-active"));
@@ -598,12 +610,14 @@ document.addEventListener("DOMContentLoaded", async () => {
       render(category);
     }));
 
+    // Wire the standard All Products status/type filters.
     filters.forEach(button => button.addEventListener("click", () => {
       filters.forEach(item => { item.classList.remove("is-active"); item.setAttribute("aria-selected","false"); });
       button.classList.add("is-active");
       button.setAttribute("aria-selected","true");
       render(button.dataset.filter);
     }));
+    // Initialize the correct view for the current page and optional URL category.
     if (topGrid && !items.some(p => p.featured === true)) {
       topGrid.innerHTML = '<p class="product-loading">Featured products will appear here when selected in the product data.</p>';
     } else if (topGrid) {
