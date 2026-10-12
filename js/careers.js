@@ -1,3 +1,4 @@
+/* Careers page: load vacancies, apply filters, and render role details. */
 (() => {
   const DATA_URL = "data/vacancies.json";
   const list = document.getElementById("vacancy-list");
@@ -7,6 +8,7 @@
   let vacancies = [];
   let activeFilter = "all";
 
+  // Shared helpers for safe output, deadline status, and display labels.
   const escapeHtml = (value = "") => String(value).replace(/[&<>"']/g, char => ({
     "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
   }[char]));
@@ -51,6 +53,7 @@
     skipped: "Skipped"
   }[status] || "Pending");
 
+  // Match each vacancy against the currently selected status filter.
   const matchesFilter = vacancy => {
     const status = getEffectiveStatus(vacancy);
     if (activeFilter === "all") return true;
@@ -59,6 +62,7 @@
     return ["closed","selected","fulfilled"].includes(status);
   };
 
+  // Build the visible vacancy cards and their application/detail content.
   const render = () => {
     const visible = vacancies.filter(v => v.published !== false && matchesFilter(v));
     if (!visible.length) {
@@ -125,6 +129,7 @@
     }).join("");
   };
 
+  // Load vacancy data and attach the page interactions.
   const load = async () => {
     try {
       const response = await fetch(DATA_URL, { cache: "no-cache" });
