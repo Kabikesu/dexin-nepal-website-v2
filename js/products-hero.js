@@ -1,3 +1,4 @@
+// Interactive product showcase for the Products page hero.
 document.addEventListener("DOMContentLoaded", async () => {
   const stage = document.getElementById("hero-product-showcase");
   const ring = document.getElementById("hero-product-ring");
@@ -7,6 +8,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const counter = document.getElementById("hero-product-counter");
   if (!stage || !ring || !mainImage || !mainName || !mainType) return;
 
+  // Keep a small fallback catalogue available if product data cannot be loaded.
   const fallback = [
     ["Cocozhi","Coffee","images/products/coffee/Cocozhi.jpg"],
     ["Cordyceps Coffee 3 in 1","Coffee","images/products/coffee/Cordyceps Coffee 3 in 1.jpg"],
@@ -26,6 +28,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     ["LionsMane Tablets 360","Nutraceuticals","images/products/nutraceuticals/LionsMane Tablets 360.jpg"]
   ];
 
+  // Load product records and build the showcase from products that have images.
   let products = [];
   try {
     const response = await fetch("data/products.json", { cache: "no-store" });
@@ -56,6 +59,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     nodes.push(button);
   }
 
+  // Compensate for transparent padding so differently shaped product images look balanced.
   const normalizeOrbitImage = img => {
     const apply = () => {
       if (!img.naturalWidth || !img.naturalHeight || !img.parentElement) return;
@@ -133,9 +137,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (img) normalizeOrbitImage(img);
   });
 
+  // Track the active product and animation state for the rotating showcase.
   let rotation = 0, activeIndex = 0, raf = 0, last = performance.now(), paused = false;
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  // Keep the fixed product name, type, image, and counter synchronized.
   const setActive = index => {
     activeIndex = ((index % count) + count) % count;
     const product = items[activeIndex];
@@ -147,6 +153,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     nodes.forEach((node, i) => node.classList.toggle("is-active", i === activeIndex));
   };
 
+  // Position orbit items responsively and determine which product is in front.
   const layout = () => {
     const width = stage.clientWidth;
     const small = window.innerWidth <= 560, mobile = window.innerWidth <= 760;
@@ -168,6 +175,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (best !== activeIndex && bestScore > .78) setActive(best);
   };
 
+  // Animate only when motion is allowed and the showcase is not paused.
   const tick = now => {
     if (!paused && !reduceMotion) rotation += Math.min(now - last, 50) * .00012;
     last = now; layout(); raf = requestAnimationFrame(tick);
