@@ -1,9 +1,12 @@
+/* Replace source image URLs with optimized equivalents from the image map. */
 (() => {
   const mapUrl = "data/image-optimization-map.json";
+  // Normalize relative paths and remove query strings before looking up an image.
   const normalize = value => {
     try { return decodeURI(String(value || "").split("?")[0]).replace(/^\.\//, ""); }
     catch { return String(value || "").split("?")[0].replace(/^\.\//, ""); }
   };
+  // Apply mapped URLs to current images and images added later to the page.
   const applyMap = map => {
     const swap = img => {
       if (!(img instanceof HTMLImageElement) || img.dataset.optimizedImage === "true") return;
@@ -36,6 +39,7 @@
     });
     observer.observe(document.documentElement, { childList: true, subtree: true });
   };
+  // Load the optimization map, then apply it once the DOM is ready.
   const start = async () => {
     try {
       const response = await fetch(mapUrl, { cache: "no-cache" });
