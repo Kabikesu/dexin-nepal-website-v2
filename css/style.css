@@ -14,6 +14,8 @@ body.product-quick-view-open{overflow:hidden}
 .product-quick-view-media{min-height:470px;display:grid;place-items:center;background:#f5f5f2;padding:42px;overflow:hidden}
 .product-quick-view-media img{display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;filter:drop-shadow(0 22px 28px rgba(23,23,23,.13))}
 .product-quick-view-image-empty{width:100%;height:100%;min-height:300px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:#bdbdb5;text-align:center}
+/* Keep the fallback hidden whenever a product image is available. */
+.product-quick-view-image-empty[hidden]{display:none!important}
 .product-quick-view-image-empty span{font-size:1.5rem;font-weight:900;letter-spacing:.16em}
 .product-quick-view-image-empty small{font-size:.62rem;letter-spacing:.1em}
 .product-quick-view-content{padding:clamp(34px,5vw,58px) clamp(28px,5vw,58px) 42px;display:flex;flex-direction:column;justify-content:center;min-width:0}
