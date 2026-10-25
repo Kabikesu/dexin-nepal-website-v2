@@ -487,15 +487,29 @@ document.addEventListener("DOMContentLoaded", async () => {
         categoryRow.hidden = !(product.topCategory || product.type);
 
         if (product.image) {
+          image.onerror = () => {
+            image.hidden = true;
+            emptyImage.hidden = false;
+            emptyImage.style.display = "flex";
+          };
+          image.onload = () => {
+            image.hidden = false;
+            emptyImage.hidden = true;
+            emptyImage.style.display = "none";
+          };
           image.src = product.image;
           image.alt = product.name || "Product";
           image.hidden = false;
           emptyImage.hidden = true;
+          emptyImage.style.display = "none";
         } else {
+          image.onerror = null;
+          image.onload = null;
           image.removeAttribute("src");
           image.alt = "";
           image.hidden = true;
           emptyImage.hidden = false;
+          emptyImage.style.display = "flex";
         }
 
         fullLink.href = "product-detail.html?id=" + encodeURIComponent(product.id || product.name);
